@@ -18,3 +18,6 @@ Répertoire comprenant les scénarios concrets de l'application à développer e
 
 ### Synthèses de séance
 Répertoire comprenant les synthèses de fin de T.P. en fichier markdown.
+
+### Résumé_problème.md
+Fichier markdown contenant la description synthétisée du problème posé par le sujet.
