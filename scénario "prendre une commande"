@@ -1,0 +1,6 @@
+#Prendre une commande
+Le serveur propose le menu au client
+Le client choisit son plat
+Le serveur, à partir de sa tablette, transmet la commande avec l'identifiant de la table ,au cuisinier
+Le cuisinier est au courant de la commande
+A cette étape, le scénario"plat en cours " ou "modifier une commande" se déroul
