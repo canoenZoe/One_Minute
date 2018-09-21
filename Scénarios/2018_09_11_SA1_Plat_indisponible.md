@@ -1,0 +1,27 @@
+# A2 - Plat indisponible
+
+---
+
+## Description :
+
+- Le cuisinier s'aperçoit que la réalisation d'un plat ne peut être réaliser et doit donc rendre indisponible ce plat.
+
+---
+
+## Scénario :
+
+- Le cuisinier indique que le plat est ***indisponible*** sur l'application
+ - Des commandes comprenant ce plat sont en cours
+   - L'application annule les commandes comportant ce plat
+   - L'application notifie les serveurs des commandes annulées
+- L'application bloque la possibilité de sélectionner ce plat lors d'une commande
+
+[En attente de ***réapprovisionnement*** de.s ingrédient.s]_
+- Le cuisinier indique que le plat est de nouveau disponible
+- L'application débloque la possibilité de sélectionner ce plat lors d'une commande
+
+---
+## Glossaire :
+
+- ***indisponible*** : le plat ne peut être réaliser par manque de un ou plusieurs ingrédient.s le constituant
+- ***réapprovisionnement*** : Action de recevoir un nouvel apport de marchandise afin de renouveler les stocks.
