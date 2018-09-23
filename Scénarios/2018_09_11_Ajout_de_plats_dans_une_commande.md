@@ -2,7 +2,7 @@
 
 ### Description :
 
-Un serveur peut ajouter des plats dans une commande déjà en cours si le client le désire.
+Alice peut ajouter des plats dans une commande déjà en cours si Bob le désire.
 
 ### Scénario :
 
