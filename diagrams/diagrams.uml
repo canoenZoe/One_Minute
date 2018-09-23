@@ -19,4 +19,25 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_W2ytML-DEei_2e7RHOVEIw" name="Cuisinier"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_9tMWEL-DEei_2e7RHOVEIw" name="Commande"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_-v9aoL-DEei_2e7RHOVEIw" name="LigneCommande"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_G-KLIL-EEei_2e7RHOVEIw" name="MembrePersonnel" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IAS9kL-EEei_2e7RHOVEIw" name="Préparateur">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wEuf0L-EEei_2e7RHOVEIw" general="_G-KLIL-EEei_2e7RHOVEIw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JGX00L-EEei_2e7RHOVEIw" name="Cuisinier">
+    <generalization xmi:type="uml:Generalization" xmi:id="_qIE7ML-EEei_2e7RHOVEIw" general="_IAS9kL-EEei_2e7RHOVEIw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_J2-LUL-EEei_2e7RHOVEIw" name="Glacier">
+    <generalization xmi:type="uml:Generalization" xmi:id="_srq5UL-EEei_2e7RHOVEIw" general="_IAS9kL-EEei_2e7RHOVEIw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_KqFqUL-EEei_2e7RHOVEIw" name="Barman">
+    <generalization xmi:type="uml:Generalization" xmi:id="_tvBzwL-EEei_2e7RHOVEIw" general="_IAS9kL-EEei_2e7RHOVEIw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MPeTwL-EEei_2e7RHOVEIw" name="Serveur">
+    <generalization xmi:type="uml:Generalization" xmi:id="_wiQJUL-EEei_2e7RHOVEIw" general="_G-KLIL-EEei_2e7RHOVEIw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SNnGIL-EEei_2e7RHOVEIw" name="Préparation"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xsZoQL-EEei_2e7RHOVEIw" name="Patron">
+    <generalization xmi:type="uml:Generalization" xmi:id="_5EpBIL-EEei_2e7RHOVEIw" general="_G-KLIL-EEei_2e7RHOVEIw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PoDjsL-FEei_2e7RHOVEIw" name="Menu"/>
 </uml:Model>
