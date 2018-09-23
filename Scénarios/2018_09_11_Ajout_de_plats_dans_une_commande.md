@@ -21,5 +21,6 @@
 ---
 
 ## Glossaire :
+
 - ***Bob*** : client
 - ***Alice*** : serveuse
