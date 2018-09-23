@@ -1,12 +1,24 @@
 # Servir une commande
 
+---
+
 ### Description :
 
-Lorsque qu'une ***partie de la commande*** est prête, il faut la servir au client.
+Lorsque qu'une ***partie de la commande*** est prête, il faut la servir à Bob.
+
+---
 
 ### Scénario :
 
-- Le serveur est mis au courant qu'une ***partie de la commande*** est prête.
-- Le serveur indique sur l'application qu'il va la chercher.
-- Le serveur récupère la ***partie de la commande***.
-- Le serveur la ramène au client.
+- ***Alice*** est mise au courant qu'une ***partie de la commande*** est prête.
+- ***Alice*** indique sur l'application qu'elle va la chercher.
+- ***Alice*** récupère la ***partie de la commande***.
+- ***Alice*** la ramène à Bob.
+
+---
+
+### Glossaire :
+
+- ***Bob*** : client
+- ***Alice*** : serveuse
+- ***partie de la commande*** : pack de boissons, de plats ou de desserts
