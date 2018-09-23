@@ -21,3 +21,7 @@ Répertoire comprenant les synthèses de fin de T.P. en fichier markdown.
 
 ### Résumé_problème.md
 Fichier markdown contenant la description synthétisée du problème posé par le sujet.
+
+### Liens
+[Trello](https://trello.com/b/yhk9PMvy/organisation-projet)  
+[Drive](https://drive.google.com/drive/folders/19X1wbLQjbzldK7ikHfu9jtJR6lw1aFtA)
