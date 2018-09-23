@@ -20,7 +20,7 @@
 
 ---
 
-## Glossaire :
+### Glossaire :
 
 - ***Bob*** : client
 - ***Alice*** : serveuse
