@@ -26,6 +26,9 @@ Répertoire comprenant les diagrammes UML de l'analyse de l'application One Minu
 - les sources des diagrammes sous forme d'un projet **Papyrus**.
 - Des images des diagrammes sous format PNG/JPG.
 
+### Acteurs.md
+Fichier markdown contenant la description de tous les acteurs qui vont interagir avec notre application.
+
 ### Résumé_problème.md
 Fichier markdown contenant la description synthétisée du problème posé par le sujet.
 
