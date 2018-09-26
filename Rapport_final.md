@@ -47,7 +47,7 @@ Un cuisinier veut préparer un plat pour un client
 
 ----------------------------------------------------------------
 
-### Ajouts de plats dans une commande
+## Ajouts de plats dans une commande
 
 #### Description :
 
@@ -71,7 +71,7 @@ Un cuisinier veut préparer un plat pour un client
 
 ----------------------------------------------------------------
 
-# Etablir un menu
+## Etablir un menu
 
 ### Description :
 
@@ -89,7 +89,72 @@ Un cuisinier veut préparer un plat pour un client
 
 - ***Albert*** : patron
 
-### Prendre une commande
+----------------------------------------------------------------
+
+## Le client prend sa commande
+
+*La fonctionnalité étant optionnelle, elle sera décrite et travaillée ultérieurement. Nous la prévoyons pour la V2, voir V3. Nous ferons néanmois le nécéssaire pour pouvoir garder l'application la plus généraliste possible pour pouvoir incorporer cette fonctionnalité plus tard.*
+
+----------------------------------------------------------------
+
+## Paiement
+
+### Description :
+
+- ***Bob*** a fini de manger et souhaite quitter le restaurant mais avant il doit régler ***l'addition*** de sa commande
+
+### Scénario :
+
+- ***Bob*** demande ***l'addition*** à ***Alice***
+  - ***Alice*** n'est pas disponible
+- ***Alice*** recherche ***l'addition*** à partir du numéro de table de ***Bob*** par l'intermédaire de l'application
+  - ***Alice*** n'a pas accès au service de commande sur l'application
+- L'application affiche ***l'addition***
+- ***Alice*** informe le montant de ***l'addition*** à ***Bob***
+- ***Bob*** paie ***l'addition*** par le moyen de paiement choisi
+- ***Alice*** indique à l'application que ***l'addition*** a bien été réglé
+- L'application archive la commande de ***Bob***
+
+### Questions :
+
+- Faut-il générer ***l'addition*** de manière physique à ***Bob*** ?
+  - ***L'addition*** a besoin d'être généré de manière physique notamment pour les notes de frais
+
+### Glossaire :
+
+- ***L'addition*** : facture de la commande indiquant la liste des plats commandés ainsi que le montant total de la commande
+- ***Bob*** : client
+- ***Alice*** : serveuse
+
+----------------------------------------------------------------
+
+## Plat indisponible
+
+### Description :
+
+- ***Roger*** s'aperçoit que la réalisation d'un plat ne peut être réalisé et doit donc rendre ***indisponible*** ce plat.
+
+### Scénario :
+
+- ***Roger*** indique que le plat est ***indisponible*** sur l'application
+  - Des commandes comprenant ce plat sont en cours
+    - L'application annule les commandes comportant ce plat
+    - L'application notifie les serveurs des commandes annulées
+- L'application bloque la possibilité de sélectionner ce plat lors d'une commande
+
+[En attente de ***réapprovisionnement*** de.s ingrédient.s]_
+- ***Roger*** indique que le plat est de nouveau disponible
+- L'application débloque la possibilité de sélectionner ce plat lors d'une commande
+
+### Glossaire :
+
+- ***Roger*** : cuisinier
+- ***indisponible*** : le plat ne peut être réalisé par manque de un ou plusieurs ingrédient.s le constituant.
+- ***réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
+
+----------------------------------------------------------------
+
+## Prendre une commande
 
 #### Description :
 
@@ -106,6 +171,28 @@ Un cuisinier veut préparer un plat pour un client
 
 - ***Bob*** : client
 - ***Alice*** : serveuse
+
+----------------------------------------------------------------
+
+## Servir une commande
+
+### Description :
+
+Lorsque qu'une ***partie de la commande*** est prête, il faut la servir à Bob.
+
+### Scénario :
+
+- ***Alice*** est mise au courant qu'une ***partie de la commande*** est prête.
+  - Problème de notification si problème de connexion à internet.
+- ***Alice*** indique sur l'application qu'elle va la chercher.
+- ***Alice*** récupère la ***partie de la commande***.
+- ***Alice*** la ramène à Bob.
+
+### Glossaire :
+
+- ***Bob*** : client
+- ***Alice*** : serveuse
+- ***partie de la commande*** : pack de boissons, de plats ou de desserts
 
 ----------------------------------------------------------------
 
