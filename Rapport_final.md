@@ -18,8 +18,17 @@ de la demande du client jusqu'au règlement de l'addition en passant par le trai
 
 ### Liste des scénarios
 
- 1. ##### Ajout d'un plat dans une commande
+ 
+ 
+ <details><summary>1. ##### Ajout d'un plat dans une commande</summary>
+<p>
+
 Ajouter un plat dans une commande déjà en cours.
+
+
+</p>
+</details>
+
 
  2. ##### Établir un menu
 Créer ou modifier la carte de restaurant.
