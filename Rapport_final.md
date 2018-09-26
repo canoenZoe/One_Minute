@@ -302,6 +302,8 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 - ***partie de la commande*** : pack de boissons, de plats ou de desserts etc.
 
 ----------------------------------------------------------------
+</p>
+</details>
 
 ## Diagrammes de CU
 
