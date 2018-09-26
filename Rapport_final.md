@@ -18,11 +18,38 @@ de la demande du client jusqu'au règlement de l'addition en passant par le trai
 
 ### Liste des scénarios
 
- 
+ 1. #### Ajout d'un plat dans une commande 
+Ajouter un plat dans une commande déjà en cours.
+
+
+ 2. #### Établir un menu
+Créer ou modifier la carte de restaurant.
+
+ 3. #### Le client prend sa commande
+Un client prend commande en interagissant avec le système.
+
+ 4. #### Paiement
+Le client a terminé son repas et veut payer l'addition.
+
+ 5. #### Plat indisponible
+Un plat n'est plus disponible pour la clientèle et il faut le notifier à tous.
+
+ 6. ##### Prendre une commande
+Un serveur prend la commande pour des clients.
+
+ 7. ##### Servir une commande
+Une partie de la commande est prête à être envoyée au client.
+
+ 8. ##### Suivre une commande
+Un membre du personnel veut suivre l'état d'avancement des commandes.
+
+ 9. ##### Cuisiner un plat
+Un cuisinier veut préparer un plat pour un client 
+
+
+ ### Les scénarios : La description
  
  <details><summary>1. Ajout d'un plat dans une commande</summary>
- 
-Ajouter un plat dans une commande déjà en cours.
 
 <p>
 
@@ -54,32 +81,9 @@ Ajouter un plat dans une commande déjà en cours.
 </p>
 </details>
 
+ <details><summary>2. Etablir un menu</summary>
 
- 2. ##### Établir un menu
-Créer ou modifier la carte de restaurant.
-
- 3. ##### Le client prend sa commande
-Un client prend commande en interagissant avec le système.
-
- 4. ##### Paiement
-Le client a terminé son repas et veut payer l'addition.
-
- 5. ##### Plat indisponible
-Un plat n'est plus disponible pour la clientèle et il faut le notifier à tous.
-
- 6. ##### Prendre une commande
-Un serveur prend la commande pour des clients.
-
- 7. ##### Servir une commande
-Une partie de la commande est prête à être envoyée au client.
-
- 8. ##### Suivre une commande
-Un membre du personnel veut suivre l'état d'avancement des commandes.
-
- 9. ##### Cuisiner un plat
-Un cuisinier veut préparer un plat pour un client 
-
-
+<p>
 
 ## Etablir un menu
 
@@ -100,13 +104,25 @@ Un cuisinier veut préparer un plat pour un client
 - ***Albert*** : patron
 
 ----------------------------------------------------------------
+</p>
+</details>
+
+ <details><summary>3. Le client prend sa commande</summary>
+
+<p>
 
 ## Le client prend sa commande
 
 *La fonctionnalité étant optionnelle, elle sera décrite et travaillée ultérieurement. Nous la prévoyons pour la V2, voir V3. Nous ferons néanmois le nécéssaire pour pouvoir garder l'application la plus généraliste possible pour pouvoir incorporer cette fonctionnalité plus tard.*
 
 ----------------------------------------------------------------
+</p>
+</details>
 
+ <details><summary>4. Paiement</summary>
+
+<p>
+ 
 ## Paiement
 
 #### Description :
@@ -137,7 +153,13 @@ Un cuisinier veut préparer un plat pour un client
 - ***Alice*** : serveuse
 
 ----------------------------------------------------------------
+</p>
+</details>
 
+ <details><summary>5. Plat indisponible</summary>
+
+<p>
+ 
 ## Plat indisponible
 
 #### Description :
@@ -163,7 +185,13 @@ Un cuisinier veut préparer un plat pour un client
 - ***réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
 
 ----------------------------------------------------------------
+</p>
+</details>
 
+ <details><summary>6. Prendre une commande</summary>
+
+<p>
+ 
 ## Prendre une commande
 
 #### Description :
@@ -183,7 +211,13 @@ Un cuisinier veut préparer un plat pour un client
 - ***Alice*** : serveuse
 
 ----------------------------------------------------------------
+</p>
+</details>
 
+ <details><summary>7. Servir une commande</summary>
+
+<p>
+ 
 ## Servir une commande
 
 #### Description :
@@ -205,7 +239,13 @@ Lorsque qu'une ***partie de la commande*** est prête, il faut la servir à Bob.
 - ***partie de la commande*** : pack de boissons, de plats ou de desserts
 
 ----------------------------------------------------------------
+</p>
+</details>
 
+ <details><summary>8. Suivre une commande</summary>
+
+<p>
+ 
 ## Suivre une commande
 
 #### Description :
@@ -230,7 +270,13 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 - **État** : état d'avancement de la commande.
 
 ----------------------------------------------------------------
+</p>
+</details>
 
+ <details><summary>9. Cuisiner un plat</summary>
+
+<p>
+ 
 ## Cuisiner un plat
 
 #### Description :
