@@ -73,11 +73,11 @@ Un cuisinier veut préparer un plat pour un client
 
 ## Etablir un menu
 
-### Description :
+#### Description :
 
 ***Albert*** crée ou modifie la carte du restaurant, avant l'ouverture ou après la fermeture du restaurant.
 
-### Scénario :
+#### Scénario :
 
 - ***Albert*** commence à créer ou modifier la carte dans l'application.
 - ***Albert*** crée ou modifie divers éléments.
@@ -85,7 +85,7 @@ Un cuisinier veut préparer un plat pour un client
 - La carte s'actualise sur les diverses tablettes.
     - Problème d'actualisation si les tablettes ne sont pas connectées à internet.
 
-### Glossaire :
+#### Glossaire :
 
 - ***Albert*** : patron
 
@@ -99,11 +99,11 @@ Un cuisinier veut préparer un plat pour un client
 
 ## Paiement
 
-### Description :
+#### Description :
 
 - ***Bob*** a fini de manger et souhaite quitter le restaurant mais avant il doit régler ***l'addition*** de sa commande
 
-### Scénario :
+#### Scénario :
 
 - ***Bob*** demande ***l'addition*** à ***Alice***
   - ***Alice*** n'est pas disponible
@@ -115,12 +115,12 @@ Un cuisinier veut préparer un plat pour un client
 - ***Alice*** indique à l'application que ***l'addition*** a bien été réglé
 - L'application archive la commande de ***Bob***
 
-### Questions :
+#### Questions :
 
 - Faut-il générer ***l'addition*** de manière physique à ***Bob*** ?
   - ***L'addition*** a besoin d'être généré de manière physique notamment pour les notes de frais
 
-### Glossaire :
+#### Glossaire :
 
 - ***L'addition*** : facture de la commande indiquant la liste des plats commandés ainsi que le montant total de la commande
 - ***Bob*** : client
@@ -130,11 +130,11 @@ Un cuisinier veut préparer un plat pour un client
 
 ## Plat indisponible
 
-### Description :
+#### Description :
 
 - ***Roger*** s'aperçoit que la réalisation d'un plat ne peut être réalisé et doit donc rendre ***indisponible*** ce plat.
 
-### Scénario :
+#### Scénario :
 
 - ***Roger*** indique que le plat est ***indisponible*** sur l'application
   - Des commandes comprenant ce plat sont en cours
@@ -146,7 +146,7 @@ Un cuisinier veut préparer un plat pour un client
 - ***Roger*** indique que le plat est de nouveau disponible
 - L'application débloque la possibilité de sélectionner ce plat lors d'une commande
 
-### Glossaire :
+#### Glossaire :
 
 - ***Roger*** : cuisinier
 - ***indisponible*** : le plat ne peut être réalisé par manque de un ou plusieurs ingrédient.s le constituant.
@@ -176,11 +176,11 @@ Un cuisinier veut préparer un plat pour un client
 
 ## Servir une commande
 
-### Description :
+#### Description :
 
 Lorsque qu'une ***partie de la commande*** est prête, il faut la servir à Bob.
 
-### Scénario :
+#### Scénario :
 
 - ***Alice*** est mise au courant qu'une ***partie de la commande*** est prête.
   - Problème de notification si problème de connexion à internet.
@@ -188,11 +188,62 @@ Lorsque qu'une ***partie de la commande*** est prête, il faut la servir à Bob.
 - ***Alice*** récupère la ***partie de la commande***.
 - ***Alice*** la ramène à Bob.
 
-### Glossaire :
+#### Glossaire :
 
 - ***Bob*** : client
 - ***Alice*** : serveuse
 - ***partie de la commande*** : pack de boissons, de plats ou de desserts
+
+----------------------------------------------------------------
+
+## Suivre une commande
+
+#### Description :
+
+Le personnel du restaurant peut suivre l'état d'avancement d'une commande en cours ou passée.
+
+#### Scénario :
+
+- **Bob** veut savoir si la commande de spaghetti de **Alice** est prête.
+- **Bob** sélectionne la commande de **Alice** pour voir son état.
+- **Bob** voit que les spaghettis de **Alice** sont prêts.
+- **Bob** voit que son mojito fraise n'est pas prêt.
+- **Bob** va chercher les spaghettis en cuisine.
+- **Bob** amène les spaghettis à **Alice**.
+- **Bob** indique que les spaghettis sont servis.
+
+#### Glossaire :
+
+- **Bob** : serveur
+- **Alice** : cliente
+- **Spaghettis** : partie de la commande de Alice.
+- **État** : état d'avancement de la commande.
+
+----------------------------------------------------------------
+
+## Cuisiner un plat
+
+#### Description :
+
+***Roger*** désire faire un plat, et doit informer l'application sur quel(s) plat(s) il est en train de cuisiner.
+
+#### Scénario :
+
+- ***Roger*** veut cuisiner un (ou plusieurs) plat(s).
+- ***Roger*** valide son identité pour voir les plats qui lui sont assignés.
+- ***Roger*** choisi un (ou plusieurs) plat(s) qu'il s'apprete à cuisinier. 
+- ***Roger*** valide et peut commencer à cuisiner.
+- Une fois que ***Roger*** a terminé son plat, il s'identifie à nouveau pour dire qu'il a terminé un plat.
+- Ensuite, SOIT 
+    * son plat permet de terminer une ***partie de la commande***, 
+      dans ce cas une notification est envoyée aux serveurs pour venir chercher le plat.
+    * il manque un plat pour la commande, la commande est alors en attente du plat manquant. 
+      Et attend qu'un cuisinier cuisine le plat manquant.
+
+#### Glossaire :
+
+- ***Roger*** : cuisinier
+- ***partie de la commande*** : pack de boissons, de plats ou de desserts etc.
 
 ----------------------------------------------------------------
 
