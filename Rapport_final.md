@@ -18,43 +18,40 @@ de la demande du client jusqu'au règlement de l'addition en passant par le trai
 
 ### Liste des scénarios
 
- 1. ### Ajout d'un plat dans une commande
+ 1. ##### Ajout d'un plat dans une commande
 Ajouter un plat dans une commande déjà en cours.
 
- 2. ### Établir un menu
+ 2. ##### Établir un menu
 Créer ou modifier la carte de restaurant.
 
- 3. ### Le client prend sa commande
+ 3. ##### Le client prend sa commande
 Un client prend commande en interagissant avec le système.
 
- 4. ### Paiement
+ 4. ##### Paiement
 Le client a terminé son repas et veut payer l'addition.
 
- 5. ### Plat indisponible
+ 5. ##### Plat indisponible
 Un plat n'est plus disponible pour la clientèle et il faut le notifier à tous.
 
- 6. ### Prendre une commande
+ 6. ##### Prendre une commande
 Un serveur prend la commande pour des clients.
 
- 7. ### Servir une commande
+ 7. ##### Servir une commande
 Une partie de la commande est prête à être envoyée au client.
 
- 8. ### Suivre une commande
+ 8. ##### Suivre une commande
 Un membre du personnel veut suivre l'état d'avancement des commandes.
 
- 9. ### Cuisiner un plat
+ 9. ##### Cuisiner un plat
 Un cuisinier veut préparer un plat pour un client 
 
+----------------------------------------------------------------
 
 ### Ajouts de plats dans une commande
-
----
 
 #### Description :
 
 ***Alice*** peut ajouter des plats dans une commande déjà en cours si ***Bob*** le désire.
-
----
 
 #### Scénario :
 
@@ -67,22 +64,18 @@ Un cuisinier veut préparer un plat pour un client
 - L'équipe de cuisine est avertie de l'ajout.
   - Problème de notification si problème de connexion à internet.
 
----
-
 #### Glossaire :
 
 - ***Bob*** : client
 - ***Alice*** : serveuse
 
-# Etablir un menu
+----------------------------------------------------------------
 
----
+# Etablir un menu
 
 ### Description :
 
 ***Albert*** crée ou modifie la carte du restaurant, avant l'ouverture ou après la fermeture du restaurant.
-
----
 
 ### Scénario :
 
@@ -92,22 +85,15 @@ Un cuisinier veut préparer un plat pour un client
 - La carte s'actualise sur les diverses tablettes.
     - Problème d'actualisation si les tablettes ne sont pas connectées à internet.
 
----
-
 ### Glossaire :
 
 - ***Albert*** : patron
 
-
 ### Prendre une commande
-
----
 
 #### Description :
 
 ***Alice*** propose à ***Bob*** de prendre sa première commande.
-
----
 
 #### Scénario :
 
@@ -116,12 +102,12 @@ Un cuisinier veut préparer un plat pour un client
 - ***Alice***, à partir de sa tablette, transmet la commande et le numéro de table aux cuisiniers.
 - Les cuisiniers sont au courant de la commande.
 
----
-
 #### Glossaire :
 
 - ***Bob*** : client
 - ***Alice*** : serveuse
+
+----------------------------------------------------------------
 
 ## Diagrammes de CU
 
