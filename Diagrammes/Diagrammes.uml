@@ -27,6 +27,7 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_XivQMMHTEeivqqD5eMke3w" name="créerMenu"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_ohWUIMHYEeivqqD5eMke3w" name="supprimerMenu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lP8i0MKeEeivqqD5eMke3w" name="choisirMenuCourant"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_ZZ5bgMAlEei_2e7RHOVEIw" name="Serveur">
     <generalization xmi:type="uml:Generalization" xmi:id="_d8PI0MAmEei_2e7RHOVEIw" general="_UvrIEMAlEei_2e7RHOVEIw"/>
@@ -115,32 +116,32 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_N9Z-kMHcEeivqqD5eMke3w" name="rendreIndisponible"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_lwPtIMAlEei_2e7RHOVEIw" name="Menu">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_XC-VgsAnEei_2e7RHOVEIw" name="preparations" type="_k0IDIMAlEei_2e7RHOVEIw" aggregation="shared" association="_XC8gUMAnEei_2e7RHOVEIw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XC_joMAnEei_2e7RHOVEIw"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XC_jocAnEei_2e7RHOVEIw" value="*"/>
-    </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ar4ycMHTEeivqqD5eMke3w" name="estCourant" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_j8w9YMHSEeivqqD5eMke3w" name="ajouterPréparation"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_n0mKkMHSEeivqqD5eMke3w" name="supprimerPréparation"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_mfHI0MAmEei_2e7RHOVEIw" name="élabore" memberEnd="_mfKMIcAmEei_2e7RHOVEIw _mfKzMcAmEei_2e7RHOVEIw" navigableOwnedEnd="_mfKzMcAmEei_2e7RHOVEIw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_mfHI0MAmEei_2e7RHOVEIw" name="élabore" memberEnd="_mfKMIcAmEei_2e7RHOVEIw _mfKzMcAmEei_2e7RHOVEIw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mfJlEMAmEei_2e7RHOVEIw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mfKMIMAmEei_2e7RHOVEIw" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_mfKzMcAmEei_2e7RHOVEIw" name="élaborateurs" type="_YfisEMAlEei_2e7RHOVEIw" association="_mfHI0MAmEei_2e7RHOVEIw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mfKzMcAmEei_2e7RHOVEIw" name="élaborateur" type="_YfisEMAlEei_2e7RHOVEIw" association="_mfHI0MAmEei_2e7RHOVEIw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HlO1IMAnEei_2e7RHOVEIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HnDaEMAnEei_2e7RHOVEIw" value="*"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HnDaEMAnEei_2e7RHOVEIw" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_XC8gUMAnEei_2e7RHOVEIw" name="propose" visibility="protected" memberEnd="_XC-VgsAnEei_2e7RHOVEIw _XDAKsMAnEei_2e7RHOVEIw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_XC8gUMAnEei_2e7RHOVEIw" name="propose" visibility="protected" memberEnd="_XC-VgsAnEei_2e7RHOVEIw _XDAKsMAnEei_2e7RHOVEIw" navigableOwnedEnd="_XC-VgsAnEei_2e7RHOVEIw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XC-VgMAnEei_2e7RHOVEIw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XC-VgcAnEei_2e7RHOVEIw" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_XDAKsMAnEei_2e7RHOVEIw" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw" association="_XC8gUMAnEei_2e7RHOVEIw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gRG5AMAnEei_2e7RHOVEIw" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gR-bsMAnEei_2e7RHOVEIw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gRG5AMAnEei_2e7RHOVEIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gR-bsMAnEei_2e7RHOVEIw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XC-VgsAnEei_2e7RHOVEIw" name="preparations" type="_k0IDIMAlEei_2e7RHOVEIw" aggregation="shared" association="_XC8gUMAnEei_2e7RHOVEIw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XC_joMAnEei_2e7RHOVEIw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XC_jocAnEei_2e7RHOVEIw" value="*"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_yvECEMAnEei_2e7RHOVEIw" name="commande" memberEnd="_yvF3QcAnEei_2e7RHOVEIw _yvNMAMAnEei_2e7RHOVEIw" navigableOwnedEnd="_yvNMAMAnEei_2e7RHOVEIw">
