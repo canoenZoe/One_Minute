@@ -11,12 +11,11 @@
 ### Scénario :
 
 - ***Roger*** indique que le plat est ***indisponible*** sur l'application
-  - Des commandes comprenant ce plat sont en cours
-    - L'application annule les commandes comportant ce plat
-    - L'application notifie les serveurs des commandes annulées
+- Des commandes comprenant ce plat sont en cours
+- L'application notifie les serveurs que des plats ne peuvent pas être préparés
 - L'application bloque la possibilité de sélectionner ce plat lors d'une commande
 
-[En attente de ***réapprovisionnement*** de.s ingrédient.s]_
+[En attente de ***réapprovisionnement*** de.s ingrédient.s]
 - ***Roger*** indique que le plat est de nouveau disponible
 - L'application débloque la possibilité de sélectionner ce plat lors d'une commande
 

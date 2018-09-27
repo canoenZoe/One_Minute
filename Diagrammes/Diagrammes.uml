@@ -17,6 +17,7 @@
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_PSEscMHREeivqqD5eMke3w" name="seConnecter"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_RU2EIMKPEeivqqD5eMke3w" name="seDéconnecter"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_YfisEMAlEei_2e7RHOVEIw" name="Patron">
     <generalization xmi:type="uml:Generalization" xmi:id="_dZWeMMAmEei_2e7RHOVEIw" general="_UvrIEMAlEei_2e7RHOVEIw"/>
@@ -35,6 +36,7 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_XnCSoMHZEeivqqD5eMke3w" name="prendreNote"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_aNU_cMHZEeivqqD5eMke3w" name="servirPartieCommande"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CO3OYMKNEeivqqD5eMke3w" name="annulerPartieCommande"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_bN-BMMAlEei_2e7RHOVEIw" name="Preparateur">
     <generalization xmi:type="uml:Generalization" xmi:id="_eWrCEMAmEei_2e7RHOVEIw" general="_UvrIEMAlEei_2e7RHOVEIw"/>
@@ -58,6 +60,7 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_i65XEMHaEeivqqD5eMke3w" name="état" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VsbS8MKQEeivqqD5eMke3w" name="notifierService"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_iS1LEMAlEei_2e7RHOVEIw" name="Commande">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Tyzv0sAoEei_2e7RHOVEIw" name="lignes" type="_hde3cMAlEei_2e7RHOVEIw" aggregation="composite" association="_TywFcMAoEei_2e7RHOVEIw">
@@ -72,7 +75,6 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_fmjScMHPEeivqqD5eMke3w" name="générerAddition"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_cRJyAMHREeivqqD5eMke3w" name="choisirUnePréparation"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_Q9NXkMHcEeivqqD5eMke3w" name="réglerAddition"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_i45FgMAlEei_2e7RHOVEIw" name="Table">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_yvF3QcAnEei_2e7RHOVEIw" name="commandeEnCours" type="_iS1LEMAlEei_2e7RHOVEIw" association="_yvECEMAnEei_2e7RHOVEIw">
@@ -88,6 +90,7 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_56k_4MHPEeivqqD5eMke3w" name="débuterCommande"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="__DfacMHPEeivqqD5eMke3w" name="demanderAddition"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Q9NXkMHcEeivqqD5eMke3w" name="réglerAddition"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_k0IDIMAlEei_2e7RHOVEIw" name="Preparation">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_8hb_UMHNEeivqqD5eMke3w" name="intitulé" visibility="private">
@@ -105,6 +108,9 @@
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_uhdKgMHaEeivqqD5eMke3w" name="estIndisponible" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EyiksMKQEeivqqD5eMke3w" name="infoSupplémentaire">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_N9Z-kMHcEeivqqD5eMke3w" name="rendreIndisponible"/>
   </packagedElement>
@@ -176,6 +182,9 @@
     </eAnnotations>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_tVeygMHNEeivqqD5eMke3w" name="quantité" visibility="private">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MaNWIMKPEeivqqD5eMke3w" name="état" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
     <ownedEnd xmi:type="uml:Property" xmi:id="_KyOZ0sHNEeivqqD5eMke3w" name="lignesPrisesEnCharge" type="_hde3cMAlEei_2e7RHOVEIw" association="_KyNLsMHNEeivqqD5eMke3w"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_KyPn8MHNEeivqqD5eMke3w" name="preparateur" type="_bN-BMMAlEei_2e7RHOVEIw" association="_KyNLsMHNEeivqqD5eMke3w"/>
