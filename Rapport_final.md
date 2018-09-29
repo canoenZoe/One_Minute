@@ -48,7 +48,21 @@ Un cuisinier veut préparer un plat pour un client
 
 
  ### Les scénarios : La description
+
+ <details><summary>Les acteurs</summary>
+
+<p>
  
+- ***Bob*** : client
+- ***Alice*** : serveuse
+- ***Roger*** : cuisinier
+- ***Albert*** : patron
+
+</p>
+
+</details>
+
+
  <details><summary>1. Ajout d'un plat dans une commande</summary>
 
 <p>
@@ -72,11 +86,6 @@ Un cuisinier veut préparer un plat pour un client
 - L'équipe de cuisine est avertie de l'ajout.
   - Problème de notification si problème de connexion à internet.
 
-#### Glossaire :
-
-- ***Bob*** : client
-- ***Alice*** : serveuse
-
 ----------------------------------------------------------------
 </p>
 </details>
@@ -98,10 +107,6 @@ Un cuisinier veut préparer un plat pour un client
 - ***Albert*** termine la création ou la modification.
 - La carte s'actualise sur les diverses tablettes.
     - Problème d'actualisation si les tablettes ne sont pas connectées à internet.
-
-#### Glossaire :
-
-- ***Albert*** : patron
 
 ----------------------------------------------------------------
 </p>
@@ -146,12 +151,6 @@ Un cuisinier veut préparer un plat pour un client
 - Faut-il générer ***l'addition*** de manière physique à ***Bob*** ?
   - ***L'addition*** a besoin d'être généré de manière physique notamment pour les notes de frais
 
-#### Glossaire :
-
-- ***L'addition*** : facture de la commande indiquant la liste des plats commandés ainsi que le montant total de la commande
-- ***Bob*** : client
-- ***Alice*** : serveuse
-
 ----------------------------------------------------------------
 </p>
 </details>
@@ -178,12 +177,6 @@ Un cuisinier veut préparer un plat pour un client
 - ***Roger*** indique que le plat est de nouveau disponible
 - L'application débloque la possibilité de sélectionner ce plat lors d'une commande
 
-#### Glossaire :
-
-- ***Roger*** : cuisinier
-- ***indisponible*** : le plat ne peut être réalisé par manque de un ou plusieurs ingrédient.s le constituant.
-- ***réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
-
 ----------------------------------------------------------------
 </p>
 </details>
@@ -204,11 +197,6 @@ Un cuisinier veut préparer un plat pour un client
 - ***Bob*** choisit ce qu'il souhaite commander.
 - ***Alice***, à partir de sa tablette, transmet la commande et le numéro de table aux cuisiniers.
 - Les cuisiniers sont au courant de la commande.
-
-#### Glossaire :
-
-- ***Bob*** : client
-- ***Alice*** : serveuse
 
 ----------------------------------------------------------------
 </p>
@@ -231,12 +219,6 @@ Lorsque qu'une ***partie de la commande*** est prête, il faut la servir à Bob.
 - ***Alice*** indique sur l'application qu'elle va la chercher.
 - ***Alice*** récupère la ***partie de la commande***.
 - ***Alice*** la ramène à Bob.
-
-#### Glossaire :
-
-- ***Bob*** : client
-- ***Alice*** : serveuse
-- ***partie de la commande*** : pack de boissons, de plats ou de desserts
 
 ----------------------------------------------------------------
 </p>
@@ -261,13 +243,6 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 - **Bob** va chercher les spaghettis en cuisine.
 - **Bob** amène les spaghettis à **Alice**.
 - **Bob** indique que les spaghettis sont servis.
-
-#### Glossaire :
-
-- **Bob** : serveur
-- **Alice** : cliente
-- **Spaghettis** : partie de la commande de Alice.
-- **État** : état d'avancement de la commande.
 
 ----------------------------------------------------------------
 </p>
@@ -296,14 +271,21 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
     * il manque un plat pour la commande, la commande est alors en attente du plat manquant. 
       Et attend qu'un cuisinier cuisine le plat manquant.
 
-#### Glossaire :
-
-- ***Roger*** : cuisinier
-- ***partie de la commande*** : pack de boissons, de plats ou de desserts etc.
-
 ----------------------------------------------------------------
 </p>
 </details>
+
+
+## Glossaire métier
+
+- ***Addition*** : facture de la commande indiquant la liste des plats commandés ainsi que le montant total de la commande
+- ***Commande*** : Note qui sert à savoir ce que le client a choisi. Elle est prise part un serveur, et est transmise aux cuisines.
+- ***État*** : état d'avancement de la commande.
+- ***Indisponible*** : Etat d'un plat qui ne peut pas/plus être réalisé par manque de un (ou plusieurs) ingrédient(s) le constituant.
+- ***Partie de la commande*** : pack de boissons, de plats ou de desserts etc.
+- ***Réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
+- ***Stock*** : Ingrédients disponibles pour préparer les commandes.
+
 
 ## Diagrammes de CU
 
