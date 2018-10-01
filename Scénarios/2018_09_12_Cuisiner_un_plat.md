@@ -11,7 +11,6 @@
 ### Scénario :
 
 - ***Roger*** veut cuisiner un (ou plusieurs) plat(s).
-- ***Roger*** valide son identité pour voir les plats qui lui sont assignés.
 - ***Roger*** choisi un (ou plusieurs) plat(s) qu'il s'apprete à cuisiner. 
 - ***Roger*** valide et peut commencer à cuisiner.
 - Une fois que ***Roger*** a terminé son plat, il s'identifie à nouveau pour dire qu'il a terminé un plat.
