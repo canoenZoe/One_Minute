@@ -1,55 +1,25 @@
 # Rapport final
 
-## Auteurs 
+## Auteurs
 
 * Anthony Slimani
 * Laurine Drodzinski
-* Noura Mares 
+* Noura Mares
 * Sami Barchid
 * Zoé Canoen
 
-## Résumé du problème 
+## Résumé du problème
 
 Informatiser le processus de gestion des commandes d'un restaurant.
 L'application doit permettre de prendre en charge une commande à partir
 de la demande du client jusqu'au règlement de l'addition en passant par le traitement en cuisine.
 
-## Acteurs
 
-Description des acteurs de l'application.
-
-### Patron
-
-- Gérant du restaurant.
-- Possède une tablette lui permettant de :
-    - créer de nouveaux menus
-    - modifier des menus existants
-    - superviser l'état global du restaurant (avancement des commandes etc.)
-- Doit être connecté à internet.
-
-### Serveur
-
-- Est en contact avec les clients.
-- Possède une tablette lui permettant de :
-    - proposer le menu aux clients
-    - prendre des commandes
-    - suivre l'avancement des commandes    
-    - générer l'addition et valider le paiement
-- Doit être connecté à internet.
-
-### Préparateur
-
-- Peut être un barman, un glacier, ou simplement un cuisinier etc.
-- Ne possède pas une tablette à lui seul (une tablette pour les cuisiniers, une pour les barmans, glaciers etc.).
-- Celle-ci lui permet de prendre en charge une préparation et également de gérer la disponibilité des plats.
-- Doit être connecté à internet.
-
-
-## Les scénarios 
+## Les scénarios
 
 ### Liste des scénarios
 
- 1. #### Ajout d'un plat dans une commande 
+ 1. #### Ajout d'un plat dans une commande
 Ajouter un plat dans une commande déjà en cours.
 
 
@@ -75,7 +45,7 @@ Une partie de la commande est prête à être envoyée au client.
 Un membre du personnel veut suivre l'état d'avancement des commandes.
 
  9. ##### Cuisiner un plat
-Un cuisinier veut préparer un plat pour un client 
+Un cuisinier veut préparer un plat pour un client
 
 
  ### Les scénarios : La description
@@ -83,7 +53,7 @@ Un cuisinier veut préparer un plat pour un client
  <details><summary>Les acteurs</summary>
 
 <p>
- 
+
 - ***Bob*** : client
 - ***Alice*** : serveuse
 - ***Roger*** : cuisinier
@@ -158,7 +128,7 @@ Un cuisinier veut préparer un plat pour un client
  <details><summary>4. Paiement</summary>
 
 <p>
- 
+
 ## Paiement
 
 #### Description :
@@ -189,7 +159,7 @@ Un cuisinier veut préparer un plat pour un client
  <details><summary>5. Plat indisponible</summary>
 
 <p>
- 
+
 ## Plat indisponible
 
 #### Description :
@@ -215,7 +185,7 @@ Un cuisinier veut préparer un plat pour un client
  <details><summary>6. Prendre une commande</summary>
 
 <p>
- 
+
 ## Prendre une commande
 
 #### Description :
@@ -236,7 +206,7 @@ Un cuisinier veut préparer un plat pour un client
  <details><summary>7. Servir une commande</summary>
 
 <p>
- 
+
 ## Servir une commande
 
 #### Description :
@@ -258,7 +228,7 @@ Lorsque qu'une ***partie de la commande*** est prête, il faut la servir à Bob.
  <details><summary>8. Suivre une commande</summary>
 
 <p>
- 
+
 ## Suivre une commande
 
 #### Description :
@@ -282,7 +252,7 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
  <details><summary>9. Cuisiner un plat</summary>
 
 <p>
- 
+
 ## Cuisiner un plat
 
 #### Description :
@@ -293,13 +263,13 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 
 - ***Roger*** veut cuisiner un (ou plusieurs) plat(s).
 - ***Roger*** valide son identité pour voir les plats qui lui sont assignés.
-- ***Roger*** choisi un (ou plusieurs) plat(s) qu'il s'apprete à cuisinier. 
+- ***Roger*** choisi un (ou plusieurs) plat(s) qu'il s'apprete à cuisinier.
 - ***Roger*** valide et peut commencer à cuisiner.
 - Une fois que ***Roger*** a terminé son plat, il s'identifie à nouveau pour dire qu'il a terminé un plat.
-- Ensuite, SOIT 
-    * son plat permet de terminer une ***partie de la commande***, 
+- Ensuite, SOIT
+    * son plat permet de terminer une ***partie de la commande***,
       dans ce cas une notification est envoyée aux serveurs pour venir chercher le plat.
-    * il manque un plat pour la commande, la commande est alors en attente du plat manquant. 
+    * il manque un plat pour la commande, la commande est alors en attente du plat manquant.
       Et attend qu'un cuisinier cuisine le plat manquant.
 
 ----------------------------------------------------------------
@@ -320,7 +290,59 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 
 ## Diagrammes de CU
 
+### Acteurs
+
+*[Insérer image diagramme]*
+
+Description des acteurs de l'application.
+
+#### Membre du restaurant
+- Cette acteur est la généralisation des acteur suivants :
+
+#### Patron
+
+- Gérant du restaurant.
+- Possède une tablette lui permettant de :
+    - créer de nouveaux menus
+    - modifier des menus existants
+    - superviser l'état global du restaurant (avancement des commandes etc.)
+- Doit être connecté à internet.
+
+#### Serveur
+
+- Est en contact avec les clients.
+- Possède une tablette lui permettant de :
+    - proposer le menu aux clients
+    - prendre des commandes
+    - suivre l'avancement des commandes    
+    - générer l'addition et valider le paiement
+- Doit être connecté à internet.
+
+#### Préparateur
+
+- Peut être un barman, un glacier, ou simplement un cuisinier etc.
+- Ne possède pas une tablette à lui seul (une tablette pour les cuisiniers, une pour les barmans, glaciers etc.).
+- Celle-ci lui permet de prendre en charge une préparation et également de gérer la disponibilité des plats.
+- Doit être connecté à internet.
+
+
+### Service
+
+*[Insérer image diagramme]*
+
+Les serveurs a la possibilité de proposer le menu au client. Il pourra notamment prendre la commande de celui-ci. Pour celà, il devra saisir le numéro de table ainsi que d'ajouter une ou plusieurs préparations à la commande. Lorsque'une préparation est ajoutée dans une commande, les préparateurs sont directement notifiés. Les serveurs ont également la possibilité de servir une partie de la commande dès lors qu'ils ont été notifiés par les préparateurs. Il pourra également suivre l'état d'avancement de la commande. Dès que celle-ci est fini, le serveur pourra générer l'addiction puis d'indiquer si le réglement a bien été réalisé.
+
+### Cuisine
+
+*[Insérer image diagramme]*
+
+Les préparateurs ont la possibilité d'indiquer sur l'application la prise en charge d'une préparation. Dès lors qu'il aura fini, il devra indiquer l'accomplissement de cette dernière. Celà aura comme conséquence de notifier tout les seveurs. Il a également la possibilité d'indiquer qu'une préparation est indisponible.
+
+
+### Gérer le menu
+
+*[Insérer image diagramme]*
+
+Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modifier et de supprimer une préparation d'un menu
 
 ## Diagramme des classe
-
-
