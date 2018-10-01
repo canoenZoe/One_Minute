@@ -1,4 +1,3 @@
-
 # One minute
 
 Dépôt du projet de génie logiciel (GL), M1S1 année 2018-2019.
@@ -24,7 +23,21 @@ Répertoire comprenant les synthèses de fin de T.P. en fichier markdown.
 Répertoire comprenant les diagrammes UML de l'analyse de l'application One Minute. Ce répertoire comprend :
 
 - les sources des diagrammes sous forme d'un projet **Papyrus**.
-- Des images des diagrammes sous format PNG/JPG.
+
+### Diagrammes - UC
+Répertoire comprenant les diagrammes UML pour les cas d'utilisation de l'application One Minute. Ce répertoire comprend :
+- les sources des diagrammes d'UC sous forme d'un projet **Papyrus**
+
+*Note : les diagrammes sont séparés en tant que solution provisoire car le projet Papyrus unique a été corrompu mystérieusement.*
+
+### images
+Répertoire comprenant les images des diagrammes créés avec Papyrus.
+
+### Maquettes
+Répertoire contenant des images des IHMs (interfaces homme-machine) imaginées pour l'application One Minute.
+
+### Glossaire.pdf
+Fichier pdf qui reprend le glossaire métier sous forme de tableau.
 
 ### Résumé_problème.md
 Fichier markdown contenant la description synthétisée du problème posé par le sujet.
