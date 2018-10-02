@@ -329,13 +329,13 @@ Description des acteurs de l'application.
 
 ### Service
 
-![GitHub Logo](/images/UC\ -\ Service.png)
+![GitHub Logo](/images/UC-Service.png)
 
 Les serveurs a la possibilité de proposer le menu au client. Il pourra notamment prendre la commande de celui-ci. Pour celà, il devra saisir le numéro de table ainsi que d'ajouter une ou plusieurs préparations à la commande. Lorsque'une préparation est ajoutée dans une commande, les préparateurs sont directement notifiés. Les serveurs ont également la possibilité de servir une partie de la commande dès lors qu'ils ont été notifiés par les préparateurs. Il pourra également suivre l'état d'avancement de la commande. Dès que celle-ci est fini, le serveur pourra générer l'addiction puis d'indiquer si le réglement a bien été réalisé.
 
 ### Cuisine
 
-![GitHub Logo](/images/UC\ -\ Cuisine.png)
+![GitHub Logo](/images/UC-Cuisine.png)
 
 
 Les préparateurs ont la possibilité d'indiquer sur l'application la prise en charge d'une préparation. Dès lors qu'il aura fini, il devra indiquer l'accomplissement de cette dernière. Celà aura comme conséquence de notifier tout les seveurs. Il a également la possibilité d'indiquer qu'une préparation est indisponible.
@@ -343,15 +343,15 @@ Les préparateurs ont la possibilité d'indiquer sur l'application la prise en c
 
 ### Gérer le menu
 
-![GitHub Logo](/images/UC\ -\ Menu.png)
+![GitHub Logo](/images/UC-Menu.png)
 
 Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modifier et de supprimer une préparation d'un menu
 
 ## Diagramme des classe
 
-![GitHub Logo](/images/UC\ -\ diagramme_classe.PNG)
+![GitHub Logo](/images/diagramme_classe.PNG)
 
 
 ## Diagramme de package
 
-![GitHub Logo](/images/UC\ -\ diagramme_packages.PNG)
+![GitHub Logo](/images/diagramme_packages.PNG)
