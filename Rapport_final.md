@@ -364,9 +364,9 @@ Le but de l'application est de gagner du temps. Notre application ne doit donc n
 
 **Maquette de la partie cuisine**
 
-![GitHub Logo](/Maquette/Cuisine.png)
+![GitHub Logo](/Maquettes/Cuisine.png)
 
 **Maquette de la partie service**
 
-![GitHub Logo](/Maquette/Service.png)
+![GitHub Logo](/Maquettes/Service.png)
 
