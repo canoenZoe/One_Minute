@@ -276,7 +276,6 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 </p>
 </details>
 
-
 ## Glossaire métier
 
 - ***Addition*** : facture de la commande indiquant la liste des plats commandés ainsi que le montant total de la commande
@@ -287,18 +286,19 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 - ***Réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
 - ***Stock*** : Ingrédients disponibles pour préparer les commandes.
 
-
 ## Diagrammes de CU
 
 ### Acteurs
 
-![GitHub Logo](/images/UC\ -\ Acteurs.png)
+Description des acteurs de l'application. Il est important de noter que les cuisiniers sont des préparateurs. Nous voulons faire quelque chose de généraliste, pour mettre dans la même classe le barman, le glacier, les cuisiniers...  
 
+![GitHub Logo](/images/UC-Acteurs.png)
 
-Description des acteurs de l'application.
+Nous avons choisi de représenter ces acteurs en fonction du sujet. Nous avons bien conscience que dans certains restaurants, il n'y a pas forcément de barman, mais plutôt des serveurs comme préparateurs. De plus dans les restaurants, il y a souvent des managers, comme dans la restauration rapide par exemple. 
 
 #### Membre du restaurant
-- Cette acteur est la généralisation des acteur suivants :
+
+- Cet acteur est la généralisation des acteurs suivants :
 
 #### Patron
 
@@ -338,20 +338,35 @@ Les serveurs a la possibilité de proposer le menu au client. Il pourra notammen
 ![GitHub Logo](/images/UC-Cuisine.png)
 
 
-Les préparateurs ont la possibilité d'indiquer sur l'application la prise en charge d'une préparation. Dès lors qu'il aura fini, il devra indiquer l'accomplissement de cette dernière. Celà aura comme conséquence de notifier tout les seveurs. Il a également la possibilité d'indiquer qu'une préparation est indisponible.
+Les préparateurs ont la possibilité d'indiquer sur l'application la prise en charge d'une préparation. Dès lors qu'il aura fini, il devra indiquer l'accomplissement de cette dernière. Cela aura comme conséquence de notifier tout les seveurs. Il a également la possibilité d'indiquer qu'une préparation est indisponible.
 
 
 ### Gérer le menu
 
 ![GitHub Logo](/images/UC-Menu.png)
 
-Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modifier et de supprimer une préparation d'un menu
-
-## Diagramme des classe
-
-![GitHub Logo](/images/diagramme_classe.PNG)
+Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modifier et de supprimer une préparation d'un menu.
 
 
 ## Diagramme de package
 
 ![GitHub Logo](/images/diagramme_packages.PNG)
+
+## Diagramme de classes
+
+![GitHub Logo](/images/diagramme_classe.PNG)
+
+## Les premières versions des maquettes
+
+Ces maquettes seront amenées à changer, c'est juste notre première version. Nous souhaitons laisser à tout le monde la possibilité de voir les différentes parties de l'application. A priori, les accès seront donnés par des managers. Le mieux sera de le faire en début de chaque jour, avant le service.
+
+Le but de l'application est de gagner du temps. Notre application ne doit donc ne pas surcharger la charge de travail des cuisiniers. Nous ne connaissons pas le nombre de tablettes disponibles pour le restaurant, nous en comptons une par serveur pour le moment, et une ou deux en cuisine. Il sera tout à fait possible d'en mettre moins, car nous sommes bien conscients que le prix d'une tablette est assez cher. Cela pose pourtant certains problèmes, en effet, les cuisiniers ne doivent pas perdre de temps en se connectant. C'est pourquoi, nous vous proposons d'utiliser notre application avec un seul compte pour la cuisine. Chaque cuisinier doit juste d'identifier en cliquant sur un bouton avec leur nom pour que l'on sache que c'est eux qui ont fait cela. Cela leur permet de ne pas avoir à rentrer leur mot de passe. 
+
+**Maquette de la partie cuisine**
+
+![GitHub Logo](/Maquette/Cuisine.png)
+
+**Maquette de la partie service**
+
+![GitHub Logo](/Maquette/Service.png)
+
