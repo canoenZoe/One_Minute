@@ -303,7 +303,7 @@ Nous avons choisi de représenter ces acteurs en fonction du sujet. Nous avons b
 #### Patron
 
 - Gérant du restaurant.
-- Possède une tablette lui permettant de :
+- Possède un compte particulier qui lui permet de :
     - créer de nouveaux menus
     - modifier des menus existants
     - superviser l'état global du restaurant (avancement des commandes etc.)
