@@ -20,7 +20,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gRG5AMAnEei_2e7RHOVEIw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gR-bsMAnEei_2e7RHOVEIw" value="*"/>
     </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_XC-VgsAnEei_2e7RHOVEIw" name="preparations" type="_k0IDIMAlEei_2e7RHOVEIw" aggregation="shared" association="_XC8gUMAnEei_2e7RHOVEIw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XC-VgsAnEei_2e7RHOVEIw" name="préparations" type="_k0IDIMAlEei_2e7RHOVEIw" aggregation="shared" association="_XC8gUMAnEei_2e7RHOVEIw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XC_joMAnEei_2e7RHOVEIw"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XC_jocAnEei_2e7RHOVEIw" value="*"/>
     </ownedEnd>
@@ -37,13 +37,13 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_CgALQsAoEei_2e7RHOVEIw" name="table" type="_i45FgMAlEei_2e7RHOVEIw" association="_Cf750MAoEei_2e7RHOVEIw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_TywFcMAoEei_2e7RHOVEIw" memberEnd="_Tyzv0sAoEei_2e7RHOVEIw _Ty098sAoEei_2e7RHOVEIw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_TywFcMAoEei_2e7RHOVEIw" name="contient" memberEnd="_Tyzv0sAoEei_2e7RHOVEIw _Ty098sAoEei_2e7RHOVEIw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Tyzv0MAoEei_2e7RHOVEIw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Tyzv0cAoEei_2e7RHOVEIw" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_Ty098sAoEei_2e7RHOVEIw" name="commande" type="_iS1LEMAlEei_2e7RHOVEIw" association="_TywFcMAoEei_2e7RHOVEIw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_kQMvUMAoEei_2e7RHOVEIw" visibility="package" memberEnd="_kQN9ccAoEei_2e7RHOVEIw _kQZjoMAoEei_2e7RHOVEIw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_kQMvUMAoEei_2e7RHOVEIw" name="reference" visibility="package" memberEnd="_kQN9ccAoEei_2e7RHOVEIw _kQZjoMAoEei_2e7RHOVEIw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kQNWYMAoEei_2e7RHOVEIw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kQN9cMAoEei_2e7RHOVEIw" key="nature" value="UML_Nature"/>
     </eAnnotations>
@@ -58,24 +58,11 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zA-KEMAqEei_2e7RHOVEIw" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_KyNLsMHNEeivqqD5eMke3w" name="PriseEnCharge" memberEnd="_KyOZ0sHNEeivqqD5eMke3w _KyPn8MHNEeivqqD5eMke3w">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KyOZ0MHNEeivqqD5eMke3w" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KyOZ0cHNEeivqqD5eMke3w" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_tVeygMHNEeivqqD5eMke3w" name="quantité" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_MaNWIMKPEeivqqD5eMke3w" name="état" visibility="private">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-    </ownedAttribute>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_KyOZ0sHNEeivqqD5eMke3w" name="lignesPrisesEnCharge" type="_hde3cMAlEei_2e7RHOVEIw" association="_KyNLsMHNEeivqqD5eMke3w"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_KyPn8MHNEeivqqD5eMke3w" name="preparateur" type="_bN-BMMAlEei_2e7RHOVEIw" association="_KyNLsMHNEeivqqD5eMke3w"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_li38YMHOEeivqqD5eMke3w" memberEnd="_li5KgsHOEeivqqD5eMke3w _li6YocHOEeivqqD5eMke3w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_li5KgMHOEeivqqD5eMke3w" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_li5KgcHOEeivqqD5eMke3w" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_li6YocHOEeivqqD5eMke3w" name="preparation" type="_k0IDIMAlEei_2e7RHOVEIw" association="_li38YMHOEeivqqD5eMke3w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_li6YocHOEeivqqD5eMke3w" name="préparation" type="_k0IDIMAlEei_2e7RHOVEIw" association="_li38YMHOEeivqqD5eMke3w"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_Ho_4kMW-EeiHHtuMrKUDFQ" name="personnel">
     <packagedElement xmi:type="uml:Dependency" xmi:id="_dDKeoMW_EeiHHtuMrKUDFQ" client="_Ho_4kMW-EeiHHtuMrKUDFQ" supplier="_oFFIcMAjEei_2e7RHOVEIw"/>
@@ -105,7 +92,7 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_ohWUIMHYEeivqqD5eMke3w" name="supprimerMenu"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_lP8i0MKeEeivqqD5eMke3w" name="choisirMenuCourant"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_bN-BMMAlEei_2e7RHOVEIw" name="Preparateur">
+    <packagedElement xmi:type="uml:Class" xmi:id="_bN-BMMAlEei_2e7RHOVEIw" name="Préparateur">
       <generalization xmi:type="uml:Generalization" xmi:id="_eWrCEMAmEei_2e7RHOVEIw" general="_UvrIEMAlEei_2e7RHOVEIw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_PLlU0MHPEeivqqD5eMke3w" name="rôle" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -131,7 +118,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_k0IDIMAlEei_2e7RHOVEIw" name="Preparation">
+    <packagedElement xmi:type="uml:Class" xmi:id="_k0IDIMAlEei_2e7RHOVEIw" name="Préparation">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_8hb_UMHNEeivqqD5eMke3w" name="intitulé" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -210,6 +197,19 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Q9NXkMHcEeivqqD5eMke3w" name="réglerAddition"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_C_-XoMXBEeiHHtuMrKUDFQ" client="_WUfcoMW-EeiHHtuMrKUDFQ" supplier="_Ho_4kMW-EeiHHtuMrKUDFQ"/>
+    <packagedElement xmi:type="uml:AssociationClass" xmi:id="_KyNLsMHNEeivqqD5eMke3w" name="PriseEnCharge" memberEnd="_KyOZ0sHNEeivqqD5eMke3w _KyPn8MHNEeivqqD5eMke3w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KyOZ0MHNEeivqqD5eMke3w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KyOZ0cHNEeivqqD5eMke3w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_tVeygMHNEeivqqD5eMke3w" name="quantité" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MaNWIMKPEeivqqD5eMke3w" name="état" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_KyOZ0sHNEeivqqD5eMke3w" name="lignesPrisesEnCharge" type="_hde3cMAlEei_2e7RHOVEIw" association="_KyNLsMHNEeivqqD5eMke3w"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_KyPn8MHNEeivqqD5eMke3w" name="préparateur" type="_bN-BMMAlEei_2e7RHOVEIw" association="_KyNLsMHNEeivqqD5eMke3w"/>
+    </packagedElement>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_b2fBgMHMEeivqqD5eMke3w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b2hdwMHMEeivqqD5eMke3w" source="http://www.eclipse.org/uml2/2.0.0/UML">
