@@ -8,14 +8,26 @@
 * Sami Barchid
 * Zoé Canoen
 
+## Introduction
+
+Ce document récapitule la conception du projet de l'application "One Minute". Le but de cette application sert à faire gagner du temps au restaurant. Nous nous sommes mit à la place de tous les acteurs du restaurant, mais d'avantage sur la partie service, cuisine et du côté du menu du restaurant. 
+
+## Sommaire
+
+1) Résumé du problème
+2) Scénarios
+3) Diagrammes de CU
+4) Diagrammes de classe
+5) Premières maquettes de l'application
+6) Glossaire métier
+
 ## Résumé du problème
 
-Informatiser le processus de gestion des commandes d'un restaurant.
+Le but de notre projet est d'informatiser le processus de gestion des commandes d'un restaurant.
 L'application doit permettre de prendre en charge une commande à partir
 de la demande du client jusqu'au règlement de l'addition en passant par le traitement en cuisine.
 
-
-## Les scénarios
+## Scénarios
 
 ### Liste des scénarios
 
@@ -48,7 +60,7 @@ Un membre du personnel veut suivre l'état d'avancement des commandes.
 Un cuisinier veut préparer un plat pour un client
 
 
- ### Les scénarios : La description
+ ### Description des scénarios
 
  <details><summary>Les acteurs</summary>
 
@@ -326,7 +338,6 @@ Nous avons choisi de représenter ces acteurs en fonction du sujet. Nous avons b
 - Celle-ci lui permet de prendre en charge une préparation et également de gérer la disponibilité des plats.
 - Doit être connecté à internet.
 
-
 ### Service
 
 ![GitHub Logo](/images/UC-Service.png)
@@ -337,16 +348,13 @@ Les serveurs a la possibilité de proposer le menu au client. Il pourra notammen
 
 ![GitHub Logo](/images/UC-Cuisine.png)
 
-
 Les préparateurs ont la possibilité d'indiquer sur l'application la prise en charge d'une préparation. Dès lors qu'il aura fini, il devra indiquer l'accomplissement de cette dernière. Cela aura comme conséquence de notifier tout les seveurs. Il a également la possibilité d'indiquer qu'une préparation est indisponible.
-
 
 ### Gérer le menu
 
 ![GitHub Logo](/images/UC-Menu.png)
 
 Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modifier et de supprimer une préparation d'un menu.
-
 
 ## Diagramme de package
 
@@ -356,7 +364,7 @@ Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modif
 
 ![GitHub Logo](/images/diagramme_classe.PNG)
 
-## Les premières versions des maquettes
+## Premières versions des maquettes
 
 Ces maquettes seront amenées à changer, c'est juste notre première version. Nous souhaitons laisser à tout le monde la possibilité de voir les différentes parties de l'application. A priori, les accès seront donnés par des managers. Le mieux sera de le faire en début de chaque jour, avant le service.
 

@@ -8,7 +8,7 @@ Ce document a pour but d'éclaircir ou de justifier certains choix dans le diagr
 	- *Exemple : glacier, barman, cuisinier...*
 
 ## Classe "Table"
-- Les clients, qui ne manipulent pas directement l'application, s'installe à des **Table** qui seront utilisées pour la gestion des commandes dans le système.
+- Les clients, qui ne manipulent pas directement l'application, s'installe à des **Tables** qui seront utilisées pour la gestion des commandes dans le système.
 - Les clients n'ont donc pas de représentation dans le système puisqu'ils n'interagissent pas avec ce dernier.
 - Chaque table possède un **numéro** unique.
 - Lorsque le client commence sa commande, celle-ci devient la **commandeEnCours** de la table.
@@ -40,7 +40,7 @@ Ce document a pour but d'éclaircir ou de justifier certains choix dans le diagr
 	- *en cours* quand elle sera prise en charge en cuisine.
 	- notifiée en service et *terminée* quand la prise en charge en cuisine est finie.
 	- *servie* à la table par le serveur.
-	- *annulée* si un problème surviendrait.
+	- *annulée* si un problème survient.
 - Une **LigneCommande** possède un **prix** (le prix total de la ligne s'obtient en faisant ``prix * quantité``)
 	- **Explication** : on ne peut pas se référer au prix courant dans la classe **Préparation** car ce prix courant change au cours du temps. Cependant, si je veux consulter l'état d'une commande d'il y a un mois, peut-être que le prix de mes spaghettis ont changé. Ceci m'amènerait à voir un prix qui n'est pas celui qui était correct un mois auparavant.
 - Un **Préparateur** qui prend en charge une **LigneCommande** va générer une **PriseEnCharge**.

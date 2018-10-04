@@ -37,7 +37,7 @@ Répertoire comprenant les images des diagrammes créés avec Papyrus.
 Répertoire contenant des images des IHMs (interfaces homme-machine) imaginées pour l'application One Minute.
 
 ### Glossaire.pdf
-Fichier pdf qui reprend le glossaire métier sous forme de tableau.
+Fichier pdf qui reprend différents termes utilisés dans le projet.
 
 ### Résumé_problème.md
 Fichier markdown contenant la description synthétisée du problème posé par le sujet.
