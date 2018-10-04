@@ -11,7 +11,7 @@
 ### Scénario :
 
 - ***Roger*** veut cuisiner une (ou plusieurs) préparation(s).
-- ***Roger*** choisi une (ou plusieurs) préparation(s) qu'il s'apprete à cuisiner. 
+- ***Roger*** choisi une (ou plusieurs) préparation(s) qu'il s'apprête à cuisiner. 
 - ***Roger*** valide et peut commencer à cuisiner.
 - Une fois que ***Roger*** a terminé sa préparation, il s'identifie à nouveau pour dire qu'il a terminé une préparation.
 - Ensuite, SOIT 
