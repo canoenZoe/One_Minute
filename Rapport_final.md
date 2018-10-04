@@ -468,4 +468,60 @@ La seconde solution était plus portée sur quelque chose de plus simple techniq
 ## Retroplanning
 
 
+### Retroplanning de BARCHID Sami
 
+#### Tâches faites
+
+- Élaboration des diagrammes de classe
+- Élaboration du diagramme de package
+- Élaboration de scénarios concrets
+
+#### Méthode de travail
+
+Ma manière de travailler personnelle dans le projet a été de profiter des TPs pour mixer un maximum des jugements de chacun sur tous les travaux à réaliser (diagrammes, scénarios, etc) afin d'être directement fixé sur la façon de remplir mes tâches. Personnellement, je pense que les deux heures de TPs par semaine sont plus utiles si on les utilise pour entrechoquer nos idées que réellement écrire quelque chose qui ne satisfait pas tout le monde.
+
+#### Difficultés
+
+La principale difficulté vue pour ce projet est l'absence totale de client à qui poser des questions, laissant les ambiguïtés de "l'appel d'offre" à notre appréhension personnelle.
+
+Une difficulté, plus secondaire, est la différence de compréhension des standards UML entre tous (élèves, professeurs et manuels compris), qui souligne bien l'importance d'établir des conventions entre les différents membres de l'équipe. Cette difficulté est surmontée grâce aux différents débats entre nous lorsqu'une ambiguïté était rencontrée.
+
+### Retroplanning de Laurine Drodzinski
+
+#### Travail effectué
+
+Au cours de cette première itération j'ai eu l'occasion de travailler sur les scénarios. Après en avoir réalisé, j'ai pu retravailler le reste des scénarios afin qu'ils soient cohérents tant au niveau des acteurs, de la présentation, du vocabulaire etc.  
+J'ai également travaillé sur le tableau regroupant divers termes utilisés au cours de cette itération.
+Ensuite, j'ai décrit les différents acteurs de l'application en indiquant leurs possibilités d'actions ainsi que quelques contraintes les concernant.
+Par ailleurs, j'ai pu accompagner Anthony sur les diagrammes de cas d'utilisation.
+Puis, pour finir, j'ai corrigé les fautes d'orthographes des différents fichiers du git ainsi que remis en forme divers tableaux et dossiers.
+
+#### Difficultés rencontrées
+
+J'ai rencontré quelques problèmes de compréhension au début de projet concernant l'organisation du projet.
+En effet nous avions éparpillé des données sur diverses plateformes. Cependant ce problème fut très rapidement réglé car dès la deuxième séance nous nous sommes réorganisés et nous avons regroupés les informations sur git.
+
+Le second soucis a été une confusion à propos de certaines informations du cours. Notamment au niveau des diagrammes de cas d'utilisation  et des différentes flèches à utiliser. Afin de régler ce problème nous nous sommes rapprochés de Cédric Dumoulin qui nous a réexpliqué leur sens.
+
+
+### Retroplanning de Zoé Canoen
+
+#### Tâches faites
+
+- Mise en place des différents outils lors du début du projet
+- Gestion de la répartition des charges au sein de l'équipe
+- Synthèse des séances
+- Rendu du lot 1 (format markdown et pdf)
+- Premières maquettes de l'application (format fixe)
+
+#### Méthode de travail
+
+Pour moi il est important d'avoir une vision globale du sujet. Cela permet de gérer au mieux les délais. La répartition des tâches et la confiance en chacun des membres de l'équipe est primordiale. J'aime apporter des nouvelles idées et je pense que la communication dans l'équipe est importante. Au début je parlais à chacun, mais maintenant nous faisons des réunions tous ensemble, et je trouve que c'est une bonne idée pour tout mettre en commun.
+
+#### Difficultés
+
+Je pense que nous avançons très bien, et que nous faisons face à tous les évenements sans trop de difficultés. La capacité d'adaptation du groupe est très importante. Je suis bien consciente que ce n'est pas le seul projet sur lequel nous devons travailler, et que parfois certaines personnes dans le groupe n'ont pas le temps de travailler GL. Mais notre groupe se rééquilibre toujours pour continuer à avancer. Si une personne travaille beaucoup plus que les autres, je veille à ce que ces tâches soient minimiser. Et à l'inverse, si une  personne n'a pas le temps de réaliser une tâche, je m'arrange pour que la tâche soit redistribuée si les délais sont trop courts. Nous nous faisons confiance sur le travail effectué, chaque personne travaille dans la mesure de son temps disponible, et fini toujours par rattraper son retard quand elle le peut. Nous pouvons tous compter sur les autres si besoin, et donc avancer à notre rythme.
+
+#### Ressenti
+
+J'aurai adoré n'avoir que GL à travailler ce semestre. C'est rééllement une matière fort intéréssante. Au début nous devions trouver notre rythme de croisière et je crois que nous l'avons trouvé. Les réunions de groupe lors des tps sont vraiment très utiles et nous avançons beaucoup. Chacun peut ainsi avoir une vision globale du projet.
