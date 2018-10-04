@@ -1,4 +1,4 @@
-# Plat indisponible
+# Préparation indisponible
 
 ---
 
