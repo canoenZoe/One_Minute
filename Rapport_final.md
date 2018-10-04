@@ -10,30 +10,28 @@
 
 ## Introduction
 
-Ce document récapitule la conception du projet de l'application "One Minute". Le but de cette application sert à faire gagner du temps au restaurant. Nous nous sommes mit à la place de tous les acteurs du restaurant, mais d'avantage sur la partie service, cuisine et du côté du menu du restaurant. 
+Ce document récapitule la conception du projet de l'application "One Minute". Le but de cette application est de faire gagner du temps au restaurant. Nous nous sommes mis à la place de tous les acteurs du restaurant, mais d'avantage sur la partie service, cuisine et menu du restaurant. 
 
 ## Sommaire
 
 1) Résumé du problème
 2) Scénarios
-3) Diagrammes de CU
-4) Diagrammes de classe
-5) Premières maquettes de l'application
-6) Glossaire métier
+3) Glossaire métier
+4) Diagrammes de cas d'utilisation
+5) Diagrammes de classes
+6) Premières maquettes de l'application
 
 ## Résumé du problème
 
 Le but de notre projet est d'informatiser le processus de gestion des commandes d'un restaurant.
-L'application doit permettre de prendre en charge une commande à partir
-de la demande du client jusqu'au règlement de l'addition en passant par le traitement en cuisine.
+L'application doit permettre de prendre en charge une commande à partir de la demande du client jusqu'au règlement de l'addition en passant par le traitement en cuisine.
 
 ## Scénarios
 
 ### Liste des scénarios
 
- 1. #### Ajout d'un plat dans une commande
-Ajouter un plat dans une commande déjà en cours.
-
+ 1. #### Ajout d'une préparation dans une commande
+Ajouter une préparation dans une commande déjà en cours.
 
  2. #### Établir un menu
 Créer ou modifier la carte de restaurant.
@@ -44,8 +42,8 @@ Un client prend commande en interagissant avec le système.
  4. #### Paiement
 Le client a terminé son repas et veut payer l'addition.
 
- 5. #### Plat indisponible
-Un plat n'est plus disponible pour la clientèle et il faut le notifier à tous.
+ 5. #### Préparation indisponible
+Une préparation n'est plus disponible pour la clientèle et il faut le notifier à tous.
 
  6. ##### Prendre une commande
 Un serveur prend la commande pour des clients.
@@ -56,8 +54,8 @@ Une partie de la commande est prête à être envoyée au client.
  8. ##### Suivre une commande
 Un membre du personnel veut suivre l'état d'avancement des commandes.
 
- 9. ##### Cuisiner un plat
-Un cuisinier veut préparer un plat pour un client
+ 9. ##### Cuisiner une préparation
+Un cuisinier veut préparer une préparation pour un client.
 
 
  ### Description des scénarios
@@ -76,26 +74,26 @@ Un cuisinier veut préparer un plat pour un client
 </details>
 
 
- <details><summary>1. Ajout d'un plat dans une commande</summary>
+ <details><summary>1. Ajout d'une préparation dans une commande</summary>
 
 <p>
 
 ----------------------------------------------------------------
 
-## Ajouts de plats dans une commande
+## Ajouts de préparations dans une commande
 
 #### Description :
 
-***Alice*** peut ajouter des plats dans une commande déjà en cours si ***Bob*** le désire.
+***Alice*** peut ajouter des préparations dans une commande déjà en cours si ***Bob*** le désire.
 
 #### Scénario :
 
-- ***Bob*** veut ajouter un plat à sa commande en cours.
+- ***Bob*** veut ajouter une préparation à sa commande en cours.
 - ***Bob*** appelle ***Alice*** pour changer sa commande.
   - ***Alice*** n'est pas disponible.
 - ***Alice*** prend sa tablette.
-- ***Alice*** ajoute le nouveau plat à la commande.
-  - Le plat n'est plus disponible.
+- ***Alice*** ajoute la nouvelle préparation à la commande.
+  - La préparation n'est plus disponible.
 - L'équipe de cuisine est avertie de l'ajout.
   - Problème de notification si problème de connexion à internet.
 
@@ -131,7 +129,7 @@ Un cuisinier veut préparer un plat pour un client
 
 ## Le client prend sa commande
 
-*La fonctionnalité étant optionnelle, elle sera décrite et travaillée ultérieurement. Nous la prévoyons pour la V2, voir V3. Nous ferons néanmois le nécéssaire pour pouvoir garder l'application la plus généraliste possible pour pouvoir incorporer cette fonctionnalité plus tard.*
+*La fonctionnalité étant optionnelle, elle sera décrite et travaillée ultérieurement. Nous la prévoyons pour la V2, voir V3. Nous ferons néanmoins le nécéssaire pour pouvoir garder l'application la plus généraliste possible pour pouvoir incorporer cette fonctionnalité plus tard.*
 
 ----------------------------------------------------------------
 </p>
@@ -168,27 +166,27 @@ Un cuisinier veut préparer un plat pour un client
 </p>
 </details>
 
- <details><summary>5. Plat indisponible</summary>
+ <details><summary>5. Préparation indisponible</summary>
 
 <p>
 
-## Plat indisponible
+## Préparation indisponible
 
 #### Description :
 
-- ***Roger*** s'aperçoit que la réalisation d'un plat ne peut être réalisé et doit donc rendre ***indisponible*** ce plat.
+- ***Roger*** s'aperçoit que la réalisation d'une préparation ne peut être réalisée et doit donc rendre ***indisponible*** cette préparation.
 
 #### Scénario :
 
-- ***Roger*** indique que le plat est ***indisponible*** sur l'application
-  - Des commandes comprenant ce plat sont en cours
-    - L'application annule les commandes comportant ce plat
+- ***Roger*** indique que la préparation est ***indisponible*** sur l'application
+  - Des commandes comprenant cette préparation sont en cours
+    - L'application annule les commandes comportant cette préparation
     - L'application notifie les serveurs des commandes annulées
-- L'application bloque la possibilité de sélectionner ce plat lors d'une commande
+- L'application bloque la possibilité de sélectionner cette préparation lors d'une commande
 
 [En attente de ***réapprovisionnement*** de.s ingrédient.s]_
-- ***Roger*** indique que le plat est de nouveau disponible
-- L'application débloque la possibilité de sélectionner ce plat lors d'une commande
+- ***Roger*** indique que la préparation est de nouveau disponible
+- L'application débloque la possibilité de sélectionner cette préparation lors d'une commande
 
 ----------------------------------------------------------------
 </p>
@@ -265,24 +263,24 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 
 <p>
 
-## Cuisiner un plat
+## Cuisiner une préparation
 
 #### Description :
 
-***Roger*** désire faire un plat, et doit informer l'application sur quel(s) plat(s) il est en train de cuisiner.
+***Roger*** désire faire une préparation, et doit informer l'application sur quelle(s) préparation(s) il est en train de cuisiner.
 
 #### Scénario :
 
-- ***Roger*** veut cuisiner un (ou plusieurs) plat(s).
-- ***Roger*** valide son identité pour voir les plats qui lui sont assignés.
-- ***Roger*** choisi un (ou plusieurs) plat(s) qu'il s'apprete à cuisinier.
+- ***Roger*** veut cuisiner une (ou plusieurs) préparation(s).
+- ***Roger*** valide son identité pour voir les préparations qui lui sont assignées.
+- ***Roger*** choisi une (ou plusieurs) préparation(s) qu'il s'apprête à cuisiner.
 - ***Roger*** valide et peut commencer à cuisiner.
-- Une fois que ***Roger*** a terminé son plat, il s'identifie à nouveau pour dire qu'il a terminé un plat.
+- Une fois que ***Roger*** a terminé sa préparation, il s'identifie à nouveau pour dire qu'il a terminé une préparation.
 - Ensuite, SOIT
-    * son plat permet de terminer une ***partie de la commande***,
-      dans ce cas une notification est envoyée aux serveurs pour venir chercher le plat.
-    * il manque un plat pour la commande, la commande est alors en attente du plat manquant.
-      Et attend qu'un cuisinier cuisine le plat manquant.
+    * sa préparation permet de terminer une ***partie de la commande***,
+      dans ce cas une notification est envoyée aux serveurs pour venir chercher la préparation.
+    * il manque une préparation pour la commande, la commande est alors en attente de la préparation manquante.
+      Et attend qu'un cuisinier cuisine la préparation manquante.
 
 ----------------------------------------------------------------
 </p>
@@ -290,15 +288,15 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 
 ## Glossaire métier
 
-- ***Addition*** : facture de la commande indiquant la liste des plats commandés ainsi que le montant total de la commande
-- ***Commande*** : Note qui sert à savoir ce que le client a choisi. Elle est prise part un serveur, et est transmise aux cuisines.
+- ***Addition*** : facture de la commande indiquant la liste des préparations commandées ainsi que le montant total de la commande
+- ***Commande*** : Note qui sert à savoir ce que le client a choisi. Elle est prise par un serveur, et est transmise aux cuisines.
 - ***État*** : état d'avancement de la commande.
-- ***Indisponible*** : Etat d'un plat qui ne peut pas/plus être réalisé par manque de un (ou plusieurs) ingrédient(s) le constituant.
+- ***Indisponible*** : Etat d'une préparation qui ne peut pas/plus être réalisée par manque de un (ou plusieurs) ingrédient(s) la constituant.
 - ***Partie de la commande*** : pack de boissons, de plats ou de desserts etc.
 - ***Réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
 - ***Stock*** : Ingrédients disponibles pour préparer les commandes.
 
-## Diagrammes de CU
+## Diagrammes de cas d'utilisation
 
 ### Acteurs
 
@@ -342,13 +340,18 @@ Nous avons choisi de représenter ces acteurs en fonction du sujet. Nous avons b
 
 ![GitHub Logo](/images/UC-Service.png)
 
-Les serveurs a la possibilité de proposer le menu au client. Il pourra notamment prendre la commande de celui-ci. Pour celà, il devra saisir le numéro de table ainsi que d'ajouter une ou plusieurs préparations à la commande. Lorsque'une préparation est ajoutée dans une commande, les préparateurs sont directement notifiés. Les serveurs ont également la possibilité de servir une partie de la commande dès lors qu'ils ont été notifiés par les préparateurs. Il pourra également suivre l'état d'avancement de la commande. Dès que celle-ci est fini, le serveur pourra générer l'addiction puis d'indiquer si le réglement a bien été réalisé.
+Le serveur a la possibilité de proposer le menu au client. Il pourra notamment prendre la commande de celui-ci. Pour cela, il devra saisir le numéro de table ainsi qu'ajouter une ou plusieurs préparations à la commande.  
+Lorsqu'une préparation est ajoutée dans une commande, les préparateurs sont directement notifiés. Les serveurs ont également la possibilité de servir une partie de la commande dès lors qu'ils ont été notifiés par les préparateurs.  
+Il peut également suivre l'état d'avancement de la commande. Dès que celle-ci est finie, le serveur pourra générer l'addition puis indiquer si le réglement a bien été réalisé.
 
 ### Cuisine
 
 ![GitHub Logo](/images/UC-Cuisine.png)
 
-Les préparateurs ont la possibilité d'indiquer sur l'application la prise en charge d'une préparation. Dès lors qu'il aura fini, il devra indiquer l'accomplissement de cette dernière. Cela aura comme conséquence de notifier tout les seveurs. Il a également la possibilité d'indiquer qu'une préparation est indisponible.
+Le préparateur a la possibilité d'indiquer sur l'application la prise en charge d'une préparation. 
+Dès qu'il a fini, il doit indiquer l'accomplissement de cette dernière. 
+Cela a comme conséquence de notifier tous les serveurs. 
+Il a également la possibilité d'indiquer qu'une préparation est indisponible.
 
 ### Gérer le menu
 
@@ -356,7 +359,7 @@ Les préparateurs ont la possibilité d'indiquer sur l'application la prise en c
 
 Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modifier et de supprimer une préparation d'un menu.
 
-## Diagramme de package
+## Diagramme de packages
 
 ![GitHub Logo](/images/diagramme_packages.PNG)
 
@@ -364,11 +367,11 @@ Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modif
 
 ![GitHub Logo](/images/diagramme_classe.PNG)
 
-## Premières versions des maquettes
+## Première version des maquettes
 
-Ces maquettes seront amenées à changer, c'est juste notre première version. Nous souhaitons laisser à tout le monde la possibilité de voir les différentes parties de l'application. A priori, les accès seront donnés par des managers. Le mieux sera de le faire en début de chaque jour, avant le service.
+Ces maquettes seront amenées à changer, il s'agit de notre première version. Nous souhaitons laisser à tout le monde la possibilité de voir les différentes parties de l'application. A priori, les accès seront donnés par des managers. Le mieux sera de le faire en début de chaque jour, avant le service.
 
-Le but de l'application est de gagner du temps. Notre application ne doit donc ne pas surcharger la charge de travail des cuisiniers. Nous ne connaissons pas le nombre de tablettes disponibles pour le restaurant, nous en comptons une par serveur pour le moment, et une ou deux en cuisine. Il sera tout à fait possible d'en mettre moins, car nous sommes bien conscients que le prix d'une tablette est assez cher. Cela pose pourtant certains problèmes, en effet, les cuisiniers ne doivent pas perdre de temps en se connectant. C'est pourquoi, nous vous proposons d'utiliser notre application avec un seul compte pour la cuisine. Chaque cuisinier doit juste d'identifier en cliquant sur un bouton avec leur nom pour que l'on sache que c'est eux qui ont fait cela. Cela leur permet de ne pas avoir à rentrer leur mot de passe. 
+Le but de l'application est de gagner du temps. Notre application ne doit donc pas alourdir la charge de travail des préparateurs. Nous ne connaissons pas le nombre de tablettes disponibles dans le restaurant, nous en comptons une par serveur pour le moment, et une ou deux en cuisine. Il sera tout à fait possible d'en mettre moins, car nous sommes bien conscients qu'une tablette coûte assez chère. Cela pose donc certains problèmes, en effet, les préparateurs ne doivent pas perdre de temps en se connectant. C'est pourquoi, nous vous proposons d'utiliser notre application avec un compte pour la cuisine. Chaque préparateur doit juste s'identifier en cliquant sur un bouton avec son nom pour que l'on sache qui cuisine quoi. Cela leur permet de ne pas avoir à rentrer leur mot de passe. 
 
 **Maquette de la partie cuisine**
 
