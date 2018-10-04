@@ -1,4 +1,4 @@
-# Ajouts de plats dans une commande
+# Ajouts de préparations dans une commande
 
 ---
 
