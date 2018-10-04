@@ -286,16 +286,6 @@ Le personnel du restaurant peut suivre l'état d'avancement d'une commande en co
 </p>
 </details>
 
-## Glossaire métier
-
-- ***Addition*** : facture de la commande indiquant la liste des préparations commandées ainsi que le montant total de la commande
-- ***Commande*** : Note qui sert à savoir ce que le client a choisi. Elle est prise par un serveur, et est transmise aux cuisines.
-- ***État*** : état d'avancement de la commande.
-- ***Indisponible*** : Etat d'une préparation qui ne peut pas/plus être réalisée par manque de un (ou plusieurs) ingrédient(s) la constituant.
-- ***Partie de la commande*** : pack de boissons, de plats ou de desserts etc.
-- ***Réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
-- ***Stock*** : Ingrédients disponibles pour préparer les commandes.
-
 ## Diagrammes de cas d'utilisation
 
 ### Acteurs
@@ -375,9 +365,26 @@ Le but de l'application est de gagner du temps. Notre application ne doit donc p
 
 **Maquette de la partie cuisine**
 
-![GitHub Logo](/Maquettes/Cuisine.png)
+![GitHub Logo](/Maquettes/1.0.0/Cuisine.png)
+![GitHub Logo](/Maquettes/2.0.0/Cuisine.png)
 
 **Maquette de la partie service**
 
-![GitHub Logo](/Maquettes/Service.png)
+![GitHub Logo](/Maquettes/1.0.0/Service.png)
+![GitHub Logo](/Maquettes/2.0.0/Service.png)
+
+
+## Glossaire métier
+
+- ***Addition*** : facture de la commande indiquant la liste des préparations commandées ainsi que le montant total de la commande
+- ***Commande*** : Note qui sert à savoir ce que le client a choisi. Elle est prise par un serveur, et est transmise aux cuisines.
+- ***État*** : état d'avancement de la commande.
+- ***Indisponible*** : Etat d'une préparation qui ne peut pas/plus être réalisée par manque de un (ou plusieurs) ingrédient(s) la constituant.
+- ***Partie de la commande*** : pack de boissons, de plats ou de desserts etc.
+- ***Réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
+- ***Stock*** : Ingrédients disponibles pour préparer les commandes.
+
+## Retroplanning
+
+
 
