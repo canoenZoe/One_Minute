@@ -357,20 +357,34 @@ Le patron a la possibilité de gérer le menu, c'est-à-dire d'ajouter, de modif
 
 ![GitHub Logo](/images/diagramme_classe.PNG)
 
-## Première version des maquettes
+## Premières versions des maquettes
 
-Ces maquettes seront amenées à changer, il s'agit de notre première version. Nous souhaitons laisser à tout le monde la possibilité de voir les différentes parties de l'application. A priori, les accès seront donnés par des managers. Le mieux sera de le faire en début de chaque jour, avant le service.
+Ces maquettes seront amenées à changer, il s'agit de nos premières versions.
+
+L'application aura plusieurs vues en fonction des utilisateurs. Chaque vue sera selectionnable à gauche de l'écran. Nous souhaitons laisser à tous les membres du restaurant la possibilité de voir les différentes parties de l'application. A priori, les accès seront donnés par des managers. Le mieux sera de le faire en début de chaque jour, avant le service.
 
 Le but de l'application est de gagner du temps. Notre application ne doit donc pas alourdir la charge de travail des préparateurs. Nous ne connaissons pas le nombre de tablettes disponibles dans le restaurant, nous en comptons une par serveur pour le moment, et une ou deux en cuisine. Il sera tout à fait possible d'en mettre moins, car nous sommes bien conscients qu'une tablette coûte assez chère. Cela pose donc certains problèmes, en effet, les préparateurs ne doivent pas perdre de temps en se connectant. C'est pourquoi, nous vous proposons d'utiliser notre application avec un compte pour la cuisine. Chaque préparateur doit juste s'identifier en cliquant sur un bouton avec son nom pour que l'on sache qui cuisine quoi. Cela leur permet de ne pas avoir à rentrer leur mot de passe. 
 
-**Maquette de la partie cuisine**
+### Maquette de la partie cuisine
+
+#### Première version 
+
+Dans cette version pour pouvons observer qu'il y aura deux vues pour les préparateurs. Une première vue avec les catégories de plats, et une seconde en fonction des commandes. Le but des catégories était de faire gagner du temps aux préparateurs. Etant donné le fait que la vue des commandes est aussi importante, nous allons aussi la laisser.
 
 ![GitHub Logo](/Maquettes/1.0.0/Cuisine.png)
+
+Suite à la création de cette maquette nous ai venu l'idée de laisser la possibilité aux préparateurs de ne pas perdre de temps en s'identifiant. C'est pourquoi ils auront juste à appuyer sur leur photo à droite, valider leur nom et choisir le plat qu'ils veulent s'approprier ou valider.
+
 ![GitHub Logo](/Maquettes/2.0.0/Cuisine.png)
 
-**Maquette de la partie service**
+### Maquette de la partie service
+
+Dans cette version, l'idée était de permettre aux serveurs de recréer le restaurant sous la forme d'une vue. Ceci avait pour but de savoir quelle table était laquelle. Malheureusement cette solution étaient assez technique et allait prendre du temps.
 
 ![GitHub Logo](/Maquettes/1.0.0/Service.png)
+
+La seconde solution était plus portée sur quelque chose de plus simple techniquement. Mais, cela a permit de voir l'avancement des commandes plus facilement.
+
 ![GitHub Logo](/Maquettes/2.0.0/Service.png)
 
 
