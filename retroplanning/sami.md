@@ -1,5 +1,10 @@
 # Retroplanning de BARCHID Sami
 
+## Tâches faites
+- Élaboration des diagrammes de classe
+- Élaboration du diagramme de package
+- Élaboration de scénarios concrets
+
 ## Méthode de travail
 Ma manière de travailler personnelle dans le projet a été de profiter des TPs pour mixer un maximum des jugements de chacun sur tous les travaux à réaliser (diagrammes, scénarios, etc) afin d'être directement fixé sur la façon de remplir mes tâches. Personnellement, je pense que les deux heures de TPs par semaine sont plus utiles si on les utilise pour entrechoquer nos idées que réellement écrire quelque chose qui ne satisfait pas tout le monde.
 
