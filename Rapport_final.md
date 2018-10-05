@@ -525,3 +525,37 @@ Je pense que nous avançons très bien, et que nous faisons face à tous les év
 #### Ressenti
 
 J'aurai adoré n'avoir que GL à travailler ce semestre. C'est rééllement une matière fort intéréssante. Au début nous devions trouver notre rythme de croisière et je crois que nous l'avons trouvé. Les réunions de groupe lors des tps sont vraiment très utiles et nous avançons beaucoup. Chacun peut ainsi avoir une vision globale du projet.
+
+### Retroplanning de Anthony SLIIMANI
+
+#### Tâches faites
+
+- Élaboration de scénarios concrets & un alternatif
+- Élaboration des diagrammes des cas d'utilisations
+- Participation à l'élaboration du diagramme de classess
+
+
+#### Difficultés
+On a pu constater un début difficile au niveau de l'organisation mais nous avons pu nous harmoniser au fil des semaines. Nous avons des idées intéressantes mais parfois qui s'écarte un peu trop du sujet principal ou encore n'a pas la nécessité d'être élaborer pour cette première itération. Nous avons eu quelques difficulés sur les standarts UML en contatant diverses divergences avec le cours, les livres de référence ou encore des documents sur Internet.
+
+#### Ressenti
+
+Cette itération m'a montré que toute l'équipe était motivé pour ce début de projet. J'espère que cette motivation va perdurer durant les prochaines itérations. Une bonne cohésion d'équipe s'est formé durant ces quelques semaines. Tout le monde essaye de s'adapter aux autres, à son rythme. J'aime beaucoup la manière que chacun appréhende le sujet, de voir la diversité de nos idées et l'ouverture d'esprit de chacun lors des échanges de nos idées pour parvenir à une solution qui correspond le plus aux besoins du client.
+
+### Retroplanning of Noura
+
+#### Done tasks
+Description of case of use 
+Package diagram elaboration of one version
+contribution in the glossary elaboration
+
+#### Work's Method
+For me, working within  a team is a greatfull experience ; during the "TP" , I try usually to understand the ideas of my colleagues 
+and mainly try to explain mine.
+The most important thing that I try to get it after each meeting is to gather what Mr Michaël Launay tells us and what we sugggess to do as a srategy. Even between us, we have really many points of view, so that to make a collective decision is really so interesting.
+
+#### Difficulties
+If I will speak about difficulties, I will start by the différence of language with our responsible and with my colleagues. After each meetiig, and whan I come back to home i try to remember the most important suggession, sentences and even words and I start "traduction service", it takes much time. Besides, one of the most things that was difficult for me, is that our project seems to be clear in his glabal view : "take an order inside a restaurant", but  some details about at which level we are limited to designing this application ; should we just take into consideration "the service  give by the waiter" or may be be so selective when we had to choose the performance evaluation criterion (good service/client satisfaction/price/time taken by the application), make it a bit complicated.
+
+
+
