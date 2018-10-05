@@ -2,14 +2,15 @@
 //Done tasks
 Description of case of use 
 Package diagram elaboration of one version
+contribution in the glossary elaboration
 
-////Work's Method
+//Work's Method
 For me , working within  a team is a greatfull experience ;during the "TP" , i try usually to understand the ideas of my colleagues 
 and mainly try to explain mine.
 the most important thing that i try to get it after each meeting is to gather what Mr, Michaël Launay  tells us and what we sugggess to do
 as a srategy.Even between us , we have really many points of view, so that to make a collective decision is really so interesting.
 
-Difficulties
+//Difficulties
 if i will speak about difficulties  , i will start by the différence of language with our responsible 
 and with my colleagues.after each meetiig , and whan i come back to home i try to remember the most important suggession, 
 sentences and even words and i start "traduction service" , it takes much time  .
