@@ -24,24 +24,26 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_Xu8MxsgAEei0qLd4JKCY2w" name="Supprimer une préparation">
       <generalization xmi:type="uml:Generalization" xmi:id="_1ON4wMgBEei0qLd4JKCY2w" general="_Xu8MwcgAEei0qLd4JKCY2w"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLwMgDEei0qLd4JKCY2w" name="Prise d'une commande">
+      <include xmi:type="uml:Include" xmi:id="_Jng_0M12EeikB5O2wUdc5w" addition="__eVLw8gDEei0qLd4JKCY2w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLwcgDEei0qLd4JKCY2w" name="Générer l'addition de la commande">
+      <extend xmi:type="uml:Extend" xmi:id="_FM_8UM12EeikB5O2wUdc5w" extendedCase="__eVLxsgDEei0qLd4JKCY2w" extensionLocation="_FNAjYM12EeikB5O2wUdc5w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLwsgDEei0qLd4JKCY2w" name="Ajouter une préparation à la commande">
+      <include xmi:type="uml:Include" xmi:id="_5_FSYM11EeikB5O2wUdc5w" addition="__eVLwMgDEei0qLd4JKCY2w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLw8gDEei0qLd4JKCY2w" name="Saisir le numéro de table"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLxMgDEei0qLd4JKCY2w" name="Proposer le menu du restaurant"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLxcgDEei0qLd4JKCY2w" name="Servir une partie de la commande"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLxsgDEei0qLd4JKCY2w" name="Valider le paiement de la commande">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FNAjYM12EeikB5O2wUdc5w" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__-HCkMgEEei0qLd4JKCY2w" name="Indiquer que la préparation n'est plus disponible"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__-HCkcgEEei0qLd4JKCY2w" name="Prendre en charge une préparation"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="__eUksMgDEei0qLd4JKCY2w" name="Suivre l'avancement d'une commande">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__eUkscgDEei0qLd4JKCY2w" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLwMgDEei0qLd4JKCY2w" name="Prise d'une commande"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLwcgDEei0qLd4JKCY2w" name="Générer l'addition de la commande">
-      <include xmi:type="uml:Include" xmi:id="_g4VdYMgEEei0qLd4JKCY2w" addition="__eVLxsgDEei0qLd4JKCY2w"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLwsgDEei0qLd4JKCY2w" name="Ajouter une préparation à la commande">
-      <generalization xmi:type="uml:Generalization" xmi:id="_stvlIMgEEei0qLd4JKCY2w" general="__eVLwMgDEei0qLd4JKCY2w"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLw8gDEei0qLd4JKCY2w" name="Saisir le numéro de table">
-      <generalization xmi:type="uml:Generalization" xmi:id="_sKkmoMgEEei0qLd4JKCY2w" general="__eVLwMgDEei0qLd4JKCY2w"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLxMgDEei0qLd4JKCY2w" name="Proposer le menu du restaurant"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLxcgDEei0qLd4JKCY2w" name="Servir une partie de la commande"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__eVLxsgDEei0qLd4JKCY2w" name="Valider le paiement de la commande"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__-HCkMgEEei0qLd4JKCY2w" name="Indiquer que la préparation n'est plus disponible"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__-HCkcgEEei0qLd4JKCY2w" name="Prendre en charge une préparation"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_nyJ04MgEEei0qLd4JKCY2w" memberEnd="_nyKb8sgEEei0qLd4JKCY2w _nyKb88gEEei0qLd4JKCY2w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nyKb8MgEEei0qLd4JKCY2w" source="org.eclipse.papyrus">
@@ -93,4 +95,11 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_FOnS48gFEei0qLd4JKCY2w" name="préparateur" type="_-cGR8MAcEeiyhJlvrjN7-Q" association="_FOmr0MgFEei0qLd4JKCY2w"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_o_3vwMgFEei0qLd4JKCY2w"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8LYAQM10EeikB5O2wUdc5w" memberEnd="_8Let8M10EeikB5O2wUdc5w _8LfVAM10EeikB5O2wUdc5w">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Ldf0M10EeikB5O2wUdc5w" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8LeG4M10EeikB5O2wUdc5w" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8Let8M10EeikB5O2wUdc5w" name="ajouter une préparation à la commande" type="__eVLwsgDEei0qLd4JKCY2w" association="_8LYAQM10EeikB5O2wUdc5w"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8LfVAM10EeikB5O2wUdc5w" name="serveur" type="_y1RscMCjEeiBivGFc5TvdA" association="_8LYAQM10EeikB5O2wUdc5w"/>
+  </packagedElement>
 </uml:Model>
