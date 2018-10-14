@@ -27,9 +27,9 @@ Le serveur est authentifié dans le système.
 ***Post-condition :*** Le serveur a consulté l'état d'avancement d'une commande.  
   
 ***Scénario d'exception :***  
-- 2a. [Le système n'est pas connecté à internet]
-  - 2a.1 Le système prévient le serveur qu'il ne parvient pas à se connecter à internet.
-  - 2a.2 Le système met fin à la session.  
+- 3a. [Le système n'est pas connecté à internet]
+  - 3a.1 Le système prévient le serveur qu'il ne parvient pas à se connecter à internet.
+  - 3a.2 Le système met fin à la session.  
     
 ---
 
