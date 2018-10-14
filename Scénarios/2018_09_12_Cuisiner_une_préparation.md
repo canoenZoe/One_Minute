@@ -31,8 +31,7 @@ Le serveur est authentifié dans le système.
 ***Scénarios alternatifs :***  
 - 3a. [Le cuisinier se rend compte qu'il n'est plus possible de réaliser une ou plusieurs *préparations*]
   - 3a.1 Le cuisinier indique au système qu'une ou plusieurs *préparations* ne sont plus disponibles.
-  - 3a.2 Le système notifie les serveurs qu'une ou plusieurs *préparations* ne vont pas pouvoir être réalisées.
-  - 3a.3 Renvoie à 3.  
+  - 3a.2 Renvoie à 3.  
    
 - 10a. [Il manque une ou plusieurs *préparations* pour terminer une *partie de commande*]
   - 10a.1 La commande est en attente de la ou les *préparations* manquantes.
