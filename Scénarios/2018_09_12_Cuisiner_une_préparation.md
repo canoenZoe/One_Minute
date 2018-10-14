@@ -9,8 +9,7 @@
 ---
 
 ***Pré-conditions :***  
-Des commandes sont en cours.  
-Le serveur est authentifié dans le système.  
+Des commandes sont en cours.
   
 ***Déclenchement :*** Le cas commence lorsque le cuisinier souhaite souhaite s'occuper d'une ou plusieurs *préparations*.   
   
@@ -30,7 +29,7 @@ Le serveur est authentifié dans le système.
   
 ***Scénarios alternatifs :***  
 - 3a. [Le cuisinier se rend compte qu'il n'est plus possible de réaliser une ou plusieurs *préparations*]
-  - 3a.1 Le cuisinier indique au système qu'une ou plusieurs *préparations* ne sont plus disponibles.
+  - 3a.1 Le cuisinier indique au système qu'une ou plusieurs *préparations* ne sont plus disponibles (Scénario ***Préparation indisponible***).
   - 3a.2 Renvoie à 3.  
    
 - 10a. [Il manque une ou plusieurs *préparations* pour terminer une *partie de commande*]
