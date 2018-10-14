@@ -19,13 +19,10 @@
     <packagedElement xmi:type="uml:Actor" xmi:id="_NZws-M13EeikB5O2wUdc5w" name="Membre du restaurant"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_NZws-c13EeikB5O2wUdc5w" name="Application 'One minute'">
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NZws-s13EeikB5O2wUdc5w" name="Gérer le menu"/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZws-813EeikB5O2wUdc5w" name="Ajouter une préparation">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZws-813EeikB5O2wUdc5w" name="Ajouter une préparation au menu">
         <generalization xmi:type="uml:Generalization" xmi:id="_NZws_M13EeikB5O2wUdc5w" general="_NZws-s13EeikB5O2wUdc5w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZws_c13EeikB5O2wUdc5w" name="Modifier une préparation">
-        <generalization xmi:type="uml:Generalization" xmi:id="_NZws_s13EeikB5O2wUdc5w" general="_NZws-s13EeikB5O2wUdc5w"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZws_813EeikB5O2wUdc5w" name="Supprimer une préparation">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZws_813EeikB5O2wUdc5w" name="Retirer une préparation au menu">
         <generalization xmi:type="uml:Generalization" xmi:id="_NZwtAM13EeikB5O2wUdc5w" general="_NZws-s13EeikB5O2wUdc5w"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtAc13EeikB5O2wUdc5w" name="Prise d'une commande">
@@ -48,6 +45,16 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtDs13EeikB5O2wUdc5w" name="Suivre l'avancement d'une commande">
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_NZwtD813EeikB5O2wUdc5w" name="ExtensionPoint1"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_lHn8gNAAEei7l8RGFfbKKQ" name="Créer une préparation">
+        <generalization xmi:type="uml:Generalization" xmi:id="_2OCD0NAAEei7l8RGFfbKKQ" general="_rjFkENAAEei7l8RGFfbKKQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_nmImUNAAEei7l8RGFfbKKQ" name="Modifier une préparation">
+        <generalization xmi:type="uml:Generalization" xmi:id="_6Hx8kNAAEei7l8RGFfbKKQ" general="_rjFkENAAEei7l8RGFfbKKQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_pYk0UNAAEei7l8RGFfbKKQ" name="Supprimer une préparation">
+        <generalization xmi:type="uml:Generalization" xmi:id="_BVuJ8NABEei7l8RGFfbKKQ" general="_rjFkENAAEei7l8RGFfbKKQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_rjFkENAAEei7l8RGFfbKKQ" name="Gérer les préparations"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_NZwtEM13EeikB5O2wUdc5w" memberEnd="_NZwtE813EeikB5O2wUdc5w _NZwtFM13EeikB5O2wUdc5w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NZwtEc13EeikB5O2wUdc5w" source="org.eclipse.papyrus">
@@ -105,6 +112,13 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_NZwtN813EeikB5O2wUdc5w" name="ajouter une préparation à la commande" type="_NZwtBc13EeikB5O2wUdc5w" association="_NZwtNM13EeikB5O2wUdc5w"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_NZwtOM13EeikB5O2wUdc5w" name="serveur" type="_NZws9s13EeikB5O2wUdc5w" association="_NZwtNM13EeikB5O2wUdc5w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_HvfvcNABEei7l8RGFfbKKQ" memberEnd="_HvyqYNABEei7l8RGFfbKKQ _HvyqYdABEei7l8RGFfbKKQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HvpgcNABEei7l8RGFfbKKQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HvpgcdABEei7l8RGFfbKKQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HvyqYNABEei7l8RGFfbKKQ" name="gérer les préparations" type="_rjFkENAAEei7l8RGFfbKKQ" association="_HvfvcNABEei7l8RGFfbKKQ"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_HvyqYdABEei7l8RGFfbKKQ" name="patron" type="_NZws9M13EeikB5O2wUdc5w" association="_HvfvcNABEei7l8RGFfbKKQ"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_jb5HYM13EeikB5O2wUdc5w" name="Classe">
