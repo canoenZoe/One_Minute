@@ -20,9 +20,9 @@ Le serveur est authentifié dans le système.
 3. Le système affiche la liste des commandes en cours.  
 4. Le serveur sélectionne la commande du client. 
 5. Le système affiche le résumé et l'état d'avancement de la commande sélectionnée.  
-6. Le serveur voit quelles sont les parties de la commande qui sont prêtes ou non.  
+6. Le serveur voit quelles sont les *parties de la commande* qui sont prêtes ou non.  
   
-*Remarque :* Lorsqu'une partie de la commande est prête, elle peut alors être servie. Le scénario ***Servir une commande*** peut se réaliser.    
+*Remarque :* Lorsqu'une *partie de la commande* est prête, elle peut alors être servie. Le scénario ***Servir une commande*** peut se réaliser.    
   
 ***Post-condition :*** Le serveur a consulté l'état d'avancement d'une commande.  
   
@@ -35,4 +35,5 @@ Le serveur est authentifié dans le système.
 
 ### Glossaire :
 
-- *préparation* : Entrée / Plat / Dessert / Boisson
+- *préparation* : Entrée / Plat / Dessert / Boisson  
+- *partie de la commande* : Ensemble des entrées, des plats, des desserts ou des boissons.
