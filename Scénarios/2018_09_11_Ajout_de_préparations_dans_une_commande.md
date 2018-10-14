@@ -30,19 +30,19 @@ Le serveur est authentifié dans le système.
 ***Post-condition :*** L'équipe de cuisine est notifiée de la modification de la commande en question.  
   
 ***Scénarios alternatifs :***  
-2a. [Aucun serveur n'est disponible]  
-- 2a.1 Le client attend qu'un serveur soit de nouveau disponible.  
-- 2a.2 Renvoie à 1.   
+- 2a. [Aucun serveur n'est disponible]
+  - 2a.1 Le client attend qu'un serveur soit de nouveau disponible.
+  - 2a.2 Renvoie à 1.
   
-9a. [Une ou plusieurs *préparations* demandées ne sont plus disponibles]  
-- 9a.1 Le système affiche que la ou les *préparations* ne sont plus disponibles.  
-- 9a.2 Le serveur ne peut pas les sélectionner.  
-- 9a.3 Renvoie à 8.  
+- 9a. [Une ou plusieurs *préparations* demandées ne sont plus disponibles]
+  - 9a.1 Le système affiche que la ou les *préparations* ne sont plus disponibles.
+  - 9a.2 Le serveur ne peut pas les sélectionner.
+  - 9a.3 Renvoie à 8.  
    
 ***Scénario d'exception :***  
-5a. [Le système n'est pas connecté à internet]  
-- 5a.1 Le système prévient le serveur qu'il ne parvient pas à se connecter à internet.  
-- 5a.2 Le système met fin à la session.  
+- 5a. [Le système n'est pas connecté à internet]
+  - 5a.1 Le système prévient le serveur qu'il ne parvient pas à se connecter à internet.
+  - 5a.2 Le système met fin à la session.  
     
 ---
 
