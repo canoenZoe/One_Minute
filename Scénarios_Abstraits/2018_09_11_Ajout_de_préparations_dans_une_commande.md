@@ -1,3 +1,6 @@
+#  Ajout de préparations dans une commande  
+
+
 ***Nom du cas :*** Ajout de *préparations* dans une commande  
 ***But :*** Ce cas montre les étapes permettant au serveur d'ajouter des *préparations* dans une commande déjà en cours lorsque le client le désire.  
 ***Acteur principal :*** Le serveur    
@@ -9,11 +12,11 @@
 ---
 
 ***Pré-conditions :***  
-Le client a déjà commandé une fois auparavant.  
-Le serveur est authentifié dans le système.  
-  
-***Déclenchement :*** Le cas commence lorsque le client souhaite ajouter des *préparations* à sa commande.   
-  
+- Le client a déjà commandé une fois auparavant.  
+- Le serveur est authentifié dans le système.  
+
+***Déclenchement :*** Le cas commence lorsque le client souhaite ajouter des *préparations* à sa commande.
+
 ***Scénario nominal :***  
 1. Le client fait appel à un serveur afin de changer sa commande.  
 2. Le serveur arrive à la table du client.  
@@ -26,24 +29,25 @@ Le serveur est authentifié dans le système.
 9. Le serveur ajoute la ou les nouvelles *préparations* à la commande.  
 10. Le serveur confirme l'ajout de *préparations*.  
 11. Le système notifie l'équipe de cuisine que la commande a été modifiée.  
-  
-***Post-condition :*** L'équipe de cuisine est notifiée de la modification de la commande en question.  
-  
+
+***Post-condition :***
+- L'équipe de cuisine est notifiée de la modification de la commande en question.  
+
 ***Scénarios alternatifs :***  
 - 2a. [Aucun serveur n'est disponible]
   - 2a.1 Le client attend qu'un serveur soit de nouveau disponible.
   - 2a.2 Renvoie à 1.
-  
+
 - 9a. [Une ou plusieurs *préparations* demandées ne sont plus disponibles]
   - 9a.1 Le système affiche que la ou les *préparations* ne sont plus disponibles.
   - 9a.2 Le serveur ne peut pas les sélectionner.
   - 9a.3 Renvoie à 8.  
-   
+
 ***Scénario d'exception :***  
 - 5a. [Le système n'est pas connecté à internet]
   - 5a.1 Le système prévient le serveur qu'il ne parvient pas à se connecter à internet.
   - 5a.2 Le système met fin à la session.  
-    
+
 ---
 
 ### Glossaire :
