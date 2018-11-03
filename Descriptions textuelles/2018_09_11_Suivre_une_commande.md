@@ -9,28 +9,28 @@
 ---
 
 ***Pré-conditions :***  
-Des commandes sont en cours.  
-Le serveur est authentifié dans le système.  
-  
+* Des commandes sont en cours.  
+* Le serveur est authentifié dans le système.  
+
 ***Déclenchement :*** Le cas commence lorsque le serveur souhaite vérifier l'état d'avancement d'une commande.   
-  
+
 ***Scénario nominal :***  
 1. Le serveur veut savoir si la *préparation* d'un client est prête.  
 2. Le serveur sélectionne la liste des commandes en cours.  
 3. Le système affiche la liste des commandes en cours.  
-4. Le serveur sélectionne la commande du client. 
+4. Le serveur sélectionne la commande du client.
 5. Le système affiche le résumé et l'état d'avancement de la commande sélectionnée.  
 6. Le serveur voit quelles sont les *parties de la commande* qui sont prêtes ou non.  
-  
+
 *Remarque :* Lorsqu'une *partie de la commande* est prête, elle peut alors être servie. Le scénario ***Servir une commande*** peut se réaliser.    
-  
+
 ***Post-condition :*** Le serveur a consulté l'état d'avancement d'une commande.  
-  
+
 ***Scénario d'exception :***  
 - 3a. [Le système n'est pas connecté à internet]
   - 3a.1 Le système prévient le serveur qu'il ne parvient pas à se connecter à internet.
   - 3a.2 Le système met fin à la session.  
-    
+
 ---
 
 ### Glossaire :

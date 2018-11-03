@@ -34,10 +34,10 @@ Le patron indique qu'il veut créer une préparation.
 	- 4.a.2. Retour à l'étape 2.
 
 ### Scénarios d'exception
-- *.a. [Panne de réseau]
-	- *.a.1 Le système indique que le réseau a été coupé.
-	- *.a.2 Le système retourne à son état d'avant le déclenchement.
-	- *.a.3 Fin du CU.
+- \*.a. [Panne de réseau]
+	- \*.a.1 Le système indique que le réseau a été coupé.
+	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
+	- \*.a.3 Fin du CU.
 
 ### Informations supplémentaires
 - **Version** : 1

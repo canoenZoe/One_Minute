@@ -20,7 +20,6 @@
 
 ***Post-condition :***
 - La partie de commande est servie au client.
-- Le client
 
 ***Scénario nominal :***
 1. Le serveur consulte les parties de commandes prêtes à servir.
@@ -40,7 +39,7 @@
 
 	***Post-condition :***
 	- La partie de commande est servie au client.
-	- Le client
+
 
 ***Scénarios d'exception :***
 - 2.a. [Aucune partie de commande prête à servir]

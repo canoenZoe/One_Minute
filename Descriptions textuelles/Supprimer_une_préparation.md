@@ -38,14 +38,14 @@ Le patron indique qu'il veut supprimer une préparation.
 	- 4.b.4. Aller à l'étape 5.
 
 ### Scénarios d'exception
-- 4.b.3.a. [Le patron refuse la suppression de la préparation.]
+- 4.b.3.a. [Le patron refuse la suppression de la préparation]
 	- 4.b.3.a.1. Le système annule la suppression de la préparation.
 	- 4.b.3.a.2. Le système retourne à son état d'avant le déclenchement.
 	- 4.b.3.a.3. Fin du CU.
-- *.a. [Panne de réseau]
-	- *.a.1 Le système indique que le réseau a été coupé.
-	- *.a.2 Le système retourne à son état d'avant le déclenchement.
-	- *.a.3 Fin du CU.
+- \*.a. [Panne de réseau]
+	- \*.a.1 Le système indique que le réseau a été coupé.
+	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
+	- \*.a.3 Fin du CU.
 
 ### Informations supplémentaires
 - **Version** : 1

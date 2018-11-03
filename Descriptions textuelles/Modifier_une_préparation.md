@@ -43,10 +43,10 @@ Le patron indique qu'il veut modifier une préparation.
 	- 2.a.1. Le système affiche un message d'erreur.
 	- 2.a.2. Le système revient à son état d'avant le déclenchement.
 	- 2.a.3. Fin du CU.
-- *.a. [Panne de réseau]
-	- *.a.1 Le système indique que le réseau a été coupé.
-	- *.a.2 Le système retourne à son état d'avant le déclenchement.
-	- *.a.3 Fin du CU.
+- \*.a. [Panne de réseau]
+	- \*.a.1 Le système indique que le réseau a été coupé.
+	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
+	- \*.a.3 Fin du CU.
 
 ### Informations supplémentaires
 - **Version** : 1

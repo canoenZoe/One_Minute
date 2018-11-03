@@ -29,7 +29,7 @@ Le patron indique qu'il veut ajouter une préparation au menu choisi.
 
 ### Scénarios alternatifs
 - 3.a. [La préparation à ajouter n'existe pas / existe déjà dans le menu]
-	- 3.a.1. La patron indique qu'il veut 
+	- 3.a.1. La patron indique qu'il veut
 	- 3.a.2. Exécuter le CU : "Ajouter une préparation"
 	- 3.a.3. Aller à l'étape 4.
 
@@ -42,10 +42,10 @@ Le patron indique qu'il veut ajouter une préparation au menu choisi.
 	- 3.b.1. Le système affiche un message d'erreur.
 	- 3.b.2. Le système revient à son état d'avant le déclenchement.
 	- 3.b.3. Fin du CU.
-- *.a. [Panne de réseau]
-	- *.a.1 Le système indique que le réseau a été coupé.
-	- *.a.2 Le système retourne à son état d'avant le déclenchement.
-	- *.a.3 Fin du CU.
+- \*.a. [Panne de réseau]
+	- \*.a.1 Le système indique que le réseau a été coupé.
+	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
+	- \*.a.3 Fin du CU.
 
 ### Informations supplémentaires
 - **Version** : 1
