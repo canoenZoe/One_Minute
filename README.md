@@ -15,6 +15,9 @@ Dépôt du projet de génie logiciel (GL), M1S1 année 2018-2019.
 
 ### Les répertoires
 
+#### application
+Répertoire comprenant la maquette intéractive de l'application.
+
 #### Diagrammes
 Répertoire comprenant les diagrammes UML de l'analyse de l'application One Minute. Ce répertoire comprend :
 
