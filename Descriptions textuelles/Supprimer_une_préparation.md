@@ -1,24 +1,29 @@
 # Supprimer une préparation
 
-### Nom
-Supprimer une préparation.
+------
 
-### Résumé
-Le patron supprime une préparation existante.
+**Nom du cas :** Supprimer une préparation.
+**But :** Le patron supprime une préparation existante.
+**Acteur principal :** Patron
+**Date de création :** 19/10/2018
+**Nom du responsable de création :** Sami BARCHID
+**Dernière date de mise à jour : **05/11/2018
+**Nom du responsable de la dernière modification :** Sami BARCHID
+**Version :** 1
 
-### Acteurs
-- Patron
+------
 
-### Déclenchement
-Le patron indique qu'il veut supprimer une préparation.
+*Ce scénario prend en compte les conditions explicitées dans le document "Général.md".*
 
-### Pré-condition
+------
+
+**Pré-conditions :**
 - Le patron est authentifié dans le système.
 
-### Post-condition
-- La préparation est retirée du système
+**Déclenchement :**
+Le patron indique qu'il veut supprimer une préparation.
 
-### Scénario nominal
+**Scénario nominal :**
 1. Le patron indique qu'il veut supprimer une préparation.
 2. Le système affiche les préparations existantes.
 3. Le patron choisit la préparation à supprimer.
@@ -29,7 +34,10 @@ Le patron indique qu'il veut supprimer une préparation.
 8. Le système indique au patron que la préparation est supprimée.
 9. Fin du CU.
 
-### Scénarios alternatifs
+**Post-conditions :**
+- La préparation est retirée du système
+
+**Scénarios alternatifs :**
 - 5.a. [Le patron infirme la suppression de la préparation choisie]
 	- 5.a.1. Le système affiche un message d'erreur.
 	- 5.a.2. Retour à l'étape 2.
@@ -42,7 +50,7 @@ Le patron indique qu'il veut supprimer une préparation.
 	- 6.b.3. Le patron confirme la suppression de la préparation.
 	- 6.b.4. Aller à l'étape 7.
 
-### Scénarios d'exception
+**Scénarios d'exception :**
 - 6.b.3.a. [Le patron refuse la suppression de la préparation]
 	- 6.b.3.a.1. Le système annule la suppression de la préparation.
 	- 6.b.3.a.2. Le système retourne à son état d'avant le déclenchement.
@@ -51,8 +59,3 @@ Le patron indique qu'il veut supprimer une préparation.
 	- \*.a.1 Le système indique que le réseau a été coupé.
 	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
 	- \*.a.3 Fin du CU.
-
-### Informations supplémentaires
-- **Version** : 1
-- **Date de création :** 14/10/2018
-- **Responsable** : BARCHID Sami
