@@ -22,6 +22,9 @@
           <children>
             <emfPageIdentifier href="Diagrammes.notation#_8P2R8OE7EeiwIoiooT5Cxw"/>
           </children>
+          <children>
+            <emfPageIdentifier href="Diagrammes.notation#_4YppIMAZEeiyhJlvrjN7-Q"/>
+          </children>
         </children>
       </windows>
     </sashModel>

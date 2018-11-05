@@ -23,15 +23,23 @@ Le patron indique qu'il veut retirer une préparation au menu.
 1. Le patron indique qu'il veut retirer une préparation au menu.
 2. Le système affiche les préparations du menu.
 3. Le patron choisit la préparation à retirer.
-4. Le système valide la préparation choisie.
-5. Le système supprime la préparation du menu.
-6. Le système enregistre la suppression par le patron.
-7. Fin du CU.
+4. Le système demande la confirmation au patron.
+5. Le patron confirme le choix de la préparation à retirer.
+6. Le système valide la préparation choisie.
+7. Le système supprime la préparation du menu.
+8. Le système enregistre la suppression par le patron.
+9. Fin du CU.
 
 ### Scénarios alternatifs
-- 4.a. [La préparation choisie n'est pas valide / est déjà retirée]
-	- 4.a.1. Le système affiche un message d'erreur.
-	- 4.a.2. Retour à l'étape 2.
+- 5.a. [Le patron infirme la préparation à retirer]
+	- 5.a.1. Le système affiche un message d'erreur.
+	- 5.a.2. Le système revient à son état d'avant le déclenchement.
+	- 5.a.3. Retour à l'étape 2.
+
+- 6.a. [La préparation choisie n'est pas valide / est déjà retirée]
+	- 6.a.1. Le système affiche un message d'erreur.
+	- 6.a.2. Le système revient à son état d'avant le déclenchement.
+	- 6.a.3. Retour à l'étape 2.
 
 ### Scénarios d'exception
 - 2.b. [Aucune préparation n'existe dans le menu]

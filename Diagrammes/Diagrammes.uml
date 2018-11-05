@@ -489,7 +489,7 @@
     <message xmi:type="uml:Message" xmi:id="_-duUcOCbEeibyvNJ2qrFaw" name="Valider les données" receiveEvent="_-dvikeCbEeibyvNJ2qrFaw" sendEvent="_-dvikOCbEeibyvNJ2qrFaw"/>
     <message xmi:type="uml:Message" xmi:id="_DzrsgOCcEeibyvNJ2qrFaw" name="Enregistrer la modification" receiveEvent="_DzthsOCcEeibyvNJ2qrFaw" sendEvent="_Dzs6oOCcEeibyvNJ2qrFaw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_7hA2AOE7EeiwIoiooT5Cxw" name="Interaction14">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_7hA2AOE7EeiwIoiooT5Cxw" name="Supprimer une préparation">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_9vNy8OE7EeiwIoiooT5Cxw" name="" type="_NZws9M13EeikB5O2wUdc5w"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_9vNL4OE7EeiwIoiooT5Cxw" name="" represents="_9vNy8OE7EeiwIoiooT5Cxw" coveredBy="_C7fqkOE8EeiwIoiooT5Cxw _C8GHgeE8EeiwIoiooT5Cxw _Hn-n0OE8EeiwIoiooT5Cxw _x8EfkOE8EeiwIoiooT5Cxw __ht14OE8EeiwIoiooT5Cxw _N9p7AOE9EeiwIoiooT5Cxw _BQ5J8eE8EeiwIoiooT5Cxw _BQ3UwOE8EeiwIoiooT5Cxw"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_-FgzEOE7EeiwIoiooT5Cxw" name=":Systeme" coveredBy="_C7gRoOE8EeiwIoiooT5Cxw _C8GHgOE8EeiwIoiooT5Cxw _Hn-n0eE8EeiwIoiooT5Cxw _x8D4gOE8EeiwIoiooT5Cxw __huc8OE8EeiwIoiooT5Cxw _ChARgOE9EeiwIoiooT5Cxw _ChA4kOE9EeiwIoiooT5Cxw _GrjmYOE9EeiwIoiooT5Cxw _GrkNcOE9EeiwIoiooT5Cxw _N9pT8OE9EeiwIoiooT5Cxw _-UFlIOE8EeiwIoiooT5Cxw _C7_Z0OE8EeiwIoiooT5Cxw"/>
