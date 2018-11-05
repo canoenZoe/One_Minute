@@ -58,6 +58,19 @@
         <generalization xmi:type="uml:Generalization" xmi:id="_BVuJ8NABEei7l8RGFfbKKQ" general="_rjFkENAAEei7l8RGFfbKKQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_rjFkENAAEei7l8RGFfbKKQ" name="Gérer les préparations"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_02F_sOFHEeiwIoiooT5Cxw" name="Ajouter un menu">
+        <generalization xmi:type="uml:Generalization" xmi:id="_o2TXcOFIEeiwIoiooT5Cxw" general="_WISZIOFIEeiwIoiooT5Cxw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_WISZIOFIEeiwIoiooT5Cxw" name="Gérer les menus"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_YGr_gOFIEeiwIoiooT5Cxw" name="Consulter un menu">
+        <generalization xmi:type="uml:Generalization" xmi:id="_0kjuUOFIEeiwIoiooT5Cxw" general="_WISZIOFIEeiwIoiooT5Cxw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_abt9MOFIEeiwIoiooT5Cxw" name="Supprimer un menu">
+        <generalization xmi:type="uml:Generalization" xmi:id="_1Ph98OFIEeiwIoiooT5Cxw" general="_WISZIOFIEeiwIoiooT5Cxw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ffy7EOFIEeiwIoiooT5Cxw" name="Choisir le menu actif">
+        <generalization xmi:type="uml:Generalization" xmi:id="_uvexUOFIEeiwIoiooT5Cxw" general="_WISZIOFIEeiwIoiooT5Cxw"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_NZwtEM13EeikB5O2wUdc5w" memberEnd="_NZwtE813EeikB5O2wUdc5w _NZwtFM13EeikB5O2wUdc5w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NZwtEc13EeikB5O2wUdc5w" source="org.eclipse.papyrus">
@@ -122,6 +135,13 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_HvyqYNABEei7l8RGFfbKKQ" name="gérer les préparations" type="_rjFkENAAEei7l8RGFfbKKQ" association="_HvfvcNABEei7l8RGFfbKKQ"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_HvyqYdABEei7l8RGFfbKKQ" name="patron" type="_NZws9M13EeikB5O2wUdc5w" association="_HvfvcNABEei7l8RGFfbKKQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_s-NA8OFIEeiwIoiooT5Cxw" memberEnd="_s-mpkOFIEeiwIoiooT5Cxw _s-nQoOFIEeiwIoiooT5Cxw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-RSYOFIEeiwIoiooT5Cxw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s-RSYeFIEeiwIoiooT5Cxw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_s-mpkOFIEeiwIoiooT5Cxw" name="gérer les menus" type="_WISZIOFIEeiwIoiooT5Cxw" association="_s-NA8OFIEeiwIoiooT5Cxw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_s-nQoOFIEeiwIoiooT5Cxw" name="patron" type="_NZws9M13EeikB5O2wUdc5w" association="_s-NA8OFIEeiwIoiooT5Cxw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_jb5HYM13EeikB5O2wUdc5w" name="Classe">
