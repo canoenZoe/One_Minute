@@ -1,25 +1,32 @@
 # Retirer une préparation au menu
 
-### Nom
-Retirer une préparation au menu.
+------
 
-### Résumé
-Le patron retire une préparation à un menu qu'il a choisit.
+**Nom du cas :** Retirer une préparation au menu.
+**But :** Le patron retire une préparation à un menu qu'il a choisi.
+**Acteur principal :** Patron
+**Date de création :** 19/10/2018
+**Nom du responsable de création :** Sami BARCHID
+**Dernière date de mise à jour : **05/11/2018
+**Nom du responsable de la dernière modification :** Sami BARCHID
+**Version :** 1
 
-### Acteurs
-- Patron
+------
 
-### Déclenchement
-Le patron indique qu'il veut retirer une préparation au menu.
+*Ce scénario prend en compte les conditions explicitées dans le document "Général.md".*
 
-### Pré-condition
+------
+**Pré-conditions :**  
+
 - Le patron est authentifié dans le système.
 - Le patron consulte en détails le menu sur lequel il veut retirer une préparation.
 
-### Post-condition
-- La préparation choisie est retirée du menu.
+**Déclenchement :** 
 
-### Scénario nominal
+Le patron indique qu'il veut retirer une préparation au menu.
+
+**Scénario nominal :** 
+
 1. Le patron indique qu'il veut retirer une préparation au menu.
 2. Le système affiche les préparations du menu.
 3. Le patron choisit la préparation à retirer.
@@ -28,9 +35,14 @@ Le patron indique qu'il veut retirer une préparation au menu.
 6. Le système valide la préparation choisie.
 7. Le système supprime la préparation du menu.
 8. Le système enregistre la suppression par le patron.
-9. Fin du CU.
+9. Fin du CU. 
 
-### Scénarios alternatifs
+**Post-condition :**
+
+- La préparation choisie est retirée du menu.
+
+**Scénarios alternatifs :**
+
 - 5.a. [Le patron infirme la préparation à retirer]
 	- 5.a.1. Le système affiche un message d'erreur.
 	- 5.a.2. Le système revient à son état d'avant le déclenchement.
@@ -41,7 +53,8 @@ Le patron indique qu'il veut retirer une préparation au menu.
 	- 6.a.2. Le système revient à son état d'avant le déclenchement.
 	- 6.a.3. Retour à l'étape 2.
 
-### Scénarios d'exception
+**Scénarios d'exception :**
+
 - 2.b. [Aucune préparation n'existe dans le menu]
 	- 2.b.1. Le système affiche un message d'erreur.
 	- 2.b.2. Le système revient à son état d'avant le déclenchement.
@@ -51,7 +64,7 @@ Le patron indique qu'il veut retirer une préparation au menu.
 	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
 	- \*.a.3 Fin du CU.
 
-### Informations supplémentaires
-- **Version** : 1
-- **Date de création :** 14/10/2018
-- **Responsable** : BARCHID Sami
+
+
+
+
