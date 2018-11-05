@@ -14,7 +14,7 @@ Le patron indique qu'il veut retirer une préparation au menu.
 
 ### Pré-condition
 - Le patron est authentifié dans le système.
-- Le patron a choisi le menu sur lequel il veut retirer une préparation.
+- Le patron consulte en détails le menu sur lequel il veut retirer une préparation.
 
 ### Post-condition
 - La préparation choisie est retirée du menu.

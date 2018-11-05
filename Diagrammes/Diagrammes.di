@@ -23,7 +23,10 @@
             <emfPageIdentifier href="Diagrammes.notation#_8P2R8OE7EeiwIoiooT5Cxw"/>
           </children>
           <children>
-            <emfPageIdentifier href="Diagrammes.notation#_4YppIMAZEeiyhJlvrjN7-Q"/>
+            <emfPageIdentifier href="Diagrammes.notation#_NZ1lcM13EeikB5O2wUdc5w"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="Diagrammes.notation#_p2ZuEOE-EeiwIoiooT5Cxw"/>
           </children>
         </children>
       </windows>
