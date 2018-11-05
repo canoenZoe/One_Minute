@@ -25,7 +25,8 @@ Le patron indique qu'il veut ajouter une préparation au menu choisi.
 3. Le patron choisit la préparation à ajouter.
 4. Le système valide la préparation choisie.
 5. Le système enregistre la préparation dans le menu.
-6. Fin du CU
+6. Le Système confirme l'ajout au patron.
+7. Fin du CU
 
 ### Scénarios alternatifs
 - 3.a. [La préparation à ajouter n'existe pas / existe déjà dans le menu]
