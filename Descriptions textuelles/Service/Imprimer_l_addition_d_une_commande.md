@@ -7,7 +7,7 @@
 **Acteur principal :** Serveur
 **Date de création : **19/10/2018
 **Nom du responsable de création :** Anthony SLIMANI
-**Dernière date de mise à jour : ** 30/10/2018
+**Dernière date de mise à jour : ** 06/11/2018
 **Nom du responsable de la dernière modification : **Anthony SLIMANI
 **Version :** 1
 
@@ -19,24 +19,23 @@
 
 **Pré-conditions :**  
 
-- La commande est à l'état 'Réglé'
-- Le serveur est toujours sur la commande qui doit être imprimer sur la tablette
+- L'état de réglementation de la commande est à *"Réglé"*
+- Le serveur consulte la commande qui doit être imprimer sur le ***support technique***
 
 **Déclenchement :** 
 
-- Le client demande un justificatif au serveur
+- Le client demande au serveur l'impression du détails de sa commande / justificatif de paiement
 
 **Scénario nominal :**  
 
 1. Début du scénario
-2. Le client demande au serveur l'impression du détails de sa commande / justificatif de paiement
-3. Le serveur indique au système que le détails d'une commande doit être imprimé
-4. Le système vérifie si la communication entre celui-ci et l'appareil d'impression est possible
-5. Le système envoie le détails de la commande à l'appareil d'impression
-6. L'appareil d'impression effectue l'impression
-7. Le système indique au serveur quand l'impression est terminé
-8. Le serveur apporte l'impression du détails de la commande au client
-9. Fin du scénario
+2. Le serveur indique au système que le détails d'une commande doit être imprimé
+3. Le système envoie le détails de la commande à l'appareil d'impression
+4. L'appareil d'impression effectue l'impression
+5. L'appareil d'impression au système quand l'impression est terminé
+6. Le système affiche au serveur que l'impression est terminé
+7. Le serveur apporte l'impression du détails de la commande au client
+8. Fin du scénario
 
 **Post-condition :**
 

@@ -1,5 +1,60 @@
-#  Ajout de préparations dans une commande  
 
+
+# Ajout de préparations dans une commande
+
+------
+
+**Nom du cas :** 
+**But :** 
+**Acteur principal :** 
+**Date de création :**
+**Nom du responsable de création :**
+**Dernière date de mise à jour : **
+**Nom du responsable de la dernière modification :**
+**Version :**
+
+------
+
+*Ce scénario prend en compte les conditions explicitées dans le document "Général.md".*
+
+------
+
+**Pré-conditions :**  
+
+- 
+
+**Déclenchement :** 
+
+- 
+
+**Scénario nominal :**  
+
+1. Début du scénario
+2. Fin du scénario
+
+**Post-condition :**
+
+- 
+
+**Scénarios alternatifs :**  
+
+- 
+
+**Scénario d'exception :**  
+
+- 
+
+------
+
+### Glossaire :
+
+- 
+
+
+
+
+
+#    
 
 ***Nom du cas :*** Ajout de *préparations* dans une commande  
 ***But :*** Ce cas montre les étapes permettant au serveur d'ajouter des *préparations* dans une commande déjà en cours lorsque le client le désire.  

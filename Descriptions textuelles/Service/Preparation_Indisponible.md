@@ -1,19 +1,21 @@
-# Nom du scénario
+# Préparation indisponible
 
 ---
 
-**Nom du cas :** Préparation Indisponible
+**Nom du cas :** Préparation indisponible
 **But :**
 **Acteur principal :** Serveur
 **Date de création :** 06/11/2018
 **Nom du responsable de création :** Zoé Canoen
 **Dernière date de mise à jour : ** 06/11/2018
 **Nom du responsable de la dernière modification :** Zoé Canoen
-**Version :** 1.0
+**Version :** 1
 
 ---
 
-*Ce scénario prend en compte les conditions explicitées dans le document "Général.md".*
+*Ce scénario prend en compte les conditions et le glossaire explicités dans le document "Général.md".*
+
+Ce scénario prend en compte le glossaire explicité dans le document "Glossaire.md".
 
 ------
 
@@ -23,7 +25,8 @@
 
 **Déclenchement :**
 
-- Un plat de la commande du client n'est plus disponible et a été indiqué comme indisponible par la cuisine.
+- Une préparation de la commande du client n'est plus disponible
+- La préparation a été indiqué comme indisponible par la cuisine
 
 **Scénario nominal :**  
 
@@ -35,13 +38,12 @@
 
 - La préparation est de nouveau disponible car il y a eu un réaprovisionnement, dans ce cas, on ne fait rien.
 
-**Diagramme de séquence :**
+**Scénario d'exception :**  
 
-![GitHub Logo](/Diagrammes_Sequences/DS-Preparation_Indisponible(service).png)
-
+- Néant
 
 ------
 
-### Glossaire :
+**Diagramme de séquence :**
 
-- *préparation* : Entrée / Plat / Dessert / Boisson  
+![GitHub Logo](/Diagrammes_Sequences/DS-Preparation_Indisponible(service).png)
