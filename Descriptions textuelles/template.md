@@ -51,7 +51,3 @@
 ---
 
 **Diagramme de séquence :**
-
-- 
-
-- 

@@ -9,12 +9,6 @@
 - Le serveur disponible à tout moment le ***support technique***
 - Le membre du restaurant est authentfié au système par son rôle / qualification
 
-
-
-
-
-
-
 **Scénario d'exception :**
 
 - L'appareil technique est ***hors-service***

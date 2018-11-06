@@ -30,7 +30,7 @@
 **Scénario nominal :** 
 
 1. Début du scénario
-2. Le seveur indique qu'il souhaite afficher la liste des commandes en cours
+2. Le serveur indique qu'il souhaite afficher la liste des commandes en cours
 3. Le système affiche la liste des commandes en cours
 4. Le serveur sélectionne la commande du client
 5. Le système affiche le résumé et l'état d'avancement de chaque ***partie de la commande*** sélectionnée
@@ -59,7 +59,3 @@
 ------
 
 **Diagramme de séquence :**
-
-- 
-
-- 
