@@ -27,8 +27,8 @@
 
 **Scénario nominal :**  
 
-1. Le serveur va à la table où le plat est indisponible.
-2. Le serveur supprime le plat indisponible de la commande de celui-ci.
+1. Le système change l'état de la ligne de commande en "annulée" sur les lignes de commandes contenant des préparations indisponibles.
+2. Le serveur va à la table où le plat est indisponible.
 3. Le client peut choisir à ce moment un nouveau plat disponible.
 
 **Scénarios alternatifs :**  
