@@ -31,21 +31,15 @@
 2. Le serveur supprime le plat indisponible de la commande de celui-ci.
 3. Le client peut choisir à ce moment un nouveau plat disponible.
 
-**Post-condition :**
-
--
-
 **Scénarios alternatifs :**  
 
--
-
-**Scénario d'exception :**  
-
--
+- La préparation est de nouveau disponible car il y a eu un réaprovisionnement, dans ce cas, on ne fait rien.
 
 **Diagramme de séquence :**
 
-![GitHub Logo](/images/DDS-preparation_indisponible(service).png)
+![GitHub Logo](/Diagrammes_Sequences/DS-Preparation_Indisponible(service).png)
+
+
 ------
 
 ### Glossaire :
