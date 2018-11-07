@@ -36,9 +36,9 @@
 4. Le serveur saisie le montant de la commande sur le système de paiement
 5. Le client paie sa commande
 6. Le serveur indique au système que le réglement a bien été effectué
-7. Le système change l'état de réglementation de la commande à *"Réglé"*
-8. Le système retire la commande de la liste des commandes en cours
-9. Fin du scénario
+   1. Le système change l'état de réglementation de la commande à *"Réglé"*
+7. Le système retire la commande de la liste des commandes en cours
+8. Fin du scénario
 
 **Post-condition :**
 
