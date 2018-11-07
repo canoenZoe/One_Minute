@@ -32,15 +32,15 @@
 1. Début du scénario
 2. Fin du scénario
 
-**Continuité du scénario :**
-
-- 
-
 **Post-condition :**
 
 - 
 
-**Scénarios alternatifs :**  
+**Continuité du scénario :**
+
+- 
+
+Scénarios alternatifs :**  
 
 - 
 

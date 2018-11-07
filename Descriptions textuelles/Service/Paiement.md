@@ -33,10 +33,10 @@
 1. Début du scénario
 2. Le serveur choisit de ***générer l'addition***
 3. Le système affiche l'addition de la commande du client
-4. Le seveur saisie le montant de la commandse sur le système de paiement
+4. Le serveur saisie le montant de la commande sur le système de paiement
 5. Le client paie sa commande
-6. Le serveur indique que le réglement a bien été effectué
-7. Le système change l'état de réglementation de la commande à "Réglé"
+6. Le serveur indique au système que le réglement a bien été effectué
+7. Le système change l'état de réglementation de la commande à *"Réglé"*
 8. Le système retire la commande de la liste des commandes en cours
 9. Fin du scénario
 
