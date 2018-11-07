@@ -1,5 +1,3 @@
-
-
 # Servir une partie de commande
 
 ------
@@ -25,7 +23,7 @@
 
 - La partie de la commande à servir est prête.
 
-**Déclenchement :** 
+**Déclenchement :**
 
 - Le serveur consulte les parties de commandes prêtes à servir.
 
@@ -68,4 +66,4 @@
 
 **Diagramme de séquence :**
 
-- 
+-

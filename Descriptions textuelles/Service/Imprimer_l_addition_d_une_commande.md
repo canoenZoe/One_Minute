@@ -1,4 +1,4 @@
-Imprimer l'addition d'une commande  
+# Imprimer l'addition d'une commande  
 
 ------
 
@@ -24,7 +24,7 @@ Ce scénario prend en compte le glossaire explicité dans le document "Glossaire
 - Le serveur consulte la commande qui doit être imprimée sur le ***support technique***
 - L'état de réglementation de la commande est à *"Réglé"*
 
-**Déclenchement :** 
+**Déclenchement :**
 
 - Le client demande au serveur l'impression du détails de sa commande
 
