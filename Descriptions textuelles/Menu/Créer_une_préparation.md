@@ -17,9 +17,6 @@
 
 ------
 
-**Pré-conditions :**
-- Le patron est authentifié dans le système.
-
 **Déclenchement :**
 Le patron indique qu'il veut créer une préparation.
 
@@ -40,7 +37,7 @@ Le patron indique qu'il veut créer une préparation.
 - 4.a. [Les données ne sont pas valides / La préparation entrée existe déjà]
 	- 4.a.1. Le système affiche un message d'erreur.
 	- 4.a.2. Retour à l'étape 2.
-	
+
 **Scénarios d'exception :**
 - \*.a. [Panne de réseau]
 	- \*.a.1 Le système indique que le réseau a été coupé.

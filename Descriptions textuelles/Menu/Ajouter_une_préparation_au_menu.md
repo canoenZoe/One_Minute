@@ -18,7 +18,6 @@
 ------
 
 **Pré-conditions :**
-- Le patron est authentifié dans le système.
 - Le patron a choisi le menu sur lequel il veut ajouter une préparation.
 
 **Déclenchement :**
@@ -45,7 +44,7 @@ Le patron indique qu'il veut ajouter une préparation au menu choisi.
 - 4.a. [La préparation choisie n'est pas valide]
 	- 4.a.1. Le système affiche un message d'erreur.
 	- 4.a.2. Retour à l'étape 2.
-	
+
 **Scénarios d'exception :**
 - 3.b. [Aucune préparation n'existe]
 	- 3.b.1. Le système affiche un message d'erreur.

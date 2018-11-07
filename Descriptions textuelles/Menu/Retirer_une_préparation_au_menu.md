@@ -18,14 +18,13 @@
 ------
 **Pré-conditions :**  
 
-- Le patron est authentifié dans le système.
 - Le patron consulte en détails le menu sur lequel il veut retirer une préparation.
 
-**Déclenchement :** 
+**Déclenchement :**
 
 Le patron indique qu'il veut retirer une préparation au menu.
 
-**Scénario nominal :** 
+**Scénario nominal :**
 
 1. Le patron indique qu'il veut retirer une préparation au menu.
 2. Le système affiche les préparations du menu.
@@ -35,7 +34,7 @@ Le patron indique qu'il veut retirer une préparation au menu.
 6. Le système valide la préparation choisie.
 7. Le système supprime la préparation du menu.
 8. Le système enregistre la suppression par le patron.
-9. Fin du CU. 
+9. Fin du CU.
 
 **Post-condition :**
 
@@ -63,8 +62,3 @@ Le patron indique qu'il veut retirer une préparation au menu.
 	- \*.a.1 Le système indique que le réseau a été coupé.
 	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
 	- \*.a.3 Fin du CU.
-
-
-
-
-

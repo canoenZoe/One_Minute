@@ -17,9 +17,6 @@
 
 ------
 
-**Pré-conditions :**
-- Le patron est authentifié dans le système.
-
 **Déclenchement :**
 Le patron indique qu'il veut modifier une préparation.
 
@@ -45,7 +42,7 @@ Le patron indique qu'il veut modifier une préparation.
 - 7.a. [Données invalides]
 	- 7.a.1. Le système affiche un message d'erreur.
 	- 7.a.2. Retour à l'étape 5.
-	
+
 **Scénarios d'exception :**
 - 2.a. [Il n'y a aucune préparation existante]
 	- 2.a.1. Le système affiche un message d'erreur.
@@ -55,4 +52,3 @@ Le patron indique qu'il veut modifier une préparation.
 	- \*.a.1 Le système indique que le réseau a été coupé.
 	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
 	- \*.a.3 Fin du CU.
-	

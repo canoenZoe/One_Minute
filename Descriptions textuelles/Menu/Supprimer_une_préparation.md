@@ -17,9 +17,6 @@
 
 ------
 
-**Pré-conditions :**
-- Le patron est authentifié dans le système.
-
 **Déclenchement :**
 Le patron indique qu'il veut supprimer une préparation.
 
