@@ -12,8 +12,8 @@
 
 - ***Alice*** propose le menu à ***Bob***.
 - ***Bob*** choisit ce qu'il souhaite commander.
-- ***Alice***, à partir de sa tablette, transmet la commande et le numéro de table aux cuisiniers.
-- Les cuisiniers sont au courant de la commande.
+- ***Alice***, à partir de sa tablette, transmet la commande et le numéro de table aux préparateurs.
+- Les préparateurs sont au courant de la commande.
 
 ---
 
