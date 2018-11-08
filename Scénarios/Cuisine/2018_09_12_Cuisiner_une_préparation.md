@@ -24,5 +24,5 @@
 
 ### Glossaire :
 
-- ***Roger*** : cuisinier
+- ***Roger*** : préparateur
 - ***partie de la commande*** : pack de boissons, de plats ou de desserts etc.
