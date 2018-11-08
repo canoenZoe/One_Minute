@@ -8,25 +8,22 @@
             <emfPageIdentifier href="file:/C:/Users/samib/Desktop/Master%201/GL/One_Minute/.metadata/.plugins/org.eclipse.papyrus.infra.core/Diagrammes/Diagrammes.sash#/"/>
           </children>
           <children>
-            <emfPageIdentifier href="Diagrammes.notation#_3audsOCZEeibyvNJ2qrFaw"/>
+            <emfPageIdentifier href="Diagrammes.notation#_G4wucMW-EeiHHtuMrKUDFQ"/>
           </children>
           <children>
             <emfPageIdentifier href="Diagrammes.notation#_IzavMOCXEeibyvNJ2qrFaw"/>
           </children>
           <children>
-            <emfPageIdentifier href="Diagrammes.notation#_hdWuoOBxEeiZu_Q3hDM32Q"/>
-          </children>
-          <children>
-            <emfPageIdentifier href="Diagrammes.notation#_NZ3aoM13EeikB5O2wUdc5w"/>
-          </children>
-          <children>
-            <emfPageIdentifier href="Diagrammes.notation#_8P2R8OE7EeiwIoiooT5Cxw"/>
-          </children>
-          <children>
-            <emfPageIdentifier href="Diagrammes.notation#_NZ1lcM13EeikB5O2wUdc5w"/>
+            <emfPageIdentifier href="Diagrammes.notation#_jBwbgMdVEeijpuQUn4vVmQ"/>
           </children>
           <children>
             <emfPageIdentifier href="Diagrammes.notation#_p2ZuEOE-EeiwIoiooT5Cxw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="Diagrammes.notation#_Ssbd8MAlEei_2e7RHOVEIw"/>
+          </children>
+          <children>
+            <emfPageIdentifier href="Diagrammes.notation#_87CmweG5Eeir2qs9njG01g"/>
           </children>
         </children>
       </windows>
