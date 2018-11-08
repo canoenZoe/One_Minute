@@ -1,4 +1,4 @@
-# Etablir un menu
+# Créer un nouveau menu
 
 ---
 
@@ -10,11 +10,18 @@
 
 ### Scénario :
 
-- ***Albert*** commence à créer ou modifier la carte dans l'application.
-- ***Albert*** crée ou modifie diverses ***préparations***.
-- ***Albert*** termine la création ou la modification.
-- La carte s'actualise sur les diverses tablettes.
-    - Problème d'actualisation si les tablettes ne sont pas connectées à internet.
+- ***Albert*** commence à utiliser pour la première fois l'application pour son restautant, ou veut changer le menu actuel en un nouveau menu complétement différent.
+- ***Albert*** souhaite créer un nouveau menu pour l'application.
+- ***Albert*** ajoute des nouvelles préparations dans l'application.
+- L'application l'invite à décrire chacune des préparations.
+- ***Albert*** décrit les préparations les une après les autres.
+- ***Albert*** pourra administrer les préparations à tout moment. (voir scénario administrer préparations).
+- ***Albert*** indique à l'application qu'il veut créer un nouveau menu.
+- L'application lui demande toutes les préparations disponibles qu'il souhaite ajouter au nouveau menu.
+- ***Albert*** sélectionne les préparations disponibles pour le menu.
+- ***Albert*** peut encore modifier le menu si nécéssaire, administrer les préparations ou valider le menu.
+- ***Albert*** choisi de valider le menu.
+
 
 ---
 
