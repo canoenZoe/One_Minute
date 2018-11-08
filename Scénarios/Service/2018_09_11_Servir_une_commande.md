@@ -11,7 +11,7 @@ Lorsque qu'une ***partie de la commande*** est prête, il faut la servir à Bob.
 ### Scénario :
 
 - ***Alice*** est mise au courant qu'une ***partie de la commande*** est prête.
-  - Problème de notification si problème de connexion à internet.
+  - Problème de notification si problème de connexion à internet (exception).
 - ***Alice*** indique sur l'application qu'elle va la chercher.
 - ***Alice*** récupère la ***partie de la commande***.
 - ***Alice*** la ramène à Bob.
