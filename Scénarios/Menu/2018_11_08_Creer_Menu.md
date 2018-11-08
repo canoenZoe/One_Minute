@@ -4,7 +4,7 @@
 
 ### Description :
 
-***Albert*** crée ou modifie la carte du restaurant, avant l'ouverture ou après la fermeture du restaurant.
+***Albert*** crée la carte du restaurant, avant l'ouverture ou après la fermeture du restaurant.
 
 ---
 
