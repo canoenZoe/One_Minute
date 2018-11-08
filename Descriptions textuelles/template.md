@@ -2,18 +2,20 @@
 
 ---
 
-**Nom du cas :** 
-**But :** 
-**Acteur principal :** 
-**Date de création :**
-**Nom du responsable de création :**
-**Dernière date de mise à jour : **
-**Nom du responsable de la dernière modification :**
-**Version :**
+**Nom du cas :**  
+**But :**  
+**Acteur principal :**  
+**Date de création :**  
+**Nom du responsable de création :**  
+**Dernière date de mise à jour :**  
+**Nom du responsable de la dernière modification :**  
+**Version :** 1
 
 ---
 
 *Ce scénario prend en compte les conditions explicitées dans le document "Général.md".*
+
+*Ce scénario prend en compte le glossaire explicité dans le document "Glossaire.md".*
 
 ------
 
@@ -34,6 +36,10 @@
 
 - 
 
+**Continuité du scénario :**
+
+- 
+
 **Scénarios alternatifs :**  
 
 - 
@@ -42,8 +48,6 @@
 
 - 
 
-------
+---
 
-### Glossaire :
-
-- 
+**Diagramme de séquence :**

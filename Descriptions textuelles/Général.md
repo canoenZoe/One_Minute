@@ -1,15 +1,12 @@
+# Général
 
+------
 
-
-
-###Général
-
-Pour tous les scénarios abstraits / descriptions textuelles seront appliqués les conditions suivantes :
+​	Pour tous les scénarios abstraits / descriptions textuelles ayant l'indication suivante : *"Ce scénario prend en compte les conditions explicitées dans le document "Général.md"*, seront appliqués les conditions suivantes :  
 
 **Pré-condition** :
 
-- Le support technique ???
-
+- Le serveur disponible à tout moment le ***support technique***
 - Le membre du restaurant est authentfié au système par son rôle / qualification
 
 **Scénario d'exception :**
@@ -17,11 +14,4 @@ Pour tous les scénarios abstraits / descriptions textuelles seront appliqués l
 - L'appareil technique est ***hors-service***
 - Communication entre l'appareil et le serveur impossible
 - Erreur de communication entre l'application et le serveur
-
-------
-
-**Glossaire** :
-
-- ***Appareil technique*** : Support électronique disposant de l'application, dans notre cas une tablette
-- ***Hors-service*** : celui-ci ne fonctionne pas correctement / plus ou encore ne possède plus de batterie
 
