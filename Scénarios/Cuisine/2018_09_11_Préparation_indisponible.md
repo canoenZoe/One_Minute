@@ -4,7 +4,7 @@
 
 ### Description :
 
-- ***Roger*** s'aperçoit que la réalisation d'une ***préparation*** ne peut être réalisée et doit donc rendre ***indisponible*** cette ***préparation***.
+***Roger*** s'aperçoit que la réalisation d'une ***préparation*** ne peut être réalisée et doit donc rendre ***indisponible*** cette ***préparation***.
 
 ---
 
@@ -23,7 +23,7 @@
 
 ### Glossaire :
 
-- ***Roger*** : cuisinier
-- ***indisponible*** : le plat ne peut être réalisé par manque de un ou plusieurs ingrédient.s le constituant.
+- ***Roger*** : préparateur
+- ***indisponible*** : la préparation ne peut être réalisée par manque de un ou plusieurs ingrédients la constituant.
 - ***réapprovisionnement*** : Action de recevoir un nouvel apport de marchandises afin de renouveler les stocks.
 - ***préparation*** : Entrée / Plat / Dessert / Boisson
