@@ -2,7 +2,7 @@
 
 ------
 
-​	Pour tous les scénarios abstraits / descriptions textuelles ayant l'indication suivante : *"Ce scénario prend en compte les conditions explicitées dans le document "Général.md"*, seront appliqués les conditions suivantes :
+​	Pour tous les scénarios abstraits / descriptions textuelles ayant l'indication suivante : *"Ce scénario prend en compte les conditions explicitées dans le document "Général.md"*, seront appliqués les conditions suivantes :  
 
 **Pré-condition** :
 

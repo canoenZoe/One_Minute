@@ -2,14 +2,14 @@
 
 ------
 
-**Nom du cas :** Prendre en charge une ***préparation***
-**But :** Ce cas montre les étapes permettant au ***préparateur*** de s'occuper d'une préparation
-**Acteur principal :** Préparateur
-**Date de création :** 03/11/2018
-**Nom du responsable de création :** Zoé CANOEN
-**Dernière date de mise à jour : ** 08/11/2018
-**Nom du responsable de la dernière modification :** Anthony SLIMANI
-**Version :** 2.1
+**Nom du cas :** Prendre en charge une ***préparation***  
+**But :** Ce cas montre les étapes permettant au ***préparateur*** de s'occuper d'une préparation  
+**Acteur principal :** Préparateur  
+**Date de création :** 03/11/2018  
+**Nom du responsable de création :** Zoé CANOEN  
+**Dernière date de mise à jour :** 08/11/2018  
+**Nom du responsable de la dernière modification :** Anthony SLIMANI  
+**Version :** 2.1  
 
 ------
 

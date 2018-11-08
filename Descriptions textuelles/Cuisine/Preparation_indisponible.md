@@ -2,14 +2,14 @@
 
 ------
 
-**Nom du cas :** ***Préparation*** indisponible
-**But :** Ce cas montre les étapes permettant au ***préparateur*** de rendre ***indisponible*** une ***préparation***
-**Acteur principal :** Préparateur
-**Date de création :** 11/09/2018
-**Nom du responsable de création :** Laurine DRODZINSKI
-**Dernière date de mise à jour : **08/11/2018
-**Nom du responsable de la dernière modification :** Anthony SLIMANI
-**Version :** 2.3
+**Nom du cas :** ***Préparation*** indisponible  
+**But :** Ce cas montre les étapes permettant au ***préparateur*** de rendre ***indisponible*** une ***préparation***  
+**Acteur principal :** Préparateur  
+**Date de création :** 11/09/2018  
+**Nom du responsable de création :** Laurine DRODZINSKI  
+**Dernière date de mise à jour :** 08/11/2018  
+**Nom du responsable de la dernière modification :** Anthony SLIMANI  
+**Version :** 2.3  
 
 ------
 

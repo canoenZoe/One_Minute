@@ -2,13 +2,13 @@
 
 ---
 
-**Nom du cas :** 
-**But :** 
-**Acteur principal :** 
-**Date de création :** 
-**Nom du responsable de création :** 
-**Dernière date de mise à jour : **
-**Nom du responsable de la dernière modification :** 
+**Nom du cas :**  
+**But :**  
+**Acteur principal :**  
+**Date de création :**  
+**Nom du responsable de création :**  
+**Dernière date de mise à jour :**  
+**Nom du responsable de la dernière modification :**  
 **Version :** 1
 
 ---

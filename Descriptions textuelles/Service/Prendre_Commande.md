@@ -2,14 +2,14 @@
 
 ---
 
-**Nom du cas :** Prendre une commande
-**But :** Le serveur prend une commande à une table pour un client
-**Acteur principal :** Serveur
-**Date de création :** 06/11/2018
-**Nom du responsable de création :** Zoé Canoen
-**Dernière date de mise à jour : **
-**Nom du responsable de la dernière modification :**
-**Version :** 1
+**Nom du cas :** Prendre une commande  
+**But :** Le serveur prend une commande à une table pour un client  
+**Acteur principal :** Serveur  
+**Date de création :** 06/11/2018  
+**Nom du responsable de création :** Zoé Canoen  
+**Dernière date de mise à jour :**  
+**Nom du responsable de la dernière modification :**  
+**Version :** 1  
 
 ---
 

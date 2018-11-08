@@ -2,13 +2,13 @@
 
 ------
 
-**Nom du cas :** Paiement d'une commande
-**But :** Le client souhaite régler l'addition de sa commande
-**Acteur principal :** Serveur
-**Date de création :** 19/10/2018
-**Nom du responsable de création :** Anthony SLIMANI
-**Dernière date de mise à jour : **06/11/2018
-**Nom du responsable de la dernière modification :** Anthony SLIMANI
+**Nom du cas :** Paiement d'une commande  
+**But :** Le client souhaite régler l'addition de sa commande  
+**Acteur principal :** Serveur  
+**Date de création :** 19/10/2018  
+**Nom du responsable de création :** Anthony SLIMANI  
+**Dernière date de mise à jour :** 06/11/2018  
+**Nom du responsable de la dernière modification :** Anthony SLIMANI  
 **Version :** 2.2
 
 ------

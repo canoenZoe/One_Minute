@@ -2,13 +2,13 @@
 
 ------
 
-**Nom du cas :** Créer une préparation.
-**But :** Le patron ajoute une préparation.
-**Acteur principal :** Patron
-**Date de création :** 19/10/2018
-**Nom du responsable de création :** Sami BARCHID
-**Dernière date de mise à jour : **05/11/2018
-**Nom du responsable de la dernière modification :** Sami BARCHID
+**Nom du cas :** Créer une préparation  
+**But :** Le patron ajoute une préparation  
+**Acteur principal :** Patron  
+**Date de création :** 19/10/2018  
+**Nom du responsable de création :** Sami BARCHID  
+**Dernière date de mise à jour :** 05/11/2018  
+**Nom du responsable de la dernière modification :** Sami BARCHID  
 **Version :** 1
 
 ------

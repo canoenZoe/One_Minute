@@ -2,13 +2,13 @@
 
 ---
 
-**Nom du cas :** Ajouter une préparation à la commande
-**But :** Ajouter une préparation à une commande existante
-**Acteur principal :** Serveur
-**Date de création :** 06/11/2018
-**Nom du responsable de création :** Zoé Canoen
-**Dernière date de mise à jour : **
-**Nom du responsable de la dernière modification :**
+**Nom du cas :** Ajouter une préparation à la commande  
+**But :** Ajouter une préparation à une commande existante  
+**Acteur principal :** Serveur  
+**Date de création :** 06/11/2018  
+**Nom du responsable de création :** Zoé Canoen  
+**Dernière date de mise à jour :**  
+**Nom du responsable de la dernière modification :**  
 **Version :** 1.0
 
 ---

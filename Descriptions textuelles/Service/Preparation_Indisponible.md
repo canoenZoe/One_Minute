@@ -2,13 +2,13 @@
 
 ---
 
-**Nom du cas :** Préparation indisponible
-**But :**
-**Acteur principal :** Serveur
-**Date de création :** 06/11/2018
-**Nom du responsable de création :** Zoé Canoen
-**Dernière date de mise à jour : ** 06/11/2018
-**Nom du responsable de la dernière modification :** Zoé Canoen
+**Nom du cas :** Préparation indisponible  
+**But :**  
+**Acteur principal :** Serveur  
+**Date de création :** 06/11/2018  
+**Nom du responsable de création :** Zoé Canoen  
+**Dernière date de mise à jour :** 06/11/2018  
+**Nom du responsable de la dernière modification :** Zoé Canoen  
 **Version :** 1
 
 ---

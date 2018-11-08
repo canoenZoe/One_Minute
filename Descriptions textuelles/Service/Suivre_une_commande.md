@@ -2,13 +2,13 @@
 
 ------
 
-**Nom du cas :** Suivre une commande
-**But :** Le serveur souhaite suivre l'état d'avancement d'une commande
-**Acteur principal :** Serveur
-**Date de création :** 11/09/2018
-**Nom du responsable de création :** Laurine DRODZINSKI
-**Dernière date de mise à jour : **06/11/2018
-**Nom du responsable de la dernière modification :** Anthony SLIMANI
+**Nom du cas :** Suivre une commande  
+**But :** Le serveur souhaite suivre l'état d'avancement d'une commande  
+**Acteur principal :** Serveur  
+**Date de création :** 11/09/2018  
+**Nom du responsable de création :** Laurine DRODZINSKI  
+**Dernière date de mise à jour :** 06/11/2018  
+**Nom du responsable de la dernière modification :** Anthony SLIMANI  
 **Version :** 2.2
 
 ------
