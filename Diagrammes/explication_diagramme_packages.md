@@ -1,16 +1,55 @@
-# Explication du diagramme de packages
-Ce document a pour but d'éclaircir les choix qui ont été fait pour le diagramme de packages.
+# Diagramme de packages
 
-## Division en trois packages
-La logique de l'application "One Minute" peut se diviser en trois grands "domaines" : la logique relative au personnel du restaurant, la logique relative à la gestion des préparations que propose le restaurant et la logique relative à la gestion des commandes.
+## Organisation
+L'application est composée de 5 principaux packages :
 
-Pour respecter cette séparation de logique, il a été choisi de décomposer également les classes en trois grands paquetages : le **personnel**, la **carte** et les **commandes**.
+- **boundaries** : contient les classes Boundary du système. Ces classes s'occupent de gérer l'interaction avec l'utilisateur.
+- **uis** : contient les classes UI du système. Ces classes s'occupent de l'aspect visuel du système.
+- **controls** :  contient les classes Control du système. Ces classes implémentent la logique métier.
+- **daos** : contient les classes DAO (Data Access Object). Ces classes s'occupent d'accéder et de gérer les données persistées dans la base de données.
+- **entities** : contient les classes Entity du système. Ces classes sont des classes représentant les données persistées dans la base de données.
 
-### Personnel
-Ce package contient toutes les classes liées aux utilisateurs de l'application : les employés du restaurant. Ce package est dépendant des deux autres packages car le personnel manipule les données du système.
+On distingue trois grandes logiques à laquelle répondent les packages :
 
-### Carte
-La carte est le package représentant les plats, desserts, préparations etc du restaurant. Ce package ne dépend d'aucun autre car il représente avant tout les classes qui seront manipulées par les autres packages.
+### Interaction avec l'utilisateur
+Représente toute la logique d'interaction avec l'utilisateur (affichage, etc).
+Les packages **uis** et **boundaries** sont chargés d'assurer l'interaction avec l'utilisateur.
+- **uis** : gère l'affichage.
+- **boundaries** : gère les actions que peut effectuer un utilisateur sur le système.
 
-### Commandes
-Le package des commandes représente toute la logique des commandes, de sa création en table à l'addition. Les commandes sont dépendantes de la carte ainsi que du personnel.
+### Logique métier (business)
+Représente toute la logique métier derrière les cas d'utilisation.
+Cette logique est implémentée par le package **controls**.
+
+### Logique de gestion des données
+Représente tout ce qui est lié à la gestion des données persistées en base de données par le système.
+Cette logique est implémentée par les package **daos** et **entities**.
+
+- **entities** : renferme les classes qui contiennent les données brutes en base de données. En bref, ce package renferme la représentation orientée objet des données persistées.
+- **daos** : permet au système d'interagir avec la base de données.
+
+## Les sous-packages
+Les classes ne sont pas directement placées dans les packages principaux et sont divisées en plusieurs sous-packages, afin d'augmenter la granularité.
+
+### boundaries, uis et controls
+En ce qui concerne les packages **boundaries**, **uis** et **controls**, les classes sont divisées en sous-packages représentées par les trois contextes fonctionnels que nous avons définis dans nos diagrammes de cas d'utilisation :
+
+- **carte** : gestion de la carte des menus/préparations/...
+- **cuisine** : gestion de la logique pour les préparateurs (cuisiniers, barmar, etc)
+- **service** : gestion de la logique pour les serveurs.
+
+Ainsi, les classes de **uis.service** s'occupent de l'affichage pour les UC liés au contexte du service.
+
+### entities et daos
+Décomposer les entités et daos suivant les contextes fonctionnels des UC n'étaient pas une bonne idée pour les entités et daos puisque ces packages s'occupent essentiellement de la **logique de gestion de données**.
+
+Trois types de sous-packages sont définis :
+- **personnel** : gestion des données des préparateurs/serveurs/etc
+- **commandes** : gestion des données des commandes
+- **carte** : gestion des données de la carte.
+
+## Dépendances entre packages
+- Les objets **boundaries** *créent et renvoient* les objets **uis**.
+- Les objets **boundaries** *appellent* la logique métier implémentée dans les objets de **controls**.
+- Les objets de **controls** *appellent* la gestion de données des objets **daos**.
+- Les objets **daos**, après avoir interagit avec la base de données, *manipulent* les objets **entities**.
