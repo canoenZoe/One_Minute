@@ -10,8 +10,8 @@
 
 **Pré-condition** :
 
-- Le serveur disponible à tout moment l'***outil de travail ***
-- Le membre du restaurant est authentfié au système par son rôle / qualification
+- Le serveur disponible à tout moment
+- Le membre du restaurant est authentifié au système par son rôle / qualification
 
 **Scénario d'exception :**
 
