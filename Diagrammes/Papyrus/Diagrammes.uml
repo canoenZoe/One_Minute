@@ -648,25 +648,52 @@
   </packagedElement>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_7-Uf0OG5Eeir2qs9njG01g" name="Commande">
     <region xmi:type="uml:Region" xmi:id="_87CmwOG5Eeir2qs9njG01g" name="Region1">
-      <transition xmi:type="uml:Transition" xmi:id="_zeh9kOO9EeilV7-Llqoj4A" source="_MSCv8OO9EeilV7-Llqoj4A" target="_BJDfUOG6Eeir2qs9njG01g"/>
-      <transition xmi:type="uml:Transition" xmi:id="_3JOtsOO9EeilV7-Llqoj4A" source="_BJDfUOG6Eeir2qs9njG01g" target="_0hQl4OO9EeilV7-Llqoj4A"/>
-      <transition xmi:type="uml:Transition" xmi:id="_3y25gOO9EeilV7-Llqoj4A" source="_0hQl4OO9EeilV7-Llqoj4A" target="_BJDfUOG6Eeir2qs9njG01g"/>
-      <transition xmi:type="uml:Transition" xmi:id="_sp39cOO-EeilV7-Llqoj4A" source="_BJDfUOG6Eeir2qs9njG01g" target="_D3ie0OG6Eeir2qs9njG01g"/>
-      <transition xmi:type="uml:Transition" xmi:id="_1qXGgOO-EeilV7-Llqoj4A" source="_D3ie0OG6Eeir2qs9njG01g" target="_xFiQcOO-EeilV7-Llqoj4A"/>
-      <transition xmi:type="uml:Transition" xmi:id="_2O9oYOO-EeilV7-Llqoj4A" source="_D3ie0OG6Eeir2qs9njG01g" target="_2CPbkOG8Eeir2qs9njG01g"/>
+      <transition xmi:type="uml:Transition" xmi:id="_zeh9kOO9EeilV7-Llqoj4A" name="le serveur prend une commande" source="_MSCv8OO9EeilV7-Llqoj4A" target="_BJDfUOG6Eeir2qs9njG01g"/>
+      <transition xmi:type="uml:Transition" xmi:id="_sp39cOO-EeilV7-Llqoj4A" name="fin du repas" source="_BJDfUOG6Eeir2qs9njG01g" target="_D3ie0OG6Eeir2qs9njG01g"/>
+      <transition xmi:type="uml:Transition" xmi:id="_1qXGgOO-EeilV7-Llqoj4A" name="[paiement valide]" source="_D3ie0OG6Eeir2qs9njG01g" target="_xFiQcOO-EeilV7-Llqoj4A"/>
+      <transition xmi:type="uml:Transition" xmi:id="_2O9oYOO-EeilV7-Llqoj4A" name="[paiement erroné]" source="_D3ie0OG6Eeir2qs9njG01g" target="_2CPbkOG8Eeir2qs9njG01g"/>
       <transition xmi:type="uml:Transition" xmi:id="_3bo24OO-EeilV7-Llqoj4A" source="_2CPbkOG8Eeir2qs9njG01g" target="_Nzhw0OO9EeilV7-Llqoj4A"/>
       <transition xmi:type="uml:Transition" xmi:id="_4BFtUOO-EeilV7-Llqoj4A" source="_xFiQcOO-EeilV7-Llqoj4A" target="_Nzhw0OO9EeilV7-Llqoj4A"/>
-      <subvertex xmi:type="uml:State" xmi:id="_BJDfUOG6Eeir2qs9njG01g" name="En cours"/>
-      <subvertex xmi:type="uml:State" xmi:id="_D3ie0OG6Eeir2qs9njG01g" name="Payée"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3PqOsOTiEei1p-9vz3hoPw" name="erreur" source="_BJDfUOG6Eeir2qs9njG01g" target="_KniWgOG7Eeir2qs9njG01g"/>
+      <transition xmi:type="uml:Transition" xmi:id="_RYnUkOTjEei1p-9vz3hoPw" source="_KniWgOG7Eeir2qs9njG01g" target="_Nzhw0OO9EeilV7-Llqoj4A"/>
+      <subvertex xmi:type="uml:State" xmi:id="_BJDfUOG6Eeir2qs9njG01g" name="En cours">
+        <doActivity xmi:type="uml:Activity" xmi:id="_XNfSsOTiEei1p-9vz3hoPw" name="ajouterLigneCommande"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_D3ie0OG6Eeir2qs9njG01g" name="Terminée">
+        <doActivity xmi:type="uml:Activity" xmi:id="_AIHnsOTkEei1p-9vz3hoPw" name="gérer le paiement"/>
+      </subvertex>
       <subvertex xmi:type="uml:State" xmi:id="_KniWgOG7Eeir2qs9njG01g" name="Annulée"/>
       <subvertex xmi:type="uml:State" xmi:id="_2CPbkOG8Eeir2qs9njG01g" name="Impayée"/>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_MSCv8OO9EeilV7-Llqoj4A"/>
       <subvertex xmi:type="uml:FinalState" xmi:id="_Nzhw0OO9EeilV7-Llqoj4A"/>
-      <subvertex xmi:type="uml:State" xmi:id="_0hQl4OO9EeilV7-Llqoj4A" name="Prise en charge"/>
-      <subvertex xmi:type="uml:State" xmi:id="_xFiQcOO-EeilV7-Llqoj4A" name="Payée"/>
+      <subvertex xmi:type="uml:State" xmi:id="_xFiQcOO-EeilV7-Llqoj4A" name="Payée">
+        <entry xmi:type="uml:Activity" xmi:id="_JN8jwOTkEei1p-9vz3hoPw" name="générer addition"/>
+      </subvertex>
     </region>
   </packagedElement>
   <packagedElement xmi:type="uml:Device" xmi:id="_9gUIUOR9Eei1p-9vz3hoPw" name="Device19"/>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_aYK0EOTkEei1p-9vz3hoPw" name="LigneCommande">
+    <region xmi:type="uml:Region" xmi:id="_bdfdYOTkEei1p-9vz3hoPw" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_kBfCQOTlEei1p-9vz3hoPw" name="ajouterDansCommande" source="_fg1-EOTkEei1p-9vz3hoPw" target="_ynGdQOTkEei1p-9vz3hoPw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_nJet8OTlEei1p-9vz3hoPw" name="un préparateur prend en charge la ligne de commande" source="_ynGdQOTkEei1p-9vz3hoPw" target="_DZvUAOTlEei1p-9vz3hoPw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_3o-mQOTlEei1p-9vz3hoPw" name="Prise en charge impossible" source="_DZvUAOTlEei1p-9vz3hoPw" target="_Y_RSAOTlEei1p-9vz3hoPw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6GLBcOTlEei1p-9vz3hoPw" name="Fin de prise en charge/notifierService()" source="_DZvUAOTlEei1p-9vz3hoPw" target="_gU6C0OTlEei1p-9vz3hoPw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_G45GAOTmEei1p-9vz3hoPw" source="_gU6C0OTlEei1p-9vz3hoPw" target="_gu5FkOTkEei1p-9vz3hoPw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_JFbPAOTmEei1p-9vz3hoPw" source="_Y_RSAOTlEei1p-9vz3hoPw" target="_gu5FkOTkEei1p-9vz3hoPw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_DCTZgOTnEei1p-9vz3hoPw" name="Prise en charge annulée" source="_DZvUAOTlEei1p-9vz3hoPw" target="_ynGdQOTkEei1p-9vz3hoPw"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_fg1-EOTkEei1p-9vz3hoPw" name=""/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_gu5FkOTkEei1p-9vz3hoPw" name=""/>
+      <subvertex xmi:type="uml:State" xmi:id="_ynGdQOTkEei1p-9vz3hoPw" name="En attente">
+        <entry xmi:type="uml:Activity" xmi:id="_gixqQOTmEei1p-9vz3hoPw" name="notifierLaCuisine"/>
+        <exit xmi:type="uml:Activity" xmi:id="_m5rh8OTmEei1p-9vz3hoPw" name="retirerDesLignesAPreparer"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_DZvUAOTlEei1p-9vz3hoPw" name="Prise en charge"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Y_RSAOTlEei1p-9vz3hoPw" name="Annulée">
+        <doActivity xmi:type="uml:Activity" xmi:id="_vle_AOTnEei1p-9vz3hoPw" name="retirerDeCommande"/>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_gU6C0OTlEei1p-9vz3hoPw" name="Terminée"/>
+    </region>
+  </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_b2fBgMHMEeivqqD5eMke3w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b2hdwMHMEeivqqD5eMke3w" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
