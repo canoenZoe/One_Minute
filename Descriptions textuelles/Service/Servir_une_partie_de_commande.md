@@ -59,9 +59,3 @@
 - \*.a. [Panne de réseau]
   - Le système indique que le réseau a été coupé.
   - Le système retourne à son état d'avant le déclenchement.
-
-------
-
-**Diagramme de séquence :**
-
--
