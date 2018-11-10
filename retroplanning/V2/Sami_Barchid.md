@@ -20,8 +20,16 @@
     - Retirer une préparation du menu
     - Créer une préparation
     - Prise d'une commande - aide
-    - Ajouter une préparation - Service avec Zoé
+    - Ajouter une préparation au menu
 * Mise à jours des diagrammes de cas d'utilisation
+
+* Diagramme de package + explication de l'architecture
+
+* Mise à jour des diagrammes de classe 
+
+* Glossaire d'ingénierie des besoins
+
+* Mise en place d'une integration continue pour la mise en ligne de la maquette interactive
 
 ## Méthode de travail
 

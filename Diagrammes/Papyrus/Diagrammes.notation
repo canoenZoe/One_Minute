@@ -1437,7 +1437,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eyizceR9Eei1p-9vz3hoPw" id="(0.24324324324324326,0.13)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_fhJGYMdTEeijpuQUn4vVmQ" type="PapyrusUMLClassDiagram" name="Diagramme de classe - personnel" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_fhJGYMdTEeijpuQUn4vVmQ" type="PapyrusUMLClassDiagram" name="Diagramme de classe - service" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_cwqgkOByEeiZu_Q3hDM32Q" type="Package_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_cwqgkuByEeiZu_Q3hDM32Q" type="Package_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_cwqgk-ByEeiZu_Q3hDM32Q" type="Package_PackagedElementCompartment">
