@@ -643,6 +643,7 @@
       <subvertex xmi:type="uml:State" xmi:id="_xFiQcOO-EeilV7-Llqoj4A" name="Payée"/>
     </region>
   </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_9gUIUOR9Eei1p-9vz3hoPw" name="Device19"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_b2fBgMHMEeivqqD5eMke3w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b2hdwMHMEeivqqD5eMke3w" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>

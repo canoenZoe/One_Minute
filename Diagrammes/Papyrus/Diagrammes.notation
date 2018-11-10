@@ -4185,4 +4185,22 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4B_FMeO-EeilV7-Llqoj4A" id="(0.1,0.3)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_4k-PsOR9Eei1p-9vz3hoPw" type="PapyrusUMLDeploymentDiagram" name="Diagramme deploiement - niveaux" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_9grUsOR9Eei1p-9vz3hoPw" type="Device_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9gr7wOR9Eei1p-9vz3hoPw" type="Device_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9gr7weR9Eei1p-9vz3hoPw" type="Device_NestedNodeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9gr7wuR9Eei1p-9vz3hoPw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9gr7w-R9Eei1p-9vz3hoPw"/>
+      </children>
+      <element xmi:type="uml:Device" href="Diagrammes.uml#_9gUIUOR9Eei1p-9vz3hoPw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9grUseR9Eei1p-9vz3hoPw" x="120" y="240"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_4k-PseR9Eei1p-9vz3hoPw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_4k-PsuR9Eei1p-9vz3hoPw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_4k-Ps-R9Eei1p-9vz3hoPw" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+      <owner xmi:type="uml:Model" href="Diagrammes.uml#_oFFIcMAjEei_2e7RHOVEIw"/>
+    </styles>
+    <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8qU7gOR9Eei1p-9vz3hoPw" name="rulergrid.viewgrid"/>
+    <element xmi:type="uml:Model" href="Diagrammes.uml#_oFFIcMAjEei_2e7RHOVEIw"/>
+  </notation:Diagram>
 </xmi:XMI>
