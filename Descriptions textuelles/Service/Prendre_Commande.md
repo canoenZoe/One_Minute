@@ -7,8 +7,8 @@
 **Acteur principal :** Serveur  
 **Date de création :** 06/11/2018  
 **Nom du responsable de création :** Zoé Canoen  
-**Dernière date de mise à jour :**  
-**Nom du responsable de la dernière modification :**  
+**Dernière date de mise à jour :**  10/11/2018
+**Nom du responsable de la dernière modification :**  Sami Barchid
 **Version :** 1  
 
 ---
@@ -21,36 +21,36 @@
 
 **Pré-conditions :**  
 
-- Le client est assit à une table.
+- Le serveur possède une tablette.
+- Le serveur est authentifié sur sa tablette.
+- Un client attend de passer commande.
 
 **Déclenchement :**
 
-- Le server décide d'aller prendre la commande d'une table.
+Le serveur indique qu'il prend une commande.
 
 **Scénario nominal :**  
 
-1. Début du scénario
-2. Le serveur créé une nouvelle commande avec le bon numéro de table.
-3. Le serveur propose le menu au client. (***Voir Proposer menu***)
-4. Le serveur demande au client ce qu'il a choisi.
-5. Le serveur selectionne parmis les préparations disponible le choix du client.
-6. Fin du scénario
-
-**Continuité du scénario :**
-
--
+1. Le serveur indique qu'il prend une commande.
+2. Le serveur choisit le numéro de table du client.
+3. Le système valide le numéro de table choisi.
+4. Le système réserve la table pour le client.
+5. Branchement au cas d'utilisation : "ajouter une préparation à la commande."
 
 **Post-condition :**
 
--
-
-**Scénarios alternatifs :**  
-
--
+- la table est réservée dans le système pour le client.
+- La commande est enregistrée dans l'état "en cours".
 
 **Scénario d'exception :**  
+- 3.a.1 [Numéro de table incorect]
+- 3.a.2.1 Le système retourne un message d'erreur.
+- 3.a.2.2 Le système retourne à son état d'avant l'exécution du CU. 
 
--
+- \*.a.1 [Panne (réseauxn système, etc)]
+	- \*.a.1 Le système indique un message d'erreur fatale.
+	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
+	- \*.a.3 Fin du CU.
 
 ---
 

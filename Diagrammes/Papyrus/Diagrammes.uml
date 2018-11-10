@@ -28,13 +28,13 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NZws_813EeikB5O2wUdc5w" name="Retirer une préparation au menu">
         <generalization xmi:type="uml:Generalization" xmi:id="_NZwtAM13EeikB5O2wUdc5w" general="_NZws-s13EeikB5O2wUdc5w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtAc13EeikB5O2wUdc5w" name="Prise d'une commande"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtAc13EeikB5O2wUdc5w" name="Prise d'une commande">
+        <include xmi:type="uml:Include" xmi:id="_NZwtBs13EeikB5O2wUdc5w" addition="_NZwtBc13EeikB5O2wUdc5w"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtA813EeikB5O2wUdc5w" name="Paiement">
         <extend xmi:type="uml:Extend" xmi:id="_NZwtBM13EeikB5O2wUdc5w" extendedCase="_NZwtCs13EeikB5O2wUdc5w" extensionLocation="_NZwtC813EeikB5O2wUdc5w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtBc13EeikB5O2wUdc5w" name="Ajouter une préparation à la commande">
-        <include xmi:type="uml:Include" xmi:id="_NZwtBs13EeikB5O2wUdc5w" addition="_NZwtAc13EeikB5O2wUdc5w"/>
-      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtBc13EeikB5O2wUdc5w" name="Ajouter une préparation à la commande"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtCM13EeikB5O2wUdc5w" name="Proposer le menu du restaurant"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtCc13EeikB5O2wUdc5w" name="Servir une partie de la commande"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_NZwtCs13EeikB5O2wUdc5w" name="Générer l'addition">
@@ -379,6 +379,9 @@
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_OQOnMMHMEeivqqD5eMke3w" name="numero" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__y6VsOSAEei1p-9vz3hoPw" name="estReserve">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_C_-XoMXBEeiHHtuMrKUDFQ" client="_WUfcoMW-EeiHHtuMrKUDFQ" supplier="_Ho_4kMW-EeiHHtuMrKUDFQ"/>
