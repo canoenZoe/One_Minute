@@ -52,6 +52,3 @@ Ce scénario prend en compte le glossaire explicité dans le document "Glossaire
   - 3.a.1 Le système affiche un message d'erreur avec un message indiquant la cause
   - 3.a.2 Fin du scénario
 
-------
-
-**Diagramme de séquence :**

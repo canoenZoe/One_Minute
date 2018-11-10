@@ -4175,6 +4175,7 @@
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_87Cm0OG5Eeir2qs9njG01g" diagramKindId="org.eclipse.papyrus.uml.diagram.stateMachine">
       <owner xmi:type="uml:Model" href="Diagrammes.uml#_oFFIcMAjEei_2e7RHOVEIw"/>
     </styles>
+    <styles xmi:type="notation:BooleanValueStyle" xmi:id="_dUkm4OT8Eei1p-9vz3hoPw" name="rulergrid.viewgrid"/>
     <element xmi:type="uml:StateMachine" href="Diagrammes.uml#_7-Uf0OG5Eeir2qs9njG01g"/>
     <edges xmi:type="notation:Connector" xmi:id="_zexOIOO9EeilV7-Llqoj4A" type="Transition_Edge" source="_MSbxgOO9EeilV7-Llqoj4A" target="_BJHwwOG6Eeir2qs9njG01g">
       <children xmi:type="notation:DecorationNode" xmi:id="_zexOI-O9EeilV7-Llqoj4A" type="Transition_NameLabel">
@@ -4457,6 +4458,7 @@
     <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_bdhSn-TkEei1p-9vz3hoPw" diagramKindId="org.eclipse.papyrus.uml.diagram.stateMachine">
       <owner xmi:type="uml:Model" href="Diagrammes.uml#_oFFIcMAjEei_2e7RHOVEIw"/>
     </styles>
+    <styles xmi:type="notation:BooleanValueStyle" xmi:id="_T9hX8OT8Eei1p-9vz3hoPw" name="rulergrid.viewgrid"/>
     <element xmi:type="uml:StateMachine" href="Diagrammes.uml#_aYK0EOTkEei1p-9vz3hoPw"/>
     <edges xmi:type="notation:Connector" xmi:id="_kB1nkOTlEei1p-9vz3hoPw" type="Transition_Edge" source="_fg62kOTkEei1p-9vz3hoPw" target="_ynNK8OTkEei1p-9vz3hoPw">
       <children xmi:type="notation:DecorationNode" xmi:id="_kB1nk-TlEei1p-9vz3hoPw" type="Transition_NameLabel">

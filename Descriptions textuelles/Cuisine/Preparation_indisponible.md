@@ -50,6 +50,3 @@
 
 - Néant
 
-------
-
-**Diagramme de séquence :**
