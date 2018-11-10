@@ -54,7 +54,4 @@
 **Scénario d'exception :**
 - Néant
 
-------
-
-**Diagramme de séquence :**
 
