@@ -53,3 +53,4 @@ Trois types de sous-packages sont définis :
 - Les objets **boundaries** *appellent* la logique métier implémentée dans les objets de **controls**.
 - Les objets de **controls** *appellent* la gestion de données des objets **daos**.
 - Les objets **daos**, après avoir interagit avec la base de données, *manipulent* les objets **entities**.
+- Les objets **controls** récupèrent les objets **entities** pour appliquer la logique métier sur ceux-ci.
