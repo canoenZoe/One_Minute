@@ -172,6 +172,13 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_vUG0QOOsEeilV7-Llqoj4A" name="cuisiner une préparation" type="_RLXUgOOrEeilV7-Llqoj4A" association="_vUFmIOOsEeilV7-Llqoj4A"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_vUG0QeOsEeilV7-Llqoj4A" name="préparateur" type="_NZws8s13EeikB5O2wUdc5w" association="_vUFmIOOsEeilV7-Llqoj4A"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_-94dEOR-Eei1p-9vz3hoPw" memberEnd="__BCewOR-Eei1p-9vz3hoPw __BDF0OR-Eei1p-9vz3hoPw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_--MmIOR-Eei1p-9vz3hoPw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_--NNMOR-Eei1p-9vz3hoPw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="__BCewOR-Eei1p-9vz3hoPw" name="gérer les catégories" type="_byyBQOR-Eei1p-9vz3hoPw" association="_-94dEOR-Eei1p-9vz3hoPw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="__BDF0OR-Eei1p-9vz3hoPw" name="patron" type="_NZws9M13EeikB5O2wUdc5w" association="_-94dEOR-Eei1p-9vz3hoPw"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_jb5HYM13EeikB5O2wUdc5w" name="Classe">
     <packagedElement xmi:type="uml:Association" xmi:id="_mfHI0MAmEei_2e7RHOVEIw" name="elabore" memberEnd="_mfKMIcAmEei_2e7RHOVEIw _mfKzMcAmEei_2e7RHOVEIw">

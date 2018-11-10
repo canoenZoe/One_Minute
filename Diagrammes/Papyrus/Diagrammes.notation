@@ -2652,6 +2652,21 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sjdwMOR-Eei1p-9vz3hoPw" id="(0.07692307692307693,0.7666666666666667)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sjdwMeR-Eei1p-9vz3hoPw" id="(0.43558282208588955,0.9833333333333333)"/>
     </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__BFiEOR-Eei1p-9vz3hoPw" type="Association_Edge" source="_NZ1lms13EeikB5O2wUdc5w" target="_bzRJcOR-Eei1p-9vz3hoPw">
+      <children xmi:type="notation:DecorationNode" xmi:id="__BGJIOR-Eei1p-9vz3hoPw" type="Association_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AmzisOR_Eei1p-9vz3hoPw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__BGJIeR-Eei1p-9vz3hoPw" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="__BGJIuR-Eei1p-9vz3hoPw" type="Association_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AnDaUOR_Eei1p-9vz3hoPw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__BGJI-R-Eei1p-9vz3hoPw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="__BFiEeR-Eei1p-9vz3hoPw"/>
+      <element xmi:type="uml:Association" href="Diagrammes.uml#_-94dEOR-Eei1p-9vz3hoPw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__BFiEuR-Eei1p-9vz3hoPw" points="[111, 454, -643984, -643984]$[111, 965, -643984, -643984]$[213, 962, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__CB9QOR-Eei1p-9vz3hoPw" id="(0.5666666666666667,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__CCkUOR-Eei1p-9vz3hoPw" id="(0.012269938650306749,0.6)"/>
+    </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_NZ2MgM13EeikB5O2wUdc5w" type="UseCase" name="UCD - Service" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_NZ2Mgc13EeikB5O2wUdc5w" type="Package_Shape">
