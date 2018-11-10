@@ -26,15 +26,16 @@ Le patron indique qu'il veut retirer une préparation au menu.
 
 **Scénario nominal :**
 
-1. Le patron indique qu'il veut retirer une préparation au menu.
-2. Le système affiche les préparations du menu.
-3. Le patron choisit la préparation à retirer.
-4. Le système demande la confirmation au patron.
-5. Le patron confirme le choix de la préparation à retirer.
-6. Le système valide la préparation choisie.
-7. Le système supprime la préparation du menu.
-8. Le système enregistre la suppression par le patron.
-9. Fin du CU.
+1. Début du scénario
+2. Le patron indique qu'il veut retirer une préparation au menu.
+3. Le système affiche les préparations du menu.
+4. Le patron choisit la préparation à retirer.
+5. Le système demande la confirmation au patron.
+6. Le patron confirme le choix de la préparation à retirer.
+7. Le système valide la préparation choisie.
+8. Le système supprime la préparation du menu.
+9. Le système enregistre la suppression par le patron.
+10. Fin du scénario.
 
 **Post-condition :**
 
@@ -42,23 +43,23 @@ Le patron indique qu'il veut retirer une préparation au menu.
 
 **Scénarios alternatifs :**
 
-- 5.a. [Le patron infirme la préparation à retirer]
-	- 5.a.1. Le système affiche un message d'erreur.
-	- 5.a.2. Le système revient à son état d'avant le déclenchement.
-	- 5.a.3. Retour à l'étape 2.
-
-- 6.a. [La préparation choisie n'est pas valide / est déjà retirée]
+- 6.a. [Le patron infirme la préparation à retirer]
 	- 6.a.1. Le système affiche un message d'erreur.
 	- 6.a.2. Le système revient à son état d'avant le déclenchement.
-	- 6.a.3. Retour à l'étape 2.
+	- 6.a.3. Retour à l'étape 3.
+
+- 7.a. [La préparation choisie n'est pas valide / est déjà retirée]
+	- 7.a.1. Le système affiche un message d'erreur.
+	- 7.a.2. Le système revient à son état d'avant le déclenchement.
+	- 7.a.3. Retour à l'étape 3.
 
 **Scénarios d'exception :**
 
-- 2.b. [Aucune préparation n'existe dans le menu]
-	- 2.b.1. Le système affiche un message d'erreur.
-	- 2.b.2. Le système revient à son état d'avant le déclenchement.
-	- 2.b.3. Fin du CU.
+- 3.b. [Aucune préparation n'existe dans le menu]
+	- 3.b.1. Le système affiche un message d'erreur.
+	- 3.b.2. Le système revient à son état d'avant le déclenchement.
+	- 3.b.3. Fin du scénario.
 - \*.a. [Panne de réseau]
 	- \*.a.1 Le système indique que le réseau a été coupé.
 	- \*.a.2 Le système retourne à son état d'avant le déclenchement.
-	- \*.a.3 Fin du CU.
+	- \*.a.3 Fin du scénario.
