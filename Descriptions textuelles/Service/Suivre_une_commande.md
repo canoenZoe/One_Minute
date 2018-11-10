@@ -55,7 +55,3 @@
 - 3.a. [ Aucune commande n'est en cours ]
   - 3.a.1 Le système affiche qu'aucune commande est en cours
   - 3.a.2 Fin du scénario
-
-------
-
-**Diagramme de séquence :**
