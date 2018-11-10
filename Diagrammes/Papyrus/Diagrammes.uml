@@ -72,6 +72,19 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_-bBTkOOtEeilV7-Llqoj4A" name="Consulter une préparation">
         <generalization xmi:type="uml:Generalization" xmi:id="_A4KrcOOuEeilV7-Llqoj4A" general="_rjFkENAAEei7l8RGFfbKKQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_byyBQOR-Eei1p-9vz3hoPw" name="Gérer les catégories"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_ecsCwOR-Eei1p-9vz3hoPw" name="Créer une catégorie">
+        <generalization xmi:type="uml:Generalization" xmi:id="_rIGlcOR-Eei1p-9vz3hoPw" general="_byyBQOR-Eei1p-9vz3hoPw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_fj6JgOR-Eei1p-9vz3hoPw" name="Modifier une catégorie">
+        <generalization xmi:type="uml:Generalization" xmi:id="_rh_sIOR-Eei1p-9vz3hoPw" general="_byyBQOR-Eei1p-9vz3hoPw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_jft3wOR-Eei1p-9vz3hoPw" name="Consulter une catégorie">
+        <generalization xmi:type="uml:Generalization" xmi:id="_r9D3gOR-Eei1p-9vz3hoPw" general="_byyBQOR-Eei1p-9vz3hoPw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_huntkOR-Eei1p-9vz3hoPw" name="Supprimer une catégorie">
+        <generalization xmi:type="uml:Generalization" xmi:id="_sieRsOR-Eei1p-9vz3hoPw" general="_byyBQOR-Eei1p-9vz3hoPw"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_NZwtEM13EeikB5O2wUdc5w" memberEnd="_NZwtE813EeikB5O2wUdc5w _NZwtFM13EeikB5O2wUdc5w">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NZwtEc13EeikB5O2wUdc5w" source="org.eclipse.papyrus">
