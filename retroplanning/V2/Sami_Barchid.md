@@ -1,3 +1,4 @@
+
 # Retroplanning de Sami BARCHID
 
 **Date** : 10/11/2018
@@ -33,14 +34,19 @@
 
 ## Méthode de travail
 
-Nous avons repris les même méthodes de travails que l'itération précedente. Durant chaque séance, nous avons réalisés des réunions de groupe pour permettre d'expliquer les problèmes rencontrés et le travail effectué. Chacun avait pour mission d'au moins effectuer deux descriptions textuelles, deux diagrammes de séquences et deux diagrammes de séquences détaillés, chose qui a été effectué avec succès.
+Ce rendu a demandé à notre groupe de travailler 
 
 ## Difficultés
 
-J'ai eu beaucoup de mal à concevoir les diagrammes de séquences détaillés. J'ai pu être confu à de nombreuses reprises de la différences des standarts d'UML que j'ai appris les années précédentes et de cette année entraînant parfois l'impossibilité de trancher entre mes "anciennes" et "nouvelles connaissances". Nous avons eu du mal à savoir qui était en train de faire quoi durant la fin de cette itération. Le suivi du projet et le Trello n'était pas mis à jour. De ce fait, il y a pu avoir deux membres du groupes qui travailler sur la même chose sans le savoir. Chose à améliorer durant la prochaine itération.
+La grosse difficulté de ce rendu a été la quantité de travail à fournir. En effet, beaucoup des choses demandées prenaient du temps (diagrammes de séquence).
+
+L'autre difficulté a été le fait que le diagramme de classe ne pouvait être fait avant que les diagrammes de séquence ne soient tous terminés, à cause du fait que ce sont les diagrammes de séquence qui décident des noms de méthodes, des classes, etc qui seront présents dans le diagramme de classe. De ce fait, cette partie a été compliquée à faire. 
+
+Un autre problème est le fait qu'un de nos membres, Noura Mares, a été malheureusement forcée de prendre des jours de repos dû à un gros problème de santé. Nous avons donc fait en sorte de nous répartir son travail tandis qu'elle restait au courant de ce que nous faisions.
 
 ## Ressenti
+- L'équipe est très soudée et est très motivée dans ce projet.
+- Bonne ambiance
 
-- Bon travail de la part de notre groupe
-- Ambiance de groupe convivial et agréable
-- Un moment de stress est venu lors de la deadline
+- Je trouve dommage le fait que nous devons produire uniquement des diagrammes de séquence, en une si grande quantité. En effet, je ne trouve pas que réaliser des diagrammes de séquence soit si judicieux étant donné que c'est ce type de diagramme qui va demander le plus de temps à une équipe de développement. À chaque changement dans notre processus, il faut perdre du temps à maintenir nos diagrammes de séquence pour éviter qu'ils deviennent obsolètes. De plus, je trouve que le niveau de détail très élevé de ce genre de diagramme rend la compréhension beaucoup moins facile pour un nouveau développeur qui arriverait sur notre projet. Établir une séquence générale pour notre architecture aurait été, selon moi, bien plus intéressant, permettant de comprendre comment elle s'articulait. 
+- Je trouve dommage aussi que nous n'avions pas eu à créer des diagrammes d'états dans ce travail. En effet, ils aident souvent bien plus à la compréhension de la logique business du système que des diagrammes de séquence.
