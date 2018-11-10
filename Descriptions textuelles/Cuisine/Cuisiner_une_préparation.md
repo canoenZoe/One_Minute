@@ -21,7 +21,7 @@
 
 **Pré-conditions :**  
 
-- Le prépareteur a prit en charge une préparation
+- Le préparateur a prit en charge une préparation
 
 **Déclenchement :** 
 
