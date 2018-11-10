@@ -41,10 +41,10 @@
 
 **Scénarios alternatifs :**  
 
-- 1.a [ Réapprovisionnement des ingrédients ]
-  - 1.a.1 Le ***préparateur*** indique que la ***préparation*** est de nouveau disponible.
-  - 1.a.2 Le système débloque la possibilité de sélectionner cette ***préparation*** lors de la prise d'une commande.
-  - 1.a.3 Fin du scénario.
+- 2.a [ Réapprovisionnement des ingrédients ]
+  - 2.a.1 Le ***préparateur*** indique que la ***préparation*** est de nouveau disponible.
+  - 2.a.2 Le système débloque la possibilité de sélectionner cette ***préparation*** lors de la prise d'une commande.
+  - 2.a.3 Fin du scénario.
 
 **Scénario d'exception :**  
 
