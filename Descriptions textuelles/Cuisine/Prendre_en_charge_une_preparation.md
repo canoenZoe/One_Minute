@@ -25,7 +25,7 @@
 
 **Déclenchement :** 
 
-- Le ***préparateur*** souhaite souhaite s'occuper d'une ou plusieurs ***préparation.s***.
+- Le ***préparateur*** souhaite s'occuper d'une ou plusieurs ***préparation.s***.
 
 **Scénario nominal :**  
 
@@ -52,12 +52,12 @@
 
 **Scénario d'exception :**  
 
-- 2.a [ Aucune ***préparation*** dans la liste des ***préparations*** à réaliser ]
-  - 2.a.1 Le système affiche un message indiquant qu'aucune ***préparation*** à réaliser
-  - 2.a.2 Fin du scénario
-- 6.a [ La ***préparation*** a été déjà été prise en charge ]
-  - 6.a.1 Le système affiche un message indiquant que la ***préparation*** a été déjà été prise en charge
-  - 6.a.2 Fin du scénario
+- 3.a [ Aucune ***préparation*** dans la liste des ***préparations*** à réaliser ]
+  - 3.a.1 Le système affiche un message indiquant qu'aucune ***préparation*** n'est à réaliser
+  - 3.a.2 Fin du scénario
+- 7.a [ La ***préparation*** a été déjà été prise en charge ]
+  - 7.a.1 Le système affiche un message indiquant que la ***préparation*** a été déjà été prise en charge
+  - 7.a.2 Fin du scénario
 
 ------
 

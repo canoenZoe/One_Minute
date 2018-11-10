@@ -1,4 +1,4 @@
-#Imprimer l'addition d'une commande  
+# Imprimer l'addition d'une commande  
 
 ------
 
@@ -26,21 +26,21 @@ Ce scénario prend en compte le glossaire explicité dans le document "Glossaire
 
 **Déclenchement :**
 
-- Le client demande au serveur l'impression du détails de sa commande
+- Le client demande au serveur l'impression du détail de sa commande
 
 **Scénario nominal :**  
 
 1. Début du scénario
-2. Le serveur indique au système que le détails d'une commande doit être imprimé
-3. Le système envoie le détails de la commande à l'appareil d'impression
+2. Le serveur indique au système que le détail d'une commande doit être imprimé
+3. Le système envoie le détail de la commande à l'appareil d'impression
 4. L'appareil d'impression effectue l'impression
-5. Le système affiche au serveur que l'impression est terminé
-6. Le serveur apporte l'impression du détails de la commande au client
+5. Le système affiche au serveur que l'impression est terminée
+6. Le serveur apporte l'impression du détail de la commande au client
 7. Fin du scénario
 
 **Post-condition :**
 
-- Le client a reçu son détails de sa commande sous forme physique.
+- Le client a reçu le détail de sa commande sous forme physique.
 
 **Scénarios alternatifs :**  
 
