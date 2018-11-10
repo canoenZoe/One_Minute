@@ -15,6 +15,7 @@
 |  1  |  Prendre une commande                           |  3  |
 |  1  |  Servir une commande                            |  1  |
 |  2  |  Suivre une commande                            |  3  |
+|  2  |  Paiement                                       |  4  |
 |  3  |  Imprimer l'addition                            |  1  |
 |  3  |  Ajouter une préparation à la commande          |  5  |
 |  3  |  Proposer les plats disponibles du menu         |  3  |
