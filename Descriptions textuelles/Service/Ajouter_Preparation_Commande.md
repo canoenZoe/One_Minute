@@ -7,7 +7,7 @@
 **Acteur principal :** Serveur  
 **Date de création :** 06/11/2018  
 **Nom du responsable de création :** Zoé Canoen  
-**Dernière date de mise à jour :**  
+**Dernière date de mise à jour :** 10/11/2018  
 **Nom du responsable de la dernière modification :** Laurine DRODZINSKI  
 **Version :** 2.0
 
