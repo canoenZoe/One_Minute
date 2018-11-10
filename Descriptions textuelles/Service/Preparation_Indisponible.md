@@ -30,9 +30,11 @@ Ce scénario prend en compte le glossaire explicité dans le document "Glossaire
 
 **Scénario nominal :**  
 
-1. Le système change l'état de la ligne de commande en "annulée" sur les lignes de commandes contenant des préparations indisponibles.
-2. Le serveur va à la table où le plat est indisponible.
-3. Le client peut choisir à ce moment un nouveau plat disponible.
+1. Début du scénario
+2. Le système change l'état de la ligne de commande en "annulée" sur les lignes de commandes contenant des préparations indisponibles.
+3. Le serveur va à la table où le plat est indisponible.
+4. Le client peut choisir à ce moment un nouveau plat disponible.
+5. Fin du scénario
 
 **Scénarios alternatifs :**  
 
