@@ -3,7 +3,7 @@
 ---
 
 **Nom du cas :** Préparation indisponible  
-**But :**  Lorsque qu'une préparation devient indisponible il faut prévenir le client afin qu'il réadapte sa commande.
+**But :**  Lorsqu'une préparation devient indisponible il faut prévenir le client afin qu'il réadapte sa commande.  
 **Acteur principal :** Serveur  
 **Date de création :** 06/11/2018  
 **Nom du responsable de création :** Zoé CANOEN  
