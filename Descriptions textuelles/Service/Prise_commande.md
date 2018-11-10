@@ -58,6 +58,3 @@
 
 - Néant
 
----
-
-**Diagramme de séquence :**

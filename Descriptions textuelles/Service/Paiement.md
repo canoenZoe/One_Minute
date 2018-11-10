@@ -59,6 +59,3 @@
   - 1.a.2 Le système change l'état de la commande à *"Fini"*
   - 1.a.3 Fin du scénario
 
-------
-
-**Diagramme de séquence :**

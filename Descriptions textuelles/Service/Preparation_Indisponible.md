@@ -44,8 +44,3 @@ Ce scénario prend en compte le glossaire explicité dans le document "Glossaire
 
 - Néant
 
-------
-
-**Diagramme de séquence :**
-
-![GitHub Logo](/Diagrammes_Sequences/DS-Preparation_Indisponible(service).png)

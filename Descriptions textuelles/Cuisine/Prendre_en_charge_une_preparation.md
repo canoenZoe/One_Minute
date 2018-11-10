@@ -59,9 +59,3 @@
   - 7.a.1 Le système affiche un message indiquant que la ***préparation*** a été déjà été prise en charge
   - 7.a.2 Fin du scénario
 
-------
-
-**Diagramme de séquence :**
-
-
-

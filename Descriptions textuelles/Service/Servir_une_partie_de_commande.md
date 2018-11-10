@@ -8,7 +8,7 @@
 **Date de création :** 11/09/2018  
 **Nom du responsable de création :** Sami BARCHID  
 **Dernière date de mise à jour :** 09/11/2018  
-**Nom du responsable de la dernière modification :** Zoé Canoen  
+**Nom du responsable de la dernière modification :** Zoé CANOEN  
 **Version :** 2
 
 ------
@@ -22,7 +22,7 @@
 **Pré-conditions :**  
 
 - La partie de la commande à servir est prête.
-- Un cuisinier à terminer une ***partie de commande***, voir scénario "Cuisiner une préparation"
+- Un cuisinier a terminé une ***partie de commande***, voir scénario "Cuisiner une préparation"
 
 **Déclenchement :**
 
@@ -44,12 +44,11 @@
 - La partie de commande est servie au client.
 
 **Remarque :**
-- Le serveur a reçu une notification de la cuisine avant le sénario. Il n'est pas obligé d'y répondre directement sans faire attention à la notification.
- C'est pour cela que nous ne mettons pas cela en post condition.
+- Le serveur a reçu une notification de la cuisine avant le scénario. Il n'est pas obligé de servir directement la commande et peut faire d'autres choses entre deux. C'est pour cela que nous ne mettons pas cela en post condition.
 
 **Scénarios alternatifs :**  
 
-- 2.a. [Aucune parties de commandes prêtes à servir]
+- 2.a. [Aucune partie de commande prête à servir]
     - Rien ne se passe.
 
 **Scénario d'exception :**  
@@ -60,9 +59,3 @@
 - \*.a. [Panne de réseau]
   - Le système indique que le réseau a été coupé.
   - Le système retourne à son état d'avant le déclenchement.
-
-------
-
-**Diagramme de séquence :**
-
--
