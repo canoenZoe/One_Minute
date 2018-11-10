@@ -32,6 +32,7 @@ Le serveur indique qu'il prend une commande.
 **Scénario nominal :**  
 
 1. Le serveur indique qu'il prend une commande.
+2. Le système affiche la liste des tables disponibles.
 2. Le serveur choisit le numéro de table du client.
 3. Le système valide le numéro de table choisi.
 4. Le système réserve la table pour le client.
