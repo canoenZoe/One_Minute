@@ -1,9 +1,9 @@
-# Supprimer une catégorie
+# Supprimer un membre du restaurant
 
 ------
 
-**Nom du cas :** Supprimer une catégorie
-**But :** Le patron supprime une catégorie existante  
+**Nom du cas :** Supprimer un membre du restaurant
+**But :** Le patron supprime un membre du restaurant existant  
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018  
 **Nom du responsable de création :** Sami BARCHID  
@@ -18,36 +18,30 @@
 ------
 
 **Déclenchement :**
-Le patron indique qu'il veut supprimer une catégorie.
+Le patron indique qu'il veut supprimer un membre du restaurant.
 
 **Scénario nominal :**
 1. Début du scénario
-2. Le patron indique qu'il veut supprimer une catégorie.
-3. Le système affiche les catégories existantes.
-4. Le patron choisit la catégorie à supprimer.
+2. Le patron indique qu'il veut supprimer un membre du restaurant.
+3. Le système affiche les membres du restaurant existants.
+4. Le patron choisit le membre du restaurant à supprimer.
 5. Le système demande la confirmation du choix.
-6. Le patron confirme le choix de la catégorie à supprimer.
-7. Le système valide la catégorie à supprimer.
-8. Le système supprime la catégorie.
-9. Le système indique au patron que la catégorie est supprimée.
+6. Le patron confirme le choix du membre du restaurant à supprimer.
+7. Le système valide le membre du restaurant à supprimer.
+8. Le système supprime le membre du restaurant.
+9. Le système indique au patron que le membre du restaurant est supprimé.
 10. Fin du scénario.
 
 **Post-conditions :**
-- La catégorie est retirée du système
+- Le membre du restaurant est retiré du système
 
 **Scénarios alternatifs :**
-- 6.a. [Le patron infirme la suppression de la catégorie choisie]
+- 6.a. [Le patron infirme la suppression du membre du restaurant choisi]
 	- 6.a.1. Le système affiche un message d'erreur.
 	- 6.a.2. Retour à l'étape 3.
-- 7.a. [La catégorie choisie n'est pas valide/est déjà supprimée]
+- 7.a. [Le membre du restaurant choisi n'est pas valide/est déjà supprimé]
 	- 7.a.1. Le système affiche un message d'erreur.
 	- 7.a.2. Retour à l'étape 3.
-- 7.b. [La catégorie choisie est référencée dans au moins une préparation]
-	- 7.b.1. Le système indique au patron que la catégorie est utilisée dans une/des préparation(s).
-	- 7.b.2. Le système affiche les préparations où la catégorie est utilisée.
-	- 7.b.3. Le patron confirme la suppression de la catégorie.
-	- 7.b.4. Le système supprime les références des préparations vers la catégorie à supprimer.
-	- 7.b.5. Aller à l'étape 8.
 
 **Scénarios d'exception :**
 - \*.a. [Panne de réseau]
