@@ -1,9 +1,9 @@
-# Consulter une catégorie
+# Consulter un membre du restaurant
 
 ------
 
-**Nom du cas :** Consulter une catégorie
-**But :** Le patron consulte une catégorie pour l'administrer
+**Nom du cas :** Consulter un membre du restaurant
+**But :** Le patron consulte un membre du restaurant pour l'administrer
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018  
 **Nom du responsable de création :** Sami BARCHID  
@@ -18,23 +18,23 @@
 ------
 
 **Pré-conditions :**
-- Le patron consulte la liste des catégories existantes.
+- Le patron consulte la liste des membres du restaurant existants.
 
 **Déclenchement :**
-Le patron sélectionne la catégorie qu'il veut afficher pour l'administrer.
+Le patron sélectionne le membre du restaurant qu'il veut afficher pour l'administrer.
 
 **Scénario nominal :**
 1. Début du scénario
-2. Le patron sélectionne la catégorie qu'il veut afficher pour l'administrer.
-3. Le système valide le catégorie sélectionnée.
-4. Le système affiche la catégorie sélectionnée.
+2. Le patron sélectionne le membre du restaurant qu'il veut afficher pour l'administrer.
+3. Le système valide le membre du restaurant sélectionné.
+4. Le système affiche le membre du restaurant sélectionné.
 5. Fin du scénario.
 
 **Post-conditions :**
 
 
 **Scénarios alternatifs :**
-- 3.a. [La catégorie est introuvable]
+- 3.a. [Le membre du restaurant est introuvable]
 	- 3.a.1. Le système affiche un message d'erreur.
 	- 3.a.2. retour à l'étape 1.
 
