@@ -5985,4 +5985,12 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JkQhofZhEeiBLJwiLVH9Qg" id="(0.0,0.4838709677419355)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_hORf4PZhEeiBLJwiLVH9Qg" type="PapyrusUMLClassDiagram" name="Classe - consulter un membre du restaurant" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_hORf4fZhEeiBLJwiLVH9Qg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_hORf4vZhEeiBLJwiLVH9Qg"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_hORf4_ZhEeiBLJwiLVH9Qg" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="Diagrammes.uml#_oFFIcMAjEei_2e7RHOVEIw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="Diagrammes.uml#_oFFIcMAjEei_2e7RHOVEIw"/>
+  </notation:Diagram>
 </xmi:XMI>
