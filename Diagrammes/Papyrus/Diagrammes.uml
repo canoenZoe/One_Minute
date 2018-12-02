@@ -333,6 +333,21 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_XVsDQOUgEei1p-9vz3hoPw" name="AfficherMenuBoundary"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_vsTBwOUgEei1p-9vz3hoPw" name="RetirerPreparationMenuBoundary"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KVyzoPZeEeiBLJwiLVH9Qg" name="ChoisirMenuCommeActifBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1BprI_ZeEeiBLJwiLVH9Qg" name="controller" type="_P6QhwPZeEeiBLJwiLVH9Qg" association="_1BprIPZeEeiBLJwiLVH9Qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1BprJPZeEeiBLJwiLVH9Qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1BprJfZeEeiBLJwiLVH9Qg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_jQ178PZeEeiBLJwiLVH9Qg" name="selectionnerMenuActif" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_vhTA8PZeEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="__RBCIPZeEeiBLJwiLVH9Qg" name="demanderConfirmation"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_AwZKMPZfEeiBLJwiLVH9Qg" name="confirmerChoixActif" visibility="public">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_EMonkPZfEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_pkoYwPZfEeiBLJwiLVH9Qg" client="_KVyzoPZeEeiBLJwiLVH9Qg" supplier="_Kp5l8PZfEeiBLJwiLVH9Qg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_-eFecPZgEeiBLJwiLVH9Qg" client="_KVyzoPZeEeiBLJwiLVH9Qg" supplier="_lwPtIMAlEei_2e7RHOVEIw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_GLR3UOGfEeir2qs9njG01g" client="_kFv-kNY8Eeiy4fc4mhpp-g" supplier="_om_vgOGdEeir2qs9njG01g"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_STuioPQxEei4m_sHFrPCcQ" name="boundaries.personnel">
@@ -438,6 +453,19 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_Zit7gOUgEei1p-9vz3hoPw" name="AfficherMenuControl"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_BqRDMOUhEei1p-9vz3hoPw" name="RetirerPreparationMenuControl"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_P6QhwPZeEeiBLJwiLVH9Qg" name="ChoisirMenuCommeActifController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_JjN_0vZhEeiBLJwiLVH9Qg" name="dao" type="_9VpR4OB2EeiZu_Q3hDM32Q" association="_JjEO0PZhEeiBLJwiLVH9Qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JjN_0_ZhEeiBLJwiLVH9Qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JjN_1PZhEeiBLJwiLVH9Qg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_xbKQIPZfEeiBLJwiLVH9Qg" name="activerMenu">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_2M7WAPZfEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_IegP8PZgEeiBLJwiLVH9Qg" name="validerMenuActif" visibility="private">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_LfCowPZgEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_9VoooPZgEeiBLJwiLVH9Qg" client="_P6QhwPZeEeiBLJwiLVH9Qg" supplier="_lwPtIMAlEei_2e7RHOVEIw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_2bzbYN-pEeiZu_Q3hDM32Q" client="_o-YhcNY8Eeiy4fc4mhpp-g" supplier="_d22w0N-nEeiZu_Q3hDM32Q"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_egFxgOR9Eei1p-9vz3hoPw" client="_o-YhcNY8Eeiy4fc4mhpp-g" supplier="_qyj00NY8Eeiy4fc4mhpp-g"/>
@@ -613,6 +641,12 @@
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_hsn7gOUYEei1p-9vz3hoPw" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_jBjHEOUYEei1p-9vz3hoPw" name="preparation" type="_k0IDIMAlEei_2e7RHOVEIw"/>
         </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_R1kF8PZgEeiBLJwiLVH9Qg" name="findMenu">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_n5geQPZgEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_2mwV0PZgEeiBLJwiLVH9Qg" name="updateMenu">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_5lD6APZgEeiBLJwiLVH9Qg" name="m" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_--35gOB2EeiZu_Q3hDM32Q" name="PreparationDao">
         <ownedOperation xmi:type="uml:Operation" xmi:id="_2Vb58OUVEei1p-9vz3hoPw" name="listerPreparationDuMenu">
@@ -632,6 +666,7 @@
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_i4ajwOUZEei1p-9vz3hoPw" name="categorie" type="_b6UGsMHOEeivqqD5eMke3w"/>
         </ownedOperation>
       </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_93q-sPZgEeiBLJwiLVH9Qg" client="_9VpR4OB2EeiZu_Q3hDM32Q" supplier="_lwPtIMAlEei_2e7RHOVEIw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_Q0LIMN-oEeiZu_Q3hDM32Q" client="_d22w0N-nEeiZu_Q3hDM32Q" supplier="_qyj00NY8Eeiy4fc4mhpp-g"/>
   </packagedElement>
@@ -870,6 +905,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_qsfEYOUWEei1p-9vz3hoPw" name="ConfirmationAjoutMenuUI"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_e48j4OUhEei1p-9vz3hoPw" name="ListePreparationsUI"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_f8Pz8OUhEei1p-9vz3hoPw" name="ConfirmPreparationUI"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Kp5l8PZfEeiBLJwiLVH9Qg" name="SuccessUI"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_11i0cOGdEeir2qs9njG01g" name="ui.cuisine">
       <packagedElement xmi:type="uml:Class" xmi:id="_OcoCwOUeEei1p-9vz3hoPw" name="ListePreparationsEnAttenteUI"/>
@@ -985,6 +1021,18 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XTxCkuUeEei1p-9vz3hoPw" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_XT6zk-UeEei1p-9vz3hoPw" name="control" type="_ibQJ0OUdEei1p-9vz3hoPw" association="_XTxCkOUeEei1p-9vz3hoPw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1BprIPZeEeiBLJwiLVH9Qg" visibility="private" memberEnd="_1BprI_ZeEeiBLJwiLVH9Qg _1BprJvZeEeiBLJwiLVH9Qg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1BprIfZeEeiBLJwiLVH9Qg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1BprIvZeEeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1BprJvZeEeiBLJwiLVH9Qg" name="boundary" type="_KVyzoPZeEeiBLJwiLVH9Qg" association="_1BprIPZeEeiBLJwiLVH9Qg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JjEO0PZhEeiBLJwiLVH9Qg" memberEnd="_JjN_0vZhEeiBLJwiLVH9Qg _JjN_1fZhEeiBLJwiLVH9Qg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JjN_0PZhEeiBLJwiLVH9Qg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JjN_0fZhEeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JjN_1fZhEeiBLJwiLVH9Qg" name="controller" type="_P6QhwPZeEeiBLJwiLVH9Qg" association="_JjEO0PZhEeiBLJwiLVH9Qg"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_b2fBgMHMEeivqqD5eMke3w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b2hdwMHMEeivqqD5eMke3w" source="http://www.eclipse.org/uml2/2.0.0/UML">
