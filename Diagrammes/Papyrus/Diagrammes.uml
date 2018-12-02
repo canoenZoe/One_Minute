@@ -377,6 +377,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_tpjYAPZlEeiBLJwiLVH9Qg" client="_BFpZwPZlEeiBLJwiLVH9Qg" supplier="_hEVj8PZlEeiBLJwiLVH9Qg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_0NLdEPZlEeiBLJwiLVH9Qg" client="_BFpZwPZlEeiBLJwiLVH9Qg" supplier="_lwPtIMAlEei_2e7RHOVEIw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TGrg0PZmEeiBLJwiLVH9Qg" name="ConsulterCategorieBoundary"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_GLR3UOGfEeir2qs9njG01g" client="_kFv-kNY8Eeiy4fc4mhpp-g" supplier="_om_vgOGdEeir2qs9njG01g"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_STuioPQxEei4m_sHFrPCcQ" name="boundaries.personnel">
@@ -499,6 +500,7 @@
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_vHOP4PZlEeiBLJwiLVH9Qg" client="_GoFHkPZlEeiBLJwiLVH9Qg" supplier="_lwPtIMAlEei_2e7RHOVEIw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_V2XaMPZmEeiBLJwiLVH9Qg" name="ConsulterCategorieController"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_2bzbYN-pEeiZu_Q3hDM32Q" client="_o-YhcNY8Eeiy4fc4mhpp-g" supplier="_d22w0N-nEeiZu_Q3hDM32Q"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_egFxgOR9Eei1p-9vz3hoPw" client="_o-YhcNY8Eeiy4fc4mhpp-g" supplier="_qyj00NY8Eeiy4fc4mhpp-g"/>
