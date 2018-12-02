@@ -282,6 +282,25 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_3SUNYOUfEei1p-9vz3hoPw" name="ImprimerAdditionBoundary"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_ILxd0OUgEei1p-9vz3hoPw" name="PriseCommandeBoundary"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_STuiqPQxEei4m_sHFrPCcQ" name="PaiementBoundary">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuiqfQxEei4m_sHFrPCcQ" name="afficherAddition"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuiqvQxEei4m_sHFrPCcQ" name="paiementRegle"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_STuiofQxEei4m_sHFrPCcQ" name="AjouterPreparationCommandeBoundary">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuiovQxEei4m_sHFrPCcQ" name="afficherCommande">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_STuio_QxEei4m_sHFrPCcQ" name="table" type="_i45FgMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuipPQxEei4m_sHFrPCcQ" name="listerPreparationsDuMenu">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_STuipfQxEei4m_sHFrPCcQ" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuipvQxEei4m_sHFrPCcQ" name="choisirPreparationsAAjouter">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_STuip_QxEei4m_sHFrPCcQ" name="preparations">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_STuiq_QxEei4m_sHFrPCcQ" name="ImprimerAdditionBoundary"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_STuirPQxEei4m_sHFrPCcQ" name="PriseCommandeBoundary"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_jIdacNY9Eeiy4fc4mhpp-g" name="boundaries.cuisine">
       <packagedElement xmi:type="uml:Class" xmi:id="_Ca3ocOUbEei1p-9vz3hoPw" name="CuisinerPreparationsBoundary">
@@ -351,38 +370,16 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_GLR3UOGfEeir2qs9njG01g" client="_kFv-kNY8Eeiy4fc4mhpp-g" supplier="_om_vgOGdEeir2qs9njG01g"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_STuioPQxEei4m_sHFrPCcQ" name="boundaries.personnel">
-      <packagedElement xmi:type="uml:Class" xmi:id="_STuiofQxEei4m_sHFrPCcQ" name="AjouterPreparationCommandeBoundary">
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuiovQxEei4m_sHFrPCcQ" name="afficherCommande">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_STuio_QxEei4m_sHFrPCcQ" name="table" type="_i45FgMAlEei_2e7RHOVEIw"/>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuipPQxEei4m_sHFrPCcQ" name="listerPreparationsDuMenu">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_STuipfQxEei4m_sHFrPCcQ" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuipvQxEei4m_sHFrPCcQ" name="choisirPreparationsAAjouter">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_STuip_QxEei4m_sHFrPCcQ" name="preparations">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_STuiqPQxEei4m_sHFrPCcQ" name="PaiementBoundary">
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuiqfQxEei4m_sHFrPCcQ" name="afficherAddition"/>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_STuiqvQxEei4m_sHFrPCcQ" name="paiementRegle"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_STuiq_QxEei4m_sHFrPCcQ" name="ImprimerAdditionBoundary"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_STuirPQxEei4m_sHFrPCcQ" name="PriseCommandeBoundary"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_8OQe8PZiEeiBLJwiLVH9Qg" name="ConsulterMembreRestaurantController">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_qGiPI_ZjEeiBLJwiLVH9Qg" name="dao" type="_KcoCIPZjEeiBLJwiLVH9Qg" association="_qGiPIPZjEeiBLJwiLVH9Qg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qGiPJPZjEeiBLJwiLVH9Qg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qGiPJfZjEeiBLJwiLVH9Qg" value="1"/>
-        </ownedAttribute>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_-JeOcPZiEeiBLJwiLVH9Qg" name="afficherMembreRestaurant">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_AvrbsPZjEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
-        </ownedOperation>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_D9whQPZjEeiBLJwiLVH9Qg" name="validerSelection">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_H0ilkPZjEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
-        </ownedOperation>
-      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_tUuCYPZjEeiBLJwiLVH9Qg" client="_8OQe8PZiEeiBLJwiLVH9Qg" supplier="_UvrIEMAlEei_2e7RHOVEIw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_xOXC4PZiEeiBLJwiLVH9Qg" name="ConsulterMembreRestaurantBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jCrK0_ZjEeiBLJwiLVH9Qg" name="boundary" type="_8OQe8PZiEeiBLJwiLVH9Qg" association="_jCrK0PZjEeiBLJwiLVH9Qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCrK1PZjEeiBLJwiLVH9Qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCrK1fZjEeiBLJwiLVH9Qg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_0oeZUPZiEeiBLJwiLVH9Qg" name="selectionnerMembreRestaurant">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_4wFH4PZiEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_o-YhcNY8Eeiy4fc4mhpp-g" name="controls">
@@ -483,17 +480,20 @@
     <packagedElement xmi:type="uml:Dependency" xmi:id="_2bzbYN-pEeiZu_Q3hDM32Q" client="_o-YhcNY8Eeiy4fc4mhpp-g" supplier="_d22w0N-nEeiZu_Q3hDM32Q"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_egFxgOR9Eei1p-9vz3hoPw" client="_o-YhcNY8Eeiy4fc4mhpp-g" supplier="_qyj00NY8Eeiy4fc4mhpp-g"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_XvF_IPQxEei4m_sHFrPCcQ" name="controls.personnel">
-      <packagedElement xmi:type="uml:Class" xmi:id="_xOXC4PZiEeiBLJwiLVH9Qg" name="ConsulterMembreRestaurantBoundary">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_jCrK0_ZjEeiBLJwiLVH9Qg" name="controller" type="_8OQe8PZiEeiBLJwiLVH9Qg" association="_jCrK0PZjEeiBLJwiLVH9Qg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jCrK1PZjEeiBLJwiLVH9Qg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jCrK1fZjEeiBLJwiLVH9Qg" value="1"/>
-        </ownedAttribute>
-        <ownedOperation xmi:type="uml:Operation" xmi:id="_0oeZUPZiEeiBLJwiLVH9Qg" name="selectionnerMembreRestaurant">
-          <ownedParameter xmi:type="uml:Parameter" xmi:id="_4wFH4PZiEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
-        </ownedOperation>
-      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_xCJ9cPZjEeiBLJwiLVH9Qg" client="_xOXC4PZiEeiBLJwiLVH9Qg" supplier="_UvrIEMAlEei_2e7RHOVEIw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_zVMXEPZjEeiBLJwiLVH9Qg" client="_xOXC4PZiEeiBLJwiLVH9Qg" supplier="_S2aXkPZjEeiBLJwiLVH9Qg"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8OQe8PZiEeiBLJwiLVH9Qg" name="ConsulterMembreRestaurantController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_qGiPI_ZjEeiBLJwiLVH9Qg" name="dao" type="_KcoCIPZjEeiBLJwiLVH9Qg" association="_qGiPIPZjEeiBLJwiLVH9Qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qGiPJPZjEeiBLJwiLVH9Qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qGiPJfZjEeiBLJwiLVH9Qg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_-JeOcPZiEeiBLJwiLVH9Qg" name="afficherMembreRestaurant">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_AvrbsPZjEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_D9whQPZjEeiBLJwiLVH9Qg" name="validerSelection">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_H0ilkPZjEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_qyj00NY8Eeiy4fc4mhpp-g" name="entities">
@@ -1052,7 +1052,7 @@
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jCrK0fZjEeiBLJwiLVH9Qg" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jCrK0vZjEeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_jCrK1vZjEeiBLJwiLVH9Qg" name="boundary" type="_xOXC4PZiEeiBLJwiLVH9Qg" association="_jCrK0PZjEeiBLJwiLVH9Qg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jCrK1vZjEeiBLJwiLVH9Qg" name="controller" type="_xOXC4PZiEeiBLJwiLVH9Qg" association="_jCrK0PZjEeiBLJwiLVH9Qg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_qGiPIPZjEeiBLJwiLVH9Qg" memberEnd="_qGiPI_ZjEeiBLJwiLVH9Qg _qGiPJvZjEeiBLJwiLVH9Qg">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qGiPIfZjEeiBLJwiLVH9Qg" source="org.eclipse.papyrus">
