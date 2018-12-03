@@ -374,6 +374,7 @@
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_OzitIPZlEeiBLJwiLVH9Qg" name="selectionnerMenu">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_Re78YPZlEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_qm1jwPb7EeiBLJwiLVH9Qg" name="detail" type="_hEVj8PZlEeiBLJwiLVH9Qg" direction="return"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_tpjYAPZlEeiBLJwiLVH9Qg" client="_BFpZwPZlEeiBLJwiLVH9Qg" supplier="_hEVj8PZlEeiBLJwiLVH9Qg"/>
@@ -502,9 +503,13 @@
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_SuKvoPZlEeiBLJwiLVH9Qg" name="afficherMenu">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_VMqLUPZlEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_z5EkIPb7EeiBLJwiLVH9Qg" name="menuTrouve" type="_lwPtIMAlEei_2e7RHOVEIw" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_WGkO0PZlEeiBLJwiLVH9Qg" name="validerSelection">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_YuWwcPZlEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_3yfFsPb7EeiBLJwiLVH9Qg" name="result" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_vHOP4PZlEeiBLJwiLVH9Qg" client="_GoFHkPZlEeiBLJwiLVH9Qg" supplier="_lwPtIMAlEei_2e7RHOVEIw"/>
