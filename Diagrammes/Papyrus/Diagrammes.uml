@@ -405,6 +405,21 @@
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_GEC8QPb7EeiBLJwiLVH9Qg" name="detail" type="_S2aXkPZjEeiBLJwiLVH9Qg" direction="return"/>
         </ownedOperation>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JCfGgPb_EeiBLJwiLVH9Qg" name="CreerMembreRestaurantBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_94vVc_b_EeiBLJwiLVH9Qg" name="controller" type="_Kc52EPb_EeiBLJwiLVH9Qg" association="_94vVcPb_EeiBLJwiLVH9Qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_94vVdPb_EeiBLJwiLVH9Qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_94vVdfb_EeiBLJwiLVH9Qg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_P7b7UPb_EeiBLJwiLVH9Qg" name="creerMembreRestaurant">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_VH1HsPb_EeiBLJwiLVH9Qg" name="form" type="_AD6B8Pb_EeiBLJwiLVH9Qg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_aBK1MPb_EeiBLJwiLVH9Qg" name="remplirMembreRestaurant">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_c7B-QPb_EeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_mqJu8Pb_EeiBLJwiLVH9Qg" name="success" type="_fSF8QPb_EeiBLJwiLVH9Qg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_G0d6UPcAEeiBLJwiLVH9Qg" client="_JCfGgPb_EeiBLJwiLVH9Qg" supplier="_fdvF0PQxEei4m_sHFrPCcQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_LUCc8PcAEeiBLJwiLVH9Qg" client="_JCfGgPb_EeiBLJwiLVH9Qg" supplier="_UvrIEMAlEei_2e7RHOVEIw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_o-YhcNY8Eeiy4fc4mhpp-g" name="controls">
@@ -563,6 +578,25 @@
           </ownedParameter>
         </ownedOperation>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Kc52EPb_EeiBLJwiLVH9Qg" name="CreerMembreRestaurantController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Dbo9U_cAEeiBLJwiLVH9Qg" name="dao" type="_KcoCIPZjEeiBLJwiLVH9Qg" association="_Dbo9UPcAEeiBLJwiLVH9Qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DbtOwPcAEeiBLJwiLVH9Qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DbtOwfcAEeiBLJwiLVH9Qg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_pUlU4Pb_EeiBLJwiLVH9Qg" name="creerMembreRestaurant">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_rvtTgPb_EeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_tYRMwPb_EeiBLJwiLVH9Qg" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_xDLYQPb_EeiBLJwiLVH9Qg" name="validerMembreRestaurant" visibility="private">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_zsoGwPb_EeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_1E9ysPb_EeiBLJwiLVH9Qg" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_ICGLEPcAEeiBLJwiLVH9Qg" client="_Kc52EPb_EeiBLJwiLVH9Qg" supplier="_UvrIEMAlEei_2e7RHOVEIw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_qyj00NY8Eeiy4fc4mhpp-g" name="entities">
@@ -701,6 +735,12 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_Ma6TwPZjEeiBLJwiLVH9Qg" name="findMembreRestaurant">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_O136UPZjEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y7rwoPb7EeiBLJwiLVH9Qg" name="membreResto" type="_UvrIEMAlEei_2e7RHOVEIw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_3qnmUPb_EeiBLJwiLVH9Qg" name="saveMembreRestaurant">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_5m5FwPb_EeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_7UPYYPb_EeiBLJwiLVH9Qg" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_uHPEcPZjEeiBLJwiLVH9Qg" client="_KcoCIPZjEeiBLJwiLVH9Qg" supplier="_UvrIEMAlEei_2e7RHOVEIw"/>
@@ -1007,6 +1047,8 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_fdvF0PQxEei4m_sHFrPCcQ" name="ui.personnel">
       <packagedElement xmi:type="uml:Class" xmi:id="_S2aXkPZjEeiBLJwiLVH9Qg" name="MembreDetailUI"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AD6B8Pb_EeiBLJwiLVH9Qg" name="MembreRestaurantFormUI"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fSF8QPb_EeiBLJwiLVH9Qg" name="SuccessUI"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_7-Uf0OG5Eeir2qs9njG01g" name="Commande">
@@ -1164,6 +1206,18 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZgpM8fb9EeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ZgpM9fb9EeiBLJwiLVH9Qg" name="controller" type="_V2XaMPZmEeiBLJwiLVH9Qg" association="_ZgnXwPb9EeiBLJwiLVH9Qg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_94vVcPb_EeiBLJwiLVH9Qg" memberEnd="_94vVc_b_EeiBLJwiLVH9Qg _94vVdvb_EeiBLJwiLVH9Qg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_94vVcfb_EeiBLJwiLVH9Qg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_94vVcvb_EeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_94vVdvb_EeiBLJwiLVH9Qg" name="boundary" type="_JCfGgPb_EeiBLJwiLVH9Qg" association="_94vVcPb_EeiBLJwiLVH9Qg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Dbo9UPcAEeiBLJwiLVH9Qg" memberEnd="_Dbo9U_cAEeiBLJwiLVH9Qg _DbtOwvcAEeiBLJwiLVH9Qg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dbo9UfcAEeiBLJwiLVH9Qg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dbo9UvcAEeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DbtOwvcAEeiBLJwiLVH9Qg" name="controller" type="_Kc52EPb_EeiBLJwiLVH9Qg" association="_Dbo9UPcAEeiBLJwiLVH9Qg"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_b2fBgMHMEeivqqD5eMke3w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b2hdwMHMEeivqqD5eMke3w" source="http://www.eclipse.org/uml2/2.0.0/UML">
