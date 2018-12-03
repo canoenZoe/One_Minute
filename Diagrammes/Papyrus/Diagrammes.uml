@@ -390,6 +390,7 @@
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_0oeZUPZiEeiBLJwiLVH9Qg" name="selectionnerMembreRestaurant">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_4wFH4PZiEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_GEC8QPb7EeiBLJwiLVH9Qg" name="detail" type="_S2aXkPZjEeiBLJwiLVH9Qg" direction="return"/>
         </ownedOperation>
       </packagedElement>
     </packagedElement>
@@ -521,9 +522,13 @@
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_-JeOcPZiEeiBLJwiLVH9Qg" name="afficherMembreRestaurant">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_AvrbsPZjEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Oo4EEPb7EeiBLJwiLVH9Qg" name="membreResto" type="_UvrIEMAlEei_2e7RHOVEIw" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_D9whQPZjEeiBLJwiLVH9Qg" name="validerSelection">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_H0ilkPZjEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_VB0jIPb7EeiBLJwiLVH9Qg" name="result" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
     </packagedElement>
@@ -663,6 +668,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_KcoCIPZjEeiBLJwiLVH9Qg" name="MembrePersonnelDao">
         <ownedOperation xmi:type="uml:Operation" xmi:id="_Ma6TwPZjEeiBLJwiLVH9Qg" name="findMembreRestaurant">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_O136UPZjEeiBLJwiLVH9Qg" name="membre" type="_UvrIEMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Y7rwoPb7EeiBLJwiLVH9Qg" name="membreResto" type="_UvrIEMAlEei_2e7RHOVEIw" direction="return"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_uHPEcPZjEeiBLJwiLVH9Qg" client="_KcoCIPZjEeiBLJwiLVH9Qg" supplier="_UvrIEMAlEei_2e7RHOVEIw"/>
