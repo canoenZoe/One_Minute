@@ -391,6 +391,21 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_eE40MPb9EeiBLJwiLVH9Qg" client="_TGrg0PZmEeiBLJwiLVH9Qg" supplier="_VAqQEPb8EeiBLJwiLVH9Qg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_jxkqMPb9EeiBLJwiLVH9Qg" client="_TGrg0PZmEeiBLJwiLVH9Qg" supplier="_b6UGsMHOEeivqqD5eMke3w"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_uvea0PcAEeiBLJwiLVH9Qg" name="CreerCategorieBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_E3ciE_cCEeiBLJwiLVH9Qg" name="controller" type="_wd9V4PcAEeiBLJwiLVH9Qg" association="_E3ciEPcCEeiBLJwiLVH9Qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E3ciFPcCEeiBLJwiLVH9Qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E3ciFfcCEeiBLJwiLVH9Qg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_2oaF8PcAEeiBLJwiLVH9Qg" name="creerCategorie">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_7nsqcPcAEeiBLJwiLVH9Qg" name="form" type="_0UwoUPcAEeiBLJwiLVH9Qg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_C2KcQPcBEeiBLJwiLVH9Qg" name="remplirCategorie">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_HKszkPcBEeiBLJwiLVH9Qg" name="categorie" type="_b6UGsMHOEeivqqD5eMke3w"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_IxfyQPcBEeiBLJwiLVH9Qg" name="success" type="_Kp5l8PZfEeiBLJwiLVH9Qg" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_BpdtsPcDEeiBLJwiLVH9Qg" client="_uvea0PcAEeiBLJwiLVH9Qg" supplier="_0UwoUPcAEeiBLJwiLVH9Qg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_FrPhEPcDEeiBLJwiLVH9Qg" client="_uvea0PcAEeiBLJwiLVH9Qg" supplier="_b6UGsMHOEeivqqD5eMke3w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_GLR3UOGfEeir2qs9njG01g" client="_kFv-kNY8Eeiy4fc4mhpp-g" supplier="_om_vgOGdEeir2qs9njG01g"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_STuioPQxEei4m_sHFrPCcQ" name="boundaries.personnel">
@@ -556,6 +571,25 @@
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_fqC0IPb9EeiBLJwiLVH9Qg" client="_V2XaMPZmEeiBLJwiLVH9Qg" supplier="_b6UGsMHOEeivqqD5eMke3w"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wd9V4PcAEeiBLJwiLVH9Qg" name="CreerCategorieController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_6DHnY_cCEeiBLJwiLVH9Qg" name="dao" type="_j0hLkOB3EeiZu_Q3hDM32Q" association="_6DHnYPcCEeiBLJwiLVH9Qg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6DMf4PcCEeiBLJwiLVH9Qg" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6DNG8PcCEeiBLJwiLVH9Qg" value="1"/>
+        </ownedAttribute>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_sXgocPcBEeiBLJwiLVH9Qg" name="creerCategorie">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_u-yMsPcBEeiBLJwiLVH9Qg" name="categorie" type="_b6UGsMHOEeivqqD5eMke3w"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_26hUMPcBEeiBLJwiLVH9Qg" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_4V4e8PcBEeiBLJwiLVH9Qg" name="validerCategorie" visibility="private">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_6_08sPcBEeiBLJwiLVH9Qg" name="categorie" type="_b6UGsMHOEeivqqD5eMke3w"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_8UtE8PcBEeiBLJwiLVH9Qg" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_ChvZgPcDEeiBLJwiLVH9Qg" client="_wd9V4PcAEeiBLJwiLVH9Qg" supplier="_b6UGsMHOEeivqqD5eMke3w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_2bzbYN-pEeiZu_Q3hDM32Q" client="_o-YhcNY8Eeiy4fc4mhpp-g" supplier="_d22w0N-nEeiZu_Q3hDM32Q"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_egFxgOR9Eei1p-9vz3hoPw" client="_o-YhcNY8Eeiy4fc4mhpp-g" supplier="_qyj00NY8Eeiy4fc4mhpp-g"/>
@@ -795,9 +829,16 @@
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_N2HfgPb9EeiBLJwiLVH9Qg" name="categorie" type="_b6UGsMHOEeivqqD5eMke3w"/>
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_PSbsgPb9EeiBLJwiLVH9Qg" name="cat" type="_b6UGsMHOEeivqqD5eMke3w" direction="return"/>
         </ownedOperation>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_-q0AsPcBEeiBLJwiLVH9Qg" name="saveCategorie">
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ag-REPcCEeiBLJwiLVH9Qg" name="categorie" type="_b6UGsMHOEeivqqD5eMke3w"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_CqNOcPcCEeiBLJwiLVH9Qg" name="res" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_93q-sPZgEeiBLJwiLVH9Qg" client="_9VpR4OB2EeiZu_Q3hDM32Q" supplier="_lwPtIMAlEei_2e7RHOVEIw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_glNb4Pb9EeiBLJwiLVH9Qg" client="_j0hLkOB3EeiZu_Q3hDM32Q" supplier="_b6UGsMHOEeivqqD5eMke3w"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Dh3ZwPcDEeiBLJwiLVH9Qg" client="_j0hLkOB3EeiZu_Q3hDM32Q" supplier="_b6UGsMHOEeivqqD5eMke3w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_Q0LIMN-oEeiZu_Q3hDM32Q" client="_d22w0N-nEeiZu_Q3hDM32Q" supplier="_qyj00NY8Eeiy4fc4mhpp-g"/>
   </packagedElement>
@@ -1041,6 +1082,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_Kp5l8PZfEeiBLJwiLVH9Qg" name="SuccessUI"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_hEVj8PZlEeiBLJwiLVH9Qg" name="MenuDetailUI"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_VAqQEPb8EeiBLJwiLVH9Qg" name="CategorieDetailUI"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0UwoUPcAEeiBLJwiLVH9Qg" name="CategorieFormUI"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_11i0cOGdEeir2qs9njG01g" name="ui.cuisine">
       <packagedElement xmi:type="uml:Class" xmi:id="_OcoCwOUeEei1p-9vz3hoPw" name="ListePreparationsEnAttenteUI"/>
@@ -1218,6 +1260,18 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dbo9UvcAEeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_DbtOwvcAEeiBLJwiLVH9Qg" name="controller" type="_Kc52EPb_EeiBLJwiLVH9Qg" association="_Dbo9UPcAEeiBLJwiLVH9Qg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_E3ciEPcCEeiBLJwiLVH9Qg" memberEnd="_E3ciE_cCEeiBLJwiLVH9Qg _E3ciFvcCEeiBLJwiLVH9Qg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_E3ciEfcCEeiBLJwiLVH9Qg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_E3ciEvcCEeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_E3ciFvcCEeiBLJwiLVH9Qg" name="boundary" type="_uvea0PcAEeiBLJwiLVH9Qg" association="_E3ciEPcCEeiBLJwiLVH9Qg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6DHnYPcCEeiBLJwiLVH9Qg" memberEnd="_6DHnY_cCEeiBLJwiLVH9Qg _6DNG8fcCEeiBLJwiLVH9Qg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6DHnYfcCEeiBLJwiLVH9Qg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6DHnYvcCEeiBLJwiLVH9Qg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6DNG8fcCEeiBLJwiLVH9Qg" name="controller" type="_wd9V4PcAEeiBLJwiLVH9Qg" association="_6DHnYPcCEeiBLJwiLVH9Qg"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_b2fBgMHMEeivqqD5eMke3w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b2hdwMHMEeivqqD5eMke3w" source="http://www.eclipse.org/uml2/2.0.0/UML">
