@@ -362,6 +362,7 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="__RBCIPZeEeiBLJwiLVH9Qg" name="demanderConfirmation"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_AwZKMPZfEeiBLJwiLVH9Qg" name="confirmerChoixActif" visibility="public">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_EMonkPZfEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_GsTrkPb6EeiBLJwiLVH9Qg" name="successUI" type="_Kp5l8PZfEeiBLJwiLVH9Qg" direction="return"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_pkoYwPZfEeiBLJwiLVH9Qg" client="_KVyzoPZeEeiBLJwiLVH9Qg" supplier="_Kp5l8PZfEeiBLJwiLVH9Qg"/>
@@ -481,9 +482,15 @@
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_xbKQIPZfEeiBLJwiLVH9Qg" name="activerMenu">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_2M7WAPZfEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vd-JEPb6EeiBLJwiLVH9Qg" name="result" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_IegP8PZgEeiBLJwiLVH9Qg" name="validerMenuActif" visibility="private">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_LfCowPZgEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_RHjicPb6EeiBLJwiLVH9Qg" name="result" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_9VoooPZgEeiBLJwiLVH9Qg" client="_P6QhwPZeEeiBLJwiLVH9Qg" supplier="_lwPtIMAlEei_2e7RHOVEIw"/>
@@ -680,9 +687,13 @@
         </ownedOperation>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_R1kF8PZgEeiBLJwiLVH9Qg" name="findMenu">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_n5geQPZgEeiBLJwiLVH9Qg" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_YyOIEPb6EeiBLJwiLVH9Qg" name="m" type="_lwPtIMAlEei_2e7RHOVEIw" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_2mwV0PZgEeiBLJwiLVH9Qg" name="updateMenu">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_5lD6APZgEeiBLJwiLVH9Qg" name="m" type="_lwPtIMAlEei_2e7RHOVEIw"/>
+          <ownedParameter xmi:type="uml:Parameter" xmi:id="_daDO0Pb6EeiBLJwiLVH9Qg" name="result" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_--35gOB2EeiZu_Q3hDM32Q" name="PreparationDao">
