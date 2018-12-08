@@ -3,8 +3,8 @@
 
 ------
 
-**Nom du cas :** Ajouter un membre du restaurant
-**But :** Le patron ajoute un nouveau membre du restaurant à son équipe pour que le nouveau membre du restaurant correspondant puisse utiliser l'application.
+**Nom du cas :** Ajouter un membre du restaurant  
+**But :** Le patron ajoute un nouveau membre du restaurant à son équipe pour que le nouveau membre du restaurant correspondant puisse utiliser l'application.  
 **Acteur principal :** Patron  
 **Date de création :** 30/11/2018  
 **Nom du responsable de création :** Sami BARCHID  
