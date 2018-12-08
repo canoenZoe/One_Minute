@@ -1,15 +1,15 @@
-# Suivre une commande
+# Supprimer une commande
 
 ------
 
-**Nom du cas :** Supprimer une commande
-**But :** Le serveur souhaite supprimer une commande
-**Acteur principal :** Serveur  
-**Date de création :** 07/12/2018
-**Nom du responsable de création :** Zoé Canoen
-**Dernière date de mise à jour :** 
-**Nom du responsable de la dernière modification :** 
-**Version :** 1.0
+- **Nom du cas :** Supprimer une commande
+- **But :** Le serveur souhaite supprimer une commande
+- **Acteur principal :** Serveur  
+- **Date de création :** 07/12/2018
+- **Nom du responsable de création :** Zoé Canoen
+- **Dernière date de mise à jour :** 
+- **Nom du responsable de la dernière modification :** 
+- **Version :** 1.0
 
 ------
 
