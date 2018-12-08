@@ -2,8 +2,8 @@
 
 ------
 
-**Nom du cas :** Consulter un menu
-**But :** Le patron consulte un menu pour l'administrer
+**Nom du cas :** Consulter un menu  
+**But :** Le patron consulte un menu pour l'administrer  
 **Acteur principal :** Patron  
 **Date de création :** 19/10/2018  
 **Nom du responsable de création :** Sami BARCHID  
