@@ -3,8 +3,8 @@
 
 ------
 
-**Nom du cas :** Créer une catégorie
-**But :** Le patron crée une nouvelle catégorie
+**Nom du cas :** Créer une catégorie  
+**But :** Le patron crée une nouvelle catégorie  
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018  
 **Nom du responsable de création :** Sami BARCHID  
