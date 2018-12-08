@@ -2,8 +2,8 @@
 
 ------
 
-**Nom du cas :** Consulter une catégorie
-**But :** Le patron consulte une catégorie pour l'administrer
+**Nom du cas :** Consulter une catégorie  
+**But :** Le patron consulte une catégorie pour l'administrer  
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018  
 **Nom du responsable de création :** Sami BARCHID  
