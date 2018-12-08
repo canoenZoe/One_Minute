@@ -26,7 +26,7 @@ Le patron sélectionne la catégorie qu'il veut afficher pour l'administrer.
 **Scénario nominal :**
 1. Début du scénario
 2. Le patron sélectionne la catégorie qu'il veut afficher pour l'administrer.
-3. Le système valide le catégorie sélectionnée.
+3. Le système valide la catégorie sélectionnée.
 4. Le système affiche la catégorie sélectionnée.
 5. Fin du scénario.
 
