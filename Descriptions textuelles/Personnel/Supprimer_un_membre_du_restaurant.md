@@ -2,7 +2,7 @@
 
 ------
 
-**Nom du cas :** Supprimer un membre du restaurant
+**Nom du cas :** Supprimer un membre du restaurant  
 **But :** Le patron supprime un membre du restaurant existant  
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018  
