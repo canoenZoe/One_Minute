@@ -1,3 +1,4 @@
+
 # Diagramme de packages
 
 ## Organisation
@@ -54,3 +55,20 @@ Trois types de sous-packages sont définis :
 - Les objets de **controls** *appellent* la gestion de données des objets **daos**.
 - Les objets **daos**, après avoir interagit avec la base de données, *manipulent* les objets **entities**.
 - Les objets **controls** récupèrent les objets **entities** pour appliquer la logique métier sur ceux-ci.
+
+
+
+## Patterns impliqués
+
+### Les singletons
+Les objets **controls**, **daos** et **boundaries** sont des **objets de service**. C'est-à-dire que ce sont des objets immuables (n'ont pas un état qui peut être modifié) et qu'ils sont utilisés pour les services qu'ils offrent (méthodes).
+
+Ils doivent, cependant, être disponibles à tout moment de l'application. Il est, de plus, inutile qu'il y ait plusieurs objets de service pour une application. C'est pourquoi il a été choisi d'implémenter le pattern **Singleton**.
+
+Il a été choisi de faire une implémentation différente du pattern Singleton, en passant par l'**injection de dépendance**. 
+En effet, la manière classique d'implémenter un Singleton est contraignante, rajoute une logique de garantie du Singleton qui complexifie le code et crée une utilisation pervertie en cas d'abus. (Pour plus de précision, voir [cet article](https://dzone.com/articles/singleton-anti-pattern)).
+
+### Pattern Observer
+La cuisine doit être notifié d'une prise de commande tandis que le service doit être notifié lorsque la cuisine a terminé de préparer une commande. Ces deux cas d'utilisation requièrent la mise en place d'un service de notification.
+
+Pour que ce service de notification fonctionne, il faut implémenter le **pattern Observer**. Les objets de controls de la prise d'une commande et de prise en charge d'une commande deviennent les **Subjets** du pattern, tandis que le service de notificiation est l'**Observer** qui s'abonne aux sujets.
