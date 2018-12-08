@@ -4,7 +4,7 @@
 ------
 
 **Nom du cas :** Choisir comme menu actif  
-**But :** Le patron choisit un menu qui sera actif, et donc sera le menu utilisé dans le restaurant.
+**But :** Le patron choisit un menu qui sera actif, et donc sera le menu utilisé dans le restaurant.  
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018  
 **Nom du responsable de création :** Sami BARCHID  
