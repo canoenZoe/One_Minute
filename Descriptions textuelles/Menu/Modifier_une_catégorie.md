@@ -3,7 +3,7 @@
 
 ------
 
-**Nom du cas :** Modifier une catégorie
+**Nom du cas :** Modifier une catégorie  
 **But :** La patron modifie une catégorie existante  
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018
