@@ -5,10 +5,10 @@
 
 **Nom du cas :** Modifier une catégorie  
 **But :** La patron modifie une catégorie existante  
-**Acteur principal :** Patron  
-**Date de création :** 26/11/2018
-**Nom du responsable de création :** Sami BARCHID  
-**Dernière date de mise à jour :** 26/11/2018
+**Acteur principal :** Patron   
+**Date de création :** 26/11/2018  
+**Nom du responsable de création :** Sami BARCHID   
+**Dernière date de mise à jour :** 26/11/2018  
 **Nom du responsable de la dernière modification :** Sami BARCHID  
 **Version :** 1.0
 
