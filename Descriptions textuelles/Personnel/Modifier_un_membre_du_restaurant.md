@@ -3,8 +3,8 @@
 
 ------
 
-**Nom du cas :** Modifier un membre du restaurant
-**But :** La patron modifie un membre du restaurant existant
+**Nom du cas :** Modifier un membre du restaurant  
+**But :** La patron modifie un membre du restaurant existant  
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018
 **Nom du responsable de création :** Sami BARCHID  
