@@ -2,7 +2,7 @@
 
 ------
 
-**Nom du cas :** Supprimer une catégorie
+**Nom du cas :** Supprimer une catégorie  
 **But :** Le patron supprime une catégorie existante  
 **Acteur principal :** Patron  
 **Date de création :** 26/11/2018  
