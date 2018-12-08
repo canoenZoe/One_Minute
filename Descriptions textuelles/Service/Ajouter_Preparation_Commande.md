@@ -33,8 +33,8 @@
 5. Le système actualise l'affichage de la commande
 6. Le serveur envoie la commande aux lieux de préparations
 7. Le système enregistre la commande
-8. Le système notifie l'équipe de ***préparateur*** que la commande a été créée / modifiée.
-9. Le système affiche une message de confirmation d'envoie
+8. Le système notifie l'équipe des ***préparateurs*** que la commande a été créée / modifiée.
+9. Le système affiche une message de confirmation d'envoi
 10. Fin du scénario
 
 **Post-condition :**
