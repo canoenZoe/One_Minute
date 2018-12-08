@@ -295,7 +295,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_cegekOUdEei1p-9vz3hoPw" name="PriseEnChargePreparationBoundary">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_TQEjouUeEei1p-9vz3hoPw" name="control" type="_ibQJ0OUdEei1p-9vz3hoPw" association="_TP6yoOUeEei1p-9vz3hoPw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TQEjo-UeEei1p-9vz3hoPw"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TQEjo-UeEei1p-9vz3hoPw" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TQEjpOUeEei1p-9vz3hoPw" value="1"/>
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_fqhHkOUdEei1p-9vz3hoPw" name="afficherPreparationsEnAttente"/>
@@ -589,6 +589,10 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_dXQQ0NY9Eeiy4fc4mhpp-g" name="boudaries.service">
       <packagedElement xmi:type="uml:Class" xmi:id="_2oKTkOUTEei1p-9vz3hoPw" name="AjouterPreparationCommandeBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xaW1Uvs1Eei7J7oeQmO6cQ" name="controller" type="_DUz6cOUWEei1p-9vz3hoPw" association="_xaVnMPs1Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xaW1U_s1Eei7J7oeQmO6cQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xaW1VPs1Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_4w9MEOUTEei1p-9vz3hoPw" name="afficherCommande">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_9awBsOUTEei1p-9vz3hoPw" name="table" type="_i45FgMAlEei_2e7RHOVEIw"/>
         </ownedOperation>
@@ -602,12 +606,30 @@
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_gprCAOUeEei1p-9vz3hoPw" name="PaiementBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3lKKs_s1Eei7J7oeQmO6cQ" name="controller" type="_GEtxEPshEei7J7oeQmO6cQ" association="_3lKKsPs1Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3lT7sPs1Eei7J7oeQmO6cQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3lT7sfs1Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_otHUAOUeEei1p-9vz3hoPw" name="afficherAddition"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_pnDMsOUeEei1p-9vz3hoPw" name="paiementRegle"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_3SUNYOUfEei1p-9vz3hoPw" name="ImprimerAdditionBoundary"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_ILxd0OUgEei1p-9vz3hoPw" name="PriseCommandeBoundary"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_3SUNYOUfEei1p-9vz3hoPw" name="ImprimerAdditionBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_71uA8vs1Eei7J7oeQmO6cQ" name="controller" type="_8t2pAOUfEei1p-9vz3hoPw" association="_71q9oPs1Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_71vPEPs1Eei7J7oeQmO6cQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_71vPEfs1Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ILxd0OUgEei1p-9vz3hoPw" name="PriseCommandeBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_FAJJIvs2Eei7J7oeQmO6cQ" name="controller" type="_JWx4YOUgEei1p-9vz3hoPw" association="_FAGF0Ps2Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FAKXQPs2Eei7J7oeQmO6cQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FAKXQfs2Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_STuiqPQxEei4m_sHFrPCcQ" name="PaiementBoundary">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_JYUDQ_s2Eei7J7oeQmO6cQ" name="controller" type="_GEtxEPshEei7J7oeQmO6cQ" association="_JYUDQPs2Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JYUDRPs2Eei7J7oeQmO6cQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JYUDRfs2Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_STuiqfQxEei4m_sHFrPCcQ" name="afficherAddition"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_STuiqvQxEei4m_sHFrPCcQ" name="paiementRegle"/>
       </packagedElement>
@@ -645,6 +667,7 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_BybfsPslEei7J7oeQmO6cQ" client="_9GxlsPsgEei7J7oeQmO6cQ" supplier="_hde3cMAlEei_2e7RHOVEIw"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_EptO0PslEei7J7oeQmO6cQ" client="_9GxlsPsgEei7J7oeQmO6cQ" supplier="_iS1LEMAlEei_2e7RHOVEIw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_sfy4cPs4Eei7J7oeQmO6cQ" client="_kFv-kNY8Eeiy4fc4mhpp-g" supplier="_qyj00NY8Eeiy4fc4mhpp-g"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_o-YhcNY8Eeiy4fc4mhpp-g" name="controls">
     <packagedElement xmi:type="uml:Package" xmi:id="_qjqAsNY9Eeiy4fc4mhpp-g" name="controls.service">
@@ -653,7 +676,15 @@
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_XqjWcOUUEei1p-9vz3hoPw" name="table" type="_i45FgMAlEei_2e7RHOVEIw"/>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_DUz6cOUWEei1p-9vz3hoPw" name="AjouterPreparationCommandeControl">
+      <packagedElement xmi:type="uml:Class" xmi:id="_DUz6cOUWEei1p-9vz3hoPw" name="AjouterPreparationCommandeController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_UrqxY_s3Eei7J7oeQmO6cQ" name="commandedao" type="_ksnqUOBNEeiZu_Q3hDM32Q" association="_UrqxYPs3Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UrqxZPs3Eei7J7oeQmO6cQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UrqxZfs3Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_WDVH4_s3Eei7J7oeQmO6cQ" name="lignecommandedao" type="_-3MJgOUeEei1p-9vz3hoPw" association="_WDVH4Ps3Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WDe44Ps3Eei7J7oeQmO6cQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WDe44fs3Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_FsaD8OUWEei1p-9vz3hoPw" name="ajouterPreparationCommande" visibility="public">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_M8at4OUWEei1p-9vz3hoPw" name="preparation"/>
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_PcHqgOUWEei1p-9vz3hoPw" name="commande" type="_iS1LEMAlEei_2e7RHOVEIw"/>
@@ -663,8 +694,18 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_sBsDIOUeEei1p-9vz3hoPw" name="rechercherAddition"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_uL0_cOUeEei1p-9vz3hoPw" name="paiementRegle"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_8t2pAOUfEei1p-9vz3hoPw" name="ImprimerAdditionControl"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_JWx4YOUgEei1p-9vz3hoPw" name="PriseCommandeControl"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_8t2pAOUfEei1p-9vz3hoPw" name="ImprimerAdditionController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fMZlMvs3Eei7J7oeQmO6cQ" name="commandedao" type="_ksnqUOBNEeiZu_Q3hDM32Q" association="_fMXwAPs3Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fMbaYPs3Eei7J7oeQmO6cQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fMbaYfs3Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JWx4YOUgEei1p-9vz3hoPw" name="PriseCommandeController">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hqNrcvs3Eei7J7oeQmO6cQ" name="commandedao" type="_ksnqUOBNEeiZu_Q3hDM32Q" association="_hqLPMPs3Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hqPgoPs3Eei7J7oeQmO6cQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hqPgofs3Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_GEtxEPshEei7J7oeQmO6cQ" name="PaiementController">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_piQgYPskEei7J7oeQmO6cQ" name="dao" type="_ksnqUOBNEeiZu_Q3hDM32Q" association="_piOrMPskEei7J7oeQmO6cQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_piRHcPskEei7J7oeQmO6cQ" value="1"/>
@@ -728,6 +769,10 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XT6zkeUeEei1p-9vz3hoPw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XT6zkuUeEei1p-9vz3hoPw" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Y1i7Y_s4Eei7J7oeQmO6cQ" name="lignecommandedao" type="_-3MJgOUeEei1p-9vz3hoPw" association="_Y1i7YPs4Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Y1i7ZPs4Eei7J7oeQmO6cQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Y1i7Zfs4Eei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_AiXHUOUeEei1p-9vz3hoPw" name="listerPreparationsEnAttente"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_Bns-wOUeEei1p-9vz3hoPw" name="prendreEnCharge"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_D_U9cOUeEei1p-9vz3hoPw" name="reserverPreparation"/>
@@ -736,6 +781,10 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_I5QKsvsgEei7J7oeQmO6cQ" name="dao" type="_-3MJgOUeEei1p-9vz3hoPw" association="_I5NHYPsgEei7J7oeQmO6cQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I5RY0PsgEei7J7oeQmO6cQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I5RY0fsgEei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_anEjY_s4Eei7J7oeQmO6cQ" name="commandedao" type="_ksnqUOBNEeiZu_Q3hDM32Q" association="_anEjYPs4Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_anEjZPs4Eei7J7oeQmO6cQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_anINwPs4Eei7J7oeQmO6cQ" value="1"/>
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_P7FEIPsfEei7J7oeQmO6cQ" name="listerPreparationsEnAttente">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_UsIYUPsfEei7J7oeQmO6cQ" name="lignesCom" direction="return">
@@ -808,6 +857,10 @@
         <ownedAttribute xmi:type="uml:Property" xmi:id="_tLZmAvqPEei7J7oeQmO6cQ" name="dao" type="_--35gOB2EeiZu_Q3hDM32Q" association="_tLWisPqPEei7J7oeQmO6cQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tLaNEPqPEei7J7oeQmO6cQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tLaNEfqPEei7J7oeQmO6cQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_td3VI_s2Eei7J7oeQmO6cQ" name="menudao" type="_9VpR4OB2EeiZu_Q3hDM32Q" association="_td3VIPs2Eei7J7oeQmO6cQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_td3VJPs2Eei7J7oeQmO6cQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_td3VJfs2Eei7J7oeQmO6cQ" value="1"/>
         </ownedAttribute>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_KYT3APqOEei7J7oeQmO6cQ" name="listerPreparationsDuMenu">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_Q1jAMPqOEei7J7oeQmO6cQ" name="menu" type="_lwPtIMAlEei_2e7RHOVEIw"/>
@@ -1980,6 +2033,78 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZlhAwfstEei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_ZliO4vstEei7J7oeQmO6cQ" name="cuisinerpreparationscontroller" type="_F4saMOUbEei1p-9vz3hoPw" association="_ZlfLkPstEei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xaVnMPs1Eei7J7oeQmO6cQ" memberEnd="_xaW1Uvs1Eei7J7oeQmO6cQ _xaW1Vfs1Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xaW1UPs1Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xaW1Ufs1Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xaW1Vfs1Eei7J7oeQmO6cQ" name="boundary" type="_2oKTkOUTEei1p-9vz3hoPw" association="_xaVnMPs1Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3lKKsPs1Eei7J7oeQmO6cQ" memberEnd="_3lKKs_s1Eei7J7oeQmO6cQ _3lT7svs1Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3lKKsfs1Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3lKKsvs1Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3lT7svs1Eei7J7oeQmO6cQ" name="boundary" type="_gprCAOUeEei1p-9vz3hoPw" association="_3lKKsPs1Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_71q9oPs1Eei7J7oeQmO6cQ" memberEnd="_71uA8vs1Eei7J7oeQmO6cQ _71vPEvs1Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_71uA8Ps1Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_71uA8fs1Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_71vPEvs1Eei7J7oeQmO6cQ" name="boundary" type="_3SUNYOUfEei1p-9vz3hoPw" association="_71q9oPs1Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_FAGF0Ps2Eei7J7oeQmO6cQ" memberEnd="_FAJJIvs2Eei7J7oeQmO6cQ _FAKXQvs2Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FAJJIPs2Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FAJJIfs2Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_FAKXQvs2Eei7J7oeQmO6cQ" name="boundary" type="_ILxd0OUgEei1p-9vz3hoPw" association="_FAGF0Ps2Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JYUDQPs2Eei7J7oeQmO6cQ" memberEnd="_JYUDQ_s2Eei7J7oeQmO6cQ _JYUDRvs2Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JYUDQfs2Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JYUDQvs2Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_JYUDRvs2Eei7J7oeQmO6cQ" name="boundary" type="_STuiqPQxEei4m_sHFrPCcQ" association="_JYUDQPs2Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_td3VIPs2Eei7J7oeQmO6cQ" memberEnd="_td3VI_s2Eei7J7oeQmO6cQ _td3VJvs2Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_td3VIfs2Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_td3VIvs2Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_td3VJvs2Eei7J7oeQmO6cQ" name="retirerpreparationmenucontroller" type="_BqRDMOUhEei1p-9vz3hoPw" association="_td3VIPs2Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UrqxYPs3Eei7J7oeQmO6cQ" memberEnd="_UrqxY_s3Eei7J7oeQmO6cQ _UrqxZvs3Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UrqxYfs3Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UrqxYvs3Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UrqxZvs3Eei7J7oeQmO6cQ" name="ajouterpreparationcommandecontroller" type="_DUz6cOUWEei1p-9vz3hoPw" association="_UrqxYPs3Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WDVH4Ps3Eei7J7oeQmO6cQ" memberEnd="_WDVH4_s3Eei7J7oeQmO6cQ _WDe44vs3Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WDVH4fs3Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WDVH4vs3Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WDe44vs3Eei7J7oeQmO6cQ" name="ajouterpreparationcommandecontroller" type="_DUz6cOUWEei1p-9vz3hoPw" association="_WDVH4Ps3Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fMXwAPs3Eei7J7oeQmO6cQ" memberEnd="_fMZlMvs3Eei7J7oeQmO6cQ _fMbaYvs3Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fMZlMPs3Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fMZlMfs3Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fMbaYvs3Eei7J7oeQmO6cQ" name="imprimeradditioncontroller" type="_8t2pAOUfEei1p-9vz3hoPw" association="_fMXwAPs3Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hqLPMPs3Eei7J7oeQmO6cQ" memberEnd="_hqNrcvs3Eei7J7oeQmO6cQ _hqPgovs3Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hqNrcPs3Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hqNrcfs3Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hqPgovs3Eei7J7oeQmO6cQ" name="prisecommandecontroller" type="_JWx4YOUgEei1p-9vz3hoPw" association="_hqLPMPs3Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Y1i7YPs4Eei7J7oeQmO6cQ" memberEnd="_Y1i7Y_s4Eei7J7oeQmO6cQ _Y1i7Zvs4Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y1i7Yfs4Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y1i7Yvs4Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Y1i7Zvs4Eei7J7oeQmO6cQ" name="priseenchargepreparationcontrol" type="_ibQJ0OUdEei1p-9vz3hoPw" association="_Y1i7YPs4Eei7J7oeQmO6cQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_anEjYPs4Eei7J7oeQmO6cQ" memberEnd="_anEjY_s4Eei7J7oeQmO6cQ _anINwfs4Eei7J7oeQmO6cQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_anEjYfs4Eei7J7oeQmO6cQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_anEjYvs4Eei7J7oeQmO6cQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_anINwfs4Eei7J7oeQmO6cQ" name="prendreenchargepreparationcontroller" type="_V2bdsPseEei7J7oeQmO6cQ" association="_anEjYPs4Eei7J7oeQmO6cQ"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_b2fBgMHMEeivqqD5eMke3w">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_b2hdwMHMEeivqqD5eMke3w" source="http://www.eclipse.org/uml2/2.0.0/UML">
