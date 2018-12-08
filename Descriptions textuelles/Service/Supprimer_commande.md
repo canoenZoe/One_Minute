@@ -33,7 +33,7 @@
 2. Le serveur indique qu'il souhaite supprimer la commande
 3. Le système lui demande de valider son choix 
 4. Le serveur valide
-5. Le système supprime les plats qui étaient en préparations avec la commande
+5. Le système supprime les plats qui étaient en préparation avec la commande
 6. Le système notifie la cuisine qu'une commande a été annulée 
 7. Le système supprime la commande dans la liste des commandes
 8. Fin du scénario
